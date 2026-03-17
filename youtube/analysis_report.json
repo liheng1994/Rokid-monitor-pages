@@ -1,0 +1,3956 @@
+{
+  "generated_utc": 1772221871,
+  "window_months": 6,
+  "quota": {
+    "daily_budget": 8000,
+    "daily_used": 0,
+    "daily_remaining": 8000,
+    "next_reset_utc": 1772265600,
+    "next_reset_label": "2026-02-28 12:00 AM PT",
+    "per_run_budget": 500
+  },
+  "products": {
+    "meta": {
+      "video_count": 18,
+      "comment_count": 3996,
+      "relevant_comment_count": 618,
+      "sentiment_counts": {
+        "positive": 113,
+        "negative": 36,
+        "neutral": 477
+      },
+      "relevant_comment_rate": 0.1547,
+      "sentiment_rates": {
+        "positive": 0.0283,
+        "negative": 0.009,
+        "neutral": 0.7718
+      },
+      "top_praised_features": [
+        [
+          "design",
+          57
+        ],
+        [
+          "camera",
+          13
+        ],
+        [
+          "sound",
+          11
+        ],
+        [
+          "price",
+          9
+        ],
+        [
+          "battery",
+          8
+        ],
+        [
+          "connectivity",
+          7
+        ],
+        [
+          "privacy",
+          6
+        ],
+        [
+          "ai",
+          5
+        ]
+      ],
+      "top_complained_features": [
+        [
+          "price",
+          13
+        ],
+        [
+          "design",
+          7
+        ],
+        [
+          "camera",
+          6
+        ],
+        [
+          "battery",
+          4
+        ],
+        [
+          "ai",
+          2
+        ],
+        [
+          "comfort",
+          1
+        ],
+        [
+          "privacy",
+          1
+        ],
+        [
+          "navigation",
+          1
+        ]
+      ],
+      "top_product_doubts": [
+        [
+          "battery_life",
+          15
+        ],
+        [
+          "compatibility",
+          6
+        ],
+        [
+          "privacy",
+          6
+        ],
+        [
+          "comfort",
+          5
+        ],
+        [
+          "camera_quality",
+          1
+        ],
+        [
+          "usefulness",
+          1
+        ]
+      ],
+      "persona_signals": [
+        [
+          "creator",
+          33
+        ],
+        [
+          "traveler",
+          11
+        ],
+        [
+          "tech_enthusiast",
+          1
+        ],
+        [
+          "casual_consumer",
+          1
+        ],
+        [
+          "productivity",
+          1
+        ]
+      ],
+      "persona_signal_units": 47,
+      "top_terms": [
+        [
+          "you",
+          663
+        ],
+        [
+          "can",
+          413
+        ],
+        [
+          "like",
+          326
+        ],
+        [
+          "are",
+          288
+        ],
+        [
+          "bro",
+          240
+        ],
+        [
+          "not",
+          227
+        ],
+        [
+          "people",
+          216
+        ],
+        [
+          "but",
+          212
+        ],
+        [
+          "these",
+          193
+        ],
+        [
+          "was",
+          191
+        ],
+        [
+          "will",
+          178
+        ],
+        [
+          "want",
+          160
+        ],
+        [
+          "que",
+          159
+        ],
+        [
+          "out",
+          148
+        ],
+        [
+          "all",
+          145
+        ],
+        [
+          "get",
+          140
+        ],
+        [
+          "how",
+          138
+        ],
+        [
+          "now",
+          128
+        ],
+        [
+          "use",
+          120
+        ],
+        [
+          "see",
+          118
+        ]
+      ],
+      "validation_samples": [
+        {
+          "comment_id": "Ugxy7_HGaITim7Rp7Et4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "It’s the quality and the design that makes it look like normal glasses",
+          "positive_features": [
+            [
+              "design",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgzsLgmkUaCMs4kfHiF4AaABAg",
+          "video_title": "MKBHD: Meta Ray-Ban Displays Are the Future of Glasses? #mkbhd #MetaRayBan #SmartGlasses",
+          "video_url": "https://www.youtube.com/watch?v=jSWY3zVL1Lw",
+          "text": "I have them and they work perfectly I am getting about 5hours stand by the case can bump up the charge messages flow in smoothly I can answer by voice or text make calls answer calls and listen to music Apple Music Spotify seamless smooth much better than other smart glasses period",
+          "positive_features": [
+            [
+              "sound",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgyoyRcEaRkUuwkAtRJ4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "blind ppl do want the assistant and telling whats in front of them",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwAlzHI1uHBC-xFQx14AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "….what? “Thats a good thing”… bruh what? People recording people without consent is NOT a good thing.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgwtBPp8Bd2kM8kv2it4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "My teacher got a pair",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxZlHe4agnpxF5tCKV4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "It’s also not prank videos that’s why they’re trying to remove the light that shows that it’s recording it’s nothing but creepers",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgzWzjcYbW8cwqMlqVJ4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "Apple wont be able to make it about AI we still waiting on apple intelligence which is now gemini😂",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgweWas8mRBFqCDV2GB4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "Let’s all make fun of people wearing meta glasses so we don’t end up in a future where everyone is recording everything all the time",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgxuQYXwBbhsKrD7AhZ4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "You'll buy an apple design knowing how often they fumble. You got too much money.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxK2ARjB0svp5fDldR4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "In my opinion thats partly true but I think some people want to get the glasses for the shuire fact that its a step up from recording with a camera to recording with a pair of glasses, but obviously the menace's out there will use it for pranks unfortunately",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgwhWK4C1QCMipYdbmR4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "I think meta glassses are stupid. Just buy a camera",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxHxMGR2ma1mQSaa8Z4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "I don't want a HUD, I want to see Information at a glance. Got a text message, I can just glance to the side to see who sent it and or read the message. Have the time available at a glance. I have ADHD to a todo list that would help me stay on track and having it in peripheral vision will make sure I don't forget. Weather info. Breaking news updates. I work in a custom service. People ask the time, talk about the weather, or recent breaking news. I don't want a camera or a mic or a speaker. I just want a HUD.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugz0iAZpOmjn-_KBOBh4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "i dont want ai or camera glasses, i want ar glasses with a little map hud for dirtbikinf",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwM575XXeQOfkY9ort4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "Remember that time when a specific camera model could see through people's clothes and that particular model sold out immediately?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwW8e2ZLujN38Y0Nb94AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "I think the biggest reason to buy ai meta glasses is the video recording feature, you can record your pov videos while driving, shopping, make prank videos, and also call within meta apps from the glass which makes them a good feature to try like you can show something to someone from your pov in whatsapp and other apps",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgyNBh_kkGK4YCrpM414AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "Literally just creepy tech Bros want to film people without them knowing that's it. That's all",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxQjy2Tic-MNcR0ypV4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "Btw it is not illegal for people to film you with the glasses w/o consent…\n\nLet that sink in 🚰🚪",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugw1wrotrq8Tw1BzgGN4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "I just want a decent screen that's connected to my phone/computer. I could gaf less about the camera.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugwu_HuY5O-B_XBL2LR4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "People: I dont want companies listening to me in secret and know my location\n\nAlso people:: Lemme buy glasses with a build in camera and speaker that knows exactly what i am looking at and can hear all my conversations!",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgyztOR7Kp1eAw6atXV4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "Japan has a mandatory shutter click sound when any camera takes a picture. We could take a page out of their book",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgydgTkqkScjO9sGpv54AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "the issue with camera glasses becoming popular is that it makes the lives of creeps easier",
+          "positive_features": [],
+          "negative_features": [
+            [
+              "camera",
+              1
+            ]
+          ],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgzgPbBXmUkdz2FsSm54AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "YouTube while I'm at work discreetly would be neat... But they'd have to remove the camera and everything that makes them visually \"smart\" glasses",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgyEY_Q1NgKy41YuNZJ4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "I just want to listen to music and answer the phone without boomers thinking I can’t hear them with my headphones in.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgyaFY96V1VgOYcdbrR4AaABAg",
+          "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+          "text": "Snapchat just out here like \"we had a camera in our glasses years ago\"",
+          "positive_features": [
+            [
+              "camera",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        }
+      ],
+      "top_videos": [
+        {
+          "video_id": "tz_tXT6g01M",
+          "title": "Explosive Confrontation 🤯💥 Fentinald Attempts Robbery (Caught on Ray-Ban Meta)",
+          "channel_title": "Lee Napaaqtuq",
+          "view_count": 12202271,
+          "comment_count": 17682,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=tz_tXT6g01M"
+        },
+        {
+          "video_id": "azBPIuNNbPA",
+          "title": "My Biggest Issue With The Meta Raybans #Shorts",
+          "channel_title": "Phone Repair Guru",
+          "view_count": 6725999,
+          "comment_count": 518,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=azBPIuNNbPA"
+        },
+        {
+          "video_id": "jSWY3zVL1Lw",
+          "title": "MKBHD: Meta Ray-Ban Displays Are the Future of Glasses? #mkbhd #MetaRayBan #SmartGlasses",
+          "channel_title": "NextGen Tech Bits",
+          "view_count": 6108551,
+          "comment_count": 1042,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=jSWY3zVL1Lw"
+        },
+        {
+          "video_id": "NTKC-LExZlI",
+          "title": "I Tested Meta's Ray-Ban Display Glasses",
+          "channel_title": "Mrwhosetheboss",
+          "view_count": 5171107,
+          "comment_count": 4515,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=NTKC-LExZlI"
+        },
+        {
+          "video_id": "xEZ9rDRueO0",
+          "title": "Convertir Ray-Ban Meta en unas gafas espia 🔥 Quitar luz de grabación ✅",
+          "channel_title": "Jesus Terreros",
+          "view_count": 2274016,
+          "comment_count": 422,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=xEZ9rDRueO0"
+        },
+        {
+          "video_id": "Ul_F-2rC7Oc",
+          "title": "RAY-BAN META'YI NASIL BULDUNUZ?",
+          "channel_title": "Merdan Kocaoğlu",
+          "view_count": 2051423,
+          "comment_count": 432,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=Ul_F-2rC7Oc"
+        },
+        {
+          "video_id": "zCb3wMIyiHg",
+          "title": "Meta வின் மந்திர கண்ணாடி 😎 | Meta Ray Ban Glass  #a2d #a2darmy #meta",
+          "channel_title": "A2D Channel",
+          "view_count": 1381439,
+          "comment_count": 300,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=zCb3wMIyiHg"
+        },
+        {
+          "video_id": "cunXkHBVCeQ",
+          "title": "New year cooking with the Ray-Ban Meta AI Glasses ✨Making Korean-style Tteok Mandu Guk!",
+          "channel_title": "Rina Takagi",
+          "view_count": 1329451,
+          "comment_count": 199,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=cunXkHBVCeQ"
+        },
+        {
+          "video_id": "tLqqXezMwos",
+          "title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+          "channel_title": "CarterPCs",
+          "view_count": 1328643,
+          "comment_count": 920,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=tLqqXezMwos"
+        },
+        {
+          "video_id": "doCpCw9695w",
+          "title": "அசிங்கப்பட்ட  Mark மாமா 🤡 - Meta Glasses GEN 2👓 #a2darmy #meta #smartglasses",
+          "channel_title": "A2D Channel",
+          "view_count": 1062350,
+          "comment_count": 381,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=doCpCw9695w"
+        },
+        {
+          "video_id": "erH6m6JLgtQ",
+          "title": "I tried the new Meta Ray Ban Displays.. (Glasses with screen inside) #carterpcs #tech #meta",
+          "channel_title": "CarterPCs",
+          "view_count": 1053682,
+          "comment_count": 1063,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=erH6m6JLgtQ"
+        },
+        {
+          "video_id": "rkLetBCOBSc",
+          "title": "The New Meta Ray-Ban Feature IS INSANE 😳🕶️",
+          "channel_title": "TechNovashow",
+          "view_count": 1008287,
+          "comment_count": 161,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=rkLetBCOBSc"
+        }
+      ],
+      "recent_month_comments": {
+        "comment_count": 659,
+        "relevant_comment_count": 104,
+        "sentiment_counts": {
+          "positive": 19,
+          "negative": 5,
+          "neutral": 82
+        },
+        "relevant_comment_rate": 0.1578,
+        "sentiment_rates": {
+          "positive": 0.0288,
+          "negative": 0.0076,
+          "neutral": 0.7885
+        },
+        "top_praised_features": [
+          [
+            "camera",
+            8
+          ],
+          [
+            "ai",
+            4
+          ],
+          [
+            "sound",
+            3
+          ],
+          [
+            "design",
+            2
+          ],
+          [
+            "privacy",
+            2
+          ],
+          [
+            "price",
+            1
+          ]
+        ],
+        "top_complained_features": [
+          [
+            "camera",
+            5
+          ]
+        ],
+        "top_product_doubts": [
+          [
+            "compatibility",
+            1
+          ]
+        ],
+        "persona_signals": [
+          [
+            "creator",
+            9
+          ]
+        ],
+        "persona_signal_units": 9,
+        "top_terms": [
+          [
+            "que",
+            153
+          ],
+          [
+            "want",
+            84
+          ],
+          [
+            "para",
+            68
+          ],
+          [
+            "you",
+            65
+          ],
+          [
+            "people",
+            64
+          ],
+          [
+            "can",
+            60
+          ],
+          [
+            "are",
+            53
+          ],
+          [
+            "like",
+            44
+          ],
+          [
+            "por",
+            41
+          ],
+          [
+            "carter",
+            37
+          ],
+          [
+            "but",
+            37
+          ],
+          [
+            "camera",
+            35
+          ],
+          [
+            "not",
+            34
+          ],
+          [
+            "luz",
+            32
+          ],
+          [
+            "las",
+            31
+          ],
+          [
+            "gafas",
+            31
+          ],
+          [
+            "don",
+            30
+          ],
+          [
+            "make",
+            27
+          ],
+          [
+            "los",
+            26
+          ],
+          [
+            "only",
+            24
+          ]
+        ],
+        "validation_samples": [
+          {
+            "comment_id": "Ugxy7_HGaITim7Rp7Et4AaABAg",
+            "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+            "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+            "text": "It’s the quality and the design that makes it look like normal glasses",
+            "positive_features": [
+              [
+                "design",
+                1
+              ]
+            ],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgzsLgmkUaCMs4kfHiF4AaABAg",
+            "video_title": "MKBHD: Meta Ray-Ban Displays Are the Future of Glasses? #mkbhd #MetaRayBan #SmartGlasses",
+            "video_url": "https://www.youtube.com/watch?v=jSWY3zVL1Lw",
+            "text": "I have them and they work perfectly I am getting about 5hours stand by the case can bump up the charge messages flow in smoothly I can answer by voice or text make calls answer calls and listen to music Apple Music Spotify seamless smooth much better than other smart glasses period",
+            "positive_features": [
+              [
+                "sound",
+                1
+              ]
+            ],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgyoyRcEaRkUuwkAtRJ4AaABAg",
+            "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+            "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+            "text": "blind ppl do want the assistant and telling whats in front of them",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgwAlzHI1uHBC-xFQx14AaABAg",
+            "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+            "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+            "text": "….what? “Thats a good thing”… bruh what? People recording people without consent is NOT a good thing.",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": "creator"
+          },
+          {
+            "comment_id": "UgwtBPp8Bd2kM8kv2it4AaABAg",
+            "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+            "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+            "text": "My teacher got a pair",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgxZlHe4agnpxF5tCKV4AaABAg",
+            "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+            "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+            "text": "It’s also not prank videos that’s why they’re trying to remove the light that shows that it’s recording it’s nothing but creepers",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": "creator"
+          },
+          {
+            "comment_id": "UgzWzjcYbW8cwqMlqVJ4AaABAg",
+            "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+            "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+            "text": "Apple wont be able to make it about AI we still waiting on apple intelligence which is now gemini😂",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgweWas8mRBFqCDV2GB4AaABAg",
+            "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+            "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+            "text": "Let’s all make fun of people wearing meta glasses so we don’t end up in a future where everyone is recording everything all the time",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": "creator"
+          },
+          {
+            "comment_id": "UgxuQYXwBbhsKrD7AhZ4AaABAg",
+            "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+            "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+            "text": "You'll buy an apple design knowing how often they fumble. You got too much money.",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgxK2ARjB0svp5fDldR4AaABAg",
+            "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+            "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+            "text": "In my opinion thats partly true but I think some people want to get the glasses for the shuire fact that its a step up from recording with a camera to recording with a pair of glasses, but obviously the menace's out there will use it for pranks unfortunately",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": "creator"
+          },
+          {
+            "comment_id": "UgwhWK4C1QCMipYdbmR4AaABAg",
+            "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+            "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+            "text": "I think meta glassses are stupid. Just buy a camera",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgxHxMGR2ma1mQSaa8Z4AaABAg",
+            "video_title": "Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta",
+            "video_url": "https://www.youtube.com/watch?v=tLqqXezMwos",
+            "text": "I don't want a HUD, I want to see Information at a glance. Got a text message, I can just glance to the side to see who sent it and or read the message. Have the time available at a glance. I have ADHD to a todo list that would help me stay on track and having it in peripheral vision will make sure I don't forget. Weather info. Breaking news updates. I work in a custom service. People ask the time, talk about the weather, or recent breaking news. I don't want a camera or a mic or a speaker. I just want a HUD.",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          }
+        ]
+      },
+      "cross_brand_mentions": {
+        "relevant_comment_count": 21,
+        "positive_mentions": 2,
+        "negative_mentions": 0,
+        "top_praised_features": [
+          [
+            "design",
+            2
+          ]
+        ],
+        "top_complained_features": [],
+        "positive_source_split": [
+          [
+            "even",
+            2
+          ]
+        ],
+        "negative_source_split": [],
+        "comparison_only": {
+          "relevant_comment_count": 4,
+          "positive_mentions": 2,
+          "negative_mentions": 0,
+          "top_praised_features": [
+            [
+              "design",
+              2
+            ]
+          ],
+          "top_complained_features": [],
+          "positive_source_split": [
+            [
+              "even",
+              2
+            ]
+          ],
+          "negative_source_split": []
+        }
+      }
+    },
+    "meta_display": {
+      "video_count": 16,
+      "comment_count": 5409,
+      "relevant_comment_count": 1052,
+      "sentiment_counts": {
+        "positive": 210,
+        "negative": 66,
+        "neutral": 789
+      },
+      "relevant_comment_rate": 0.1945,
+      "sentiment_rates": {
+        "positive": 0.0388,
+        "negative": 0.0122,
+        "neutral": 0.75
+      },
+      "top_praised_features": [
+        [
+          "design",
+          140
+        ],
+        [
+          "display",
+          24
+        ],
+        [
+          "privacy",
+          17
+        ],
+        [
+          "camera",
+          11
+        ],
+        [
+          "navigation",
+          11
+        ],
+        [
+          "battery",
+          9
+        ],
+        [
+          "price",
+          8
+        ],
+        [
+          "sound",
+          7
+        ]
+      ],
+      "top_complained_features": [
+        [
+          "price",
+          19
+        ],
+        [
+          "design",
+          14
+        ],
+        [
+          "privacy",
+          11
+        ],
+        [
+          "display",
+          9
+        ],
+        [
+          "battery",
+          8
+        ],
+        [
+          "connectivity",
+          6
+        ],
+        [
+          "camera",
+          6
+        ],
+        [
+          "comfort",
+          1
+        ]
+      ],
+      "top_product_doubts": [
+        [
+          "battery_life",
+          27
+        ],
+        [
+          "privacy",
+          25
+        ],
+        [
+          "compatibility",
+          10
+        ],
+        [
+          "usefulness",
+          8
+        ],
+        [
+          "comfort",
+          8
+        ]
+      ],
+      "persona_signals": [
+        [
+          "creator",
+          64
+        ],
+        [
+          "traveler",
+          41
+        ],
+        [
+          "tech_enthusiast",
+          5
+        ],
+        [
+          "casual_consumer",
+          2
+        ]
+      ],
+      "persona_signal_units": 112,
+      "top_terms": [
+        [
+          "you",
+          763
+        ],
+        [
+          "can",
+          672
+        ],
+        [
+          "like",
+          518
+        ],
+        [
+          "these",
+          508
+        ],
+        [
+          "but",
+          420
+        ],
+        [
+          "are",
+          408
+        ],
+        [
+          "will",
+          379
+        ],
+        [
+          "not",
+          345
+        ],
+        [
+          "people",
+          280
+        ],
+        [
+          "que",
+          247
+        ],
+        [
+          "how",
+          220
+        ],
+        [
+          "one",
+          220
+        ],
+        [
+          "get",
+          213
+        ],
+        [
+          "see",
+          208
+        ],
+        [
+          "now",
+          199
+        ],
+        [
+          "need",
+          198
+        ],
+        [
+          "tech",
+          198
+        ],
+        [
+          "all",
+          194
+        ],
+        [
+          "want",
+          193
+        ],
+        [
+          "use",
+          192
+        ]
+      ],
+      "validation_samples": [
+        {
+          "comment_id": "Ugz5jN1eY9MjmZfyc4R4AaABAg",
+          "video_title": "I Survived 24 Hours in the Meta Smart Glasses",
+          "video_url": "https://www.youtube.com/watch?v=L1d_U2wVH9E",
+          "text": "I have these glasses and I appreciate the video but it seemed like you were over exaggerating the hand gestures. 90% of the time people can't tell I'm using my hand to do anything lol. Edit also I'm not giving any excuses to Meta but you were on a subway for I dunno an hour with the navigation running and watching Instagram reels on a battery that's the size of your thumb? Maybe half that size lol. Just gotta set real world expectations for the device. For me they work great as an accessory replying to messages taking photos answering calls etc. Hopefully other companies can replicate and improve battery size for the future",
+          "positive_features": [
+            [
+              "camera",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [
+            [
+              "battery_life",
+              1
+            ]
+          ],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwmUNuGig4L5W9es3t4AaABAg",
+          "video_title": "I Survived 24 Hours in the Meta Smart Glasses",
+          "video_url": "https://www.youtube.com/watch?v=L1d_U2wVH9E",
+          "text": "Meta Ray-Band Display Glasses (Discount Code: SHERVINSHARES) https://www.meta.com/affiliates/7NXqxmhve\n** Watch More Videos **\nHow to Prep for Marathon Long-Runs (Fuel, Gear & Mindset): https://youtu.be/9WgeEnceaic\nI Traveled to Hawaii with My Apple Watch (Maui): https://youtu.be/2ffw8VbqehE\n2026 Beginner Guide to Running (19 Mile Long Run): https://youtu.be/8Eeu3qI8QuIss",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugzx3o07LhQXjf3XJFd4AaABAg",
+          "video_title": "RayNeo X3 Pro vs Ray-Ban Meta — $500 Upgrade or Overpriced?",
+          "video_url": "https://www.youtube.com/watch?v=ZLhSHXvGUgA",
+          "text": "Thank you for a great and honest review of both products. I have them both as I am a super Techie. To be honest I feel the Meta Displays are as you said polished. Rayneo terrible battery life and as you said no voice control at all. I also feel the sound is clearer and more polished on the Meta Glasses. I am truly disappointed that the case for the Rayneo glasses doesn't charge the glasses. I bought a neck battery to compensate for the poor battery it adds about 2 hours but for 1300 dollars you would think they could have given something to compensate. I wear my Meta Displays all day they last unless I get a crazy bunch of messages. For 799 vs 1299 Meta is the better deal. I would like to add you can control the Rayneo glasses with a Apple smart watch the gestures are similar to the Nero band but not as polished.",
+          "positive_features": [],
+          "negative_features": [
+            [
+              "battery",
+              2
+            ]
+          ],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugwajl_YCXujvr646tp4AaABAg",
+          "video_title": "Meta Ray-Ban Display vs Gen 2: Is the Screen Worth $400 More? #metarayban #smartglasses",
+          "video_url": "https://www.youtube.com/watch?v=oZ6ONDZXuV4",
+          "text": "a bit over price",
+          "positive_features": [],
+          "negative_features": [
+            [
+              "price",
+              1
+            ]
+          ],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxPt9g6usaTZUb5Vkd4AaABAg",
+          "video_title": "Unboxing Meta Ray-Ban Display Glasses",
+          "video_url": "https://www.youtube.com/watch?v=oBZ8toFKZls",
+          "text": "These are going to look like bulky tech in 10 years, contact lenses are next",
+          "positive_features": [
+            [
+              "design",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugz1IikTSUe-o-sB5D14AaABAg",
+          "video_title": "RayNeo X3 Pro vs Ray-Ban Meta — $500 Upgrade or Overpriced?",
+          "video_url": "https://www.youtube.com/watch?v=ZLhSHXvGUgA",
+          "text": "Wore both for a week. That $500 gap set my expectations really high.\nSo is Power (RayNeo X3 Pro) worth the premium — or does Polish (Meta Ray-Ban Display) still win?\n\nDrop your vote: Team RayNeo 🚀 or Team Meta 🕶",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgzAYvU-WC6Sfx7WltF4AaABAg",
+          "video_title": "Unboxing Meta Ray-Ban Display Glasses",
+          "video_url": "https://www.youtube.com/watch?v=oBZ8toFKZls",
+          "text": "Why not have a bracelet charging spot inside the glasses case as well?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwpvbgtdJfwnVDkmL94AaABAg",
+          "video_title": "Wait... Smart Glasses are Suddenly Good?",
+          "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+          "text": "Not giving fb my contacts 😂 so deal breaker to use their call tech. Hoping Apple comes out with this soon. Lost hope about snap. The OG for these camera glasses.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwyZsfUkVCfnwh4Xul4AaABAg",
+          "video_title": "📦 Unboxing Meta Ray-Ban Display",
+          "video_url": "https://www.youtube.com/watch?v=bJ7EZ1imsc0",
+          "text": "Kanadi charge panra dapa epdi charge pannveenga",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgzvDZb2wRSV_BJSdl54AaABAg",
+          "video_title": "Wait... Smart Glasses are Suddenly Good?",
+          "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+          "text": "I want AI VR Glasses vr is Great but headsets are heavy and I don't like em",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwZNEm_vik239wn8Fh4AaABAg",
+          "video_title": "Wait... Smart Glasses are Suddenly Good?",
+          "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+          "text": "im quite confident they will make a contact lens version in a matter of time",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwRH0Q5Ee32Zg-cbUd4AaABAg",
+          "video_title": "Wait... Smart Glasses are Suddenly Good?",
+          "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+          "text": "Can these make video calls on HUD",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxTg8W2apg3-YLMJn14AaABAg",
+          "video_title": "Wait... Smart Glasses are Suddenly Good?",
+          "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+          "text": "I am a karaoke, singer and performer. I would like to use these glasses in order to watch the YouTube video for karaoke songs at the same time the glasses be paired Bluetooth speaker to play the songs out of a speaker but be able to walk around the crowd and sing to them as I see the words on the YouTube video for karaoke. Is that possible on these? If it isn’t, what glasses are offered out there that would allow me to do such a thing.?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgyLYqxfQkgjlQBNf594AaABAg",
+          "video_title": "Wait... Smart Glasses are Suddenly Good?",
+          "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+          "text": "That wrist band needs a watch option so it looks less weird",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugyt22EantMyLQQQawl4AaABAg",
+          "video_title": "Wait... Smart Glasses are Suddenly Good?",
+          "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+          "text": "I'd love these glasses with Live view in Google maps",
+          "positive_features": [
+            [
+              "navigation",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugxtid8Uobhqwd8mUr54AaABAg",
+          "video_title": "Meet the World's Most Advanced AI Glasses | Meta Ray-Ban Display @ Connect 2025",
+          "video_url": "https://www.youtube.com/watch?v=gZ9IsB72nVk",
+          "text": "why are they so thick ? lmao..he looks like he out to ski or snowboard..lmao..i thing ray ban gen 2 are thick but these are to much.stil no more languages and live ai only works in few countries..lmao",
+          "positive_features": [
+            [
+              "design",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugx7oGCqcWReb3fmE8B4AaABAg",
+          "video_title": "Wait... Smart Glasses are Suddenly Good?",
+          "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+          "text": "I was thinking of getting a pair for riding my bike and listen to music with a map of the trail or path for directions.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgzQw9TUE0LakJv9HzN4AaABAg",
+          "video_title": "Why’d it have to be Meta? - Meta Ray-Ban Display",
+          "video_url": "https://www.youtube.com/watch?v=7bjJ6lKmIog",
+          "text": "What if I need corrective lens?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgyFhitQj5vA04LVAhh4AaABAg",
+          "video_title": "XR? VR? 다 필요없고 이게 미래입니다. 메타에서 야심차게 발표한 스마트 안경 언빡싱",
+          "video_url": "https://www.youtube.com/watch?v=YPxDjVKxfBA",
+          "text": "gps 증폭기 있음 국내서도 사용가능할듯?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxskT4zu4Cco2RcVyJ4AaABAg",
+          "video_title": "Wait... Smart Glasses are Suddenly Good?",
+          "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+          "text": "There was something called privacy at some point in our previous lives!",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwGxaGO9EiU5i_vjTN4AaABAg",
+          "video_title": "Meta Ray-Ban Display hands-on: best smart glasses I’ve ever tried",
+          "video_url": "https://www.youtube.com/watch?v=5cVGKvl7Oek",
+          "text": "Will be cool if the captions can translate languages",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxQHdLJSM2C7tkz-7h4AaABAg",
+          "video_title": "Why’d it have to be Meta? - Meta Ray-Ban Display",
+          "video_url": "https://www.youtube.com/watch?v=7bjJ6lKmIog",
+          "text": "Leave the damn display up we want to see it - rather than you 99% of the time",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugzynl2b5TD0LI5_fmR4AaABAg",
+          "video_title": "Why’d it have to be Meta? - Meta Ray-Ban Display",
+          "video_url": "https://www.youtube.com/watch?v=7bjJ6lKmIog",
+          "text": "if this feels like a waste of time on YouTube, imagine how useful it will feel in real life!",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [
+            [
+              "usefulness",
+              1
+            ]
+          ],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgyVrrELeqtNi2hIcZB4AaABAg",
+          "video_title": "Why’d it have to be Meta? - Meta Ray-Ban Display",
+          "video_url": "https://www.youtube.com/watch?v=7bjJ6lKmIog",
+          "text": "wow. looks very, um...yeah. wow.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        }
+      ],
+      "top_videos": [
+        {
+          "video_id": "7gtc1DW2Tgo",
+          "title": "Wait... Smart Glasses are Suddenly Good?",
+          "channel_title": "Marques Brownlee",
+          "view_count": 7808386,
+          "comment_count": 8600,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo"
+        },
+        {
+          "video_id": "YPxDjVKxfBA",
+          "title": "XR? VR? 다 필요없고 이게 미래입니다. 메타에서 야심차게 발표한 스마트 안경 언빡싱",
+          "channel_title": "ITSub잇섭",
+          "view_count": 1820993,
+          "comment_count": 2025,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=YPxDjVKxfBA"
+        },
+        {
+          "video_id": "bJ7EZ1imsc0",
+          "title": "📦 Unboxing Meta Ray-Ban Display",
+          "channel_title": "Hobby Explorer",
+          "view_count": 1797384,
+          "comment_count": 94,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=bJ7EZ1imsc0"
+        },
+        {
+          "video_id": "oBZ8toFKZls",
+          "title": "Unboxing Meta Ray-Ban Display Glasses",
+          "channel_title": "Unbox Therapy",
+          "view_count": 1641345,
+          "comment_count": 1604,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=oBZ8toFKZls"
+        },
+        {
+          "video_id": "gZ9IsB72nVk",
+          "title": "Meet the World's Most Advanced AI Glasses | Meta Ray-Ban Display @ Connect 2025",
+          "channel_title": "Ray-Ban | Meta",
+          "view_count": 1510296,
+          "comment_count": 1348,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=gZ9IsB72nVk"
+        },
+        {
+          "video_id": "7bjJ6lKmIog",
+          "title": "Why’d it have to be Meta? - Meta Ray-Ban Display",
+          "channel_title": "ShortCircuit",
+          "view_count": 979184,
+          "comment_count": 2107,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=7bjJ6lKmIog"
+        },
+        {
+          "video_id": "scu6_n8ozqE",
+          "title": "Meta Ray-Ban Display Unboxing & First Look - The Future Of Smartglasses!🔥🔥🔥",
+          "channel_title": "Technical Guruji",
+          "view_count": 872714,
+          "comment_count": 1184,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=scu6_n8ozqE"
+        },
+        {
+          "video_id": "5cVGKvl7Oek",
+          "title": "Meta Ray-Ban Display hands-on: best smart glasses I’ve ever tried",
+          "channel_title": "The Verge",
+          "view_count": 869727,
+          "comment_count": 1165,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=5cVGKvl7Oek"
+        },
+        {
+          "video_id": "b5rhECafQ14",
+          "title": "Probé las Ray-Ban del FUTURO: ahora con PANTALLA - Ray-Ban Meta Display",
+          "channel_title": "Nate Gentile",
+          "view_count": 860582,
+          "comment_count": 746,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=b5rhECafQ14"
+        },
+        {
+          "video_id": "oZ6ONDZXuV4",
+          "title": "Meta Ray-Ban Display vs Gen 2: Is the Screen Worth $400 More? #metarayban #smartglasses",
+          "channel_title": "X ZONE",
+          "view_count": 36739,
+          "comment_count": 4,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=oZ6ONDZXuV4"
+        },
+        {
+          "video_id": "L1d_U2wVH9E",
+          "title": "I Survived 24 Hours in the Meta Smart Glasses",
+          "channel_title": "Shervin Shares",
+          "view_count": 3522,
+          "comment_count": 26,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=L1d_U2wVH9E"
+        },
+        {
+          "video_id": "ZLhSHXvGUgA",
+          "title": "RayNeo X3 Pro vs Ray-Ban Meta — $500 Upgrade or Overpriced?",
+          "channel_title": "Non-Tech Tech Guy ",
+          "view_count": 333,
+          "comment_count": 7,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=ZLhSHXvGUgA"
+        }
+      ],
+      "recent_month_comments": {
+        "comment_count": 244,
+        "relevant_comment_count": 31,
+        "sentiment_counts": {
+          "positive": 5,
+          "negative": 2,
+          "neutral": 24
+        },
+        "relevant_comment_rate": 0.127,
+        "sentiment_rates": {
+          "positive": 0.0205,
+          "negative": 0.0082,
+          "neutral": 0.7742
+        },
+        "top_praised_features": [
+          [
+            "design",
+            3
+          ],
+          [
+            "camera",
+            1
+          ],
+          [
+            "navigation",
+            1
+          ]
+        ],
+        "top_complained_features": [
+          [
+            "battery",
+            2
+          ],
+          [
+            "price",
+            1
+          ]
+        ],
+        "top_product_doubts": [
+          [
+            "battery_life",
+            1
+          ],
+          [
+            "usefulness",
+            1
+          ]
+        ],
+        "persona_signals": [
+          [
+            "creator",
+            2
+          ],
+          [
+            "traveler",
+            1
+          ]
+        ],
+        "persona_signal_units": 3,
+        "top_terms": [
+          [
+            "you",
+            27
+          ],
+          [
+            "these",
+            24
+          ],
+          [
+            "are",
+            21
+          ],
+          [
+            "can",
+            20
+          ],
+          [
+            "like",
+            17
+          ],
+          [
+            "but",
+            15
+          ],
+          [
+            "not",
+            9
+          ],
+          [
+            "get",
+            9
+          ],
+          [
+            "band",
+            8
+          ],
+          [
+            "make",
+            8
+          ],
+          [
+            "need",
+            7
+          ],
+          [
+            "watch",
+            7
+          ],
+          [
+            "people",
+            7
+          ],
+          [
+            "real",
+            7
+          ],
+          [
+            "going",
+            7
+          ],
+          [
+            "still",
+            7
+          ],
+          [
+            "will",
+            7
+          ],
+          [
+            "wait",
+            7
+          ],
+          [
+            "time",
+            6
+          ],
+          [
+            "out",
+            6
+          ]
+        ],
+        "validation_samples": [
+          {
+            "comment_id": "Ugz5jN1eY9MjmZfyc4R4AaABAg",
+            "video_title": "I Survived 24 Hours in the Meta Smart Glasses",
+            "video_url": "https://www.youtube.com/watch?v=L1d_U2wVH9E",
+            "text": "I have these glasses and I appreciate the video but it seemed like you were over exaggerating the hand gestures. 90% of the time people can't tell I'm using my hand to do anything lol. Edit also I'm not giving any excuses to Meta but you were on a subway for I dunno an hour with the navigation running and watching Instagram reels on a battery that's the size of your thumb? Maybe half that size lol. Just gotta set real world expectations for the device. For me they work great as an accessory replying to messages taking photos answering calls etc. Hopefully other companies can replicate and improve battery size for the future",
+            "positive_features": [
+              [
+                "camera",
+                1
+              ]
+            ],
+            "negative_features": [],
+            "doubt_topics": [
+              [
+                "battery_life",
+                1
+              ]
+            ],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgwmUNuGig4L5W9es3t4AaABAg",
+            "video_title": "I Survived 24 Hours in the Meta Smart Glasses",
+            "video_url": "https://www.youtube.com/watch?v=L1d_U2wVH9E",
+            "text": "Meta Ray-Band Display Glasses (Discount Code: SHERVINSHARES) https://www.meta.com/affiliates/7NXqxmhve\n** Watch More Videos **\nHow to Prep for Marathon Long-Runs (Fuel, Gear & Mindset): https://youtu.be/9WgeEnceaic\nI Traveled to Hawaii with My Apple Watch (Maui): https://youtu.be/2ffw8VbqehE\n2026 Beginner Guide to Running (19 Mile Long Run): https://youtu.be/8Eeu3qI8QuIss",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "Ugzx3o07LhQXjf3XJFd4AaABAg",
+            "video_title": "RayNeo X3 Pro vs Ray-Ban Meta — $500 Upgrade or Overpriced?",
+            "video_url": "https://www.youtube.com/watch?v=ZLhSHXvGUgA",
+            "text": "Thank you for a great and honest review of both products. I have them both as I am a super Techie. To be honest I feel the Meta Displays are as you said polished. Rayneo terrible battery life and as you said no voice control at all. I also feel the sound is clearer and more polished on the Meta Glasses. I am truly disappointed that the case for the Rayneo glasses doesn't charge the glasses. I bought a neck battery to compensate for the poor battery it adds about 2 hours but for 1300 dollars you would think they could have given something to compensate. I wear my Meta Displays all day they last unless I get a crazy bunch of messages. For 799 vs 1299 Meta is the better deal. I would like to add you can control the Rayneo glasses with a Apple smart watch the gestures are similar to the Nero band but not as polished.",
+            "positive_features": [],
+            "negative_features": [
+              [
+                "battery",
+                2
+              ]
+            ],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "Ugwajl_YCXujvr646tp4AaABAg",
+            "video_title": "Meta Ray-Ban Display vs Gen 2: Is the Screen Worth $400 More? #metarayban #smartglasses",
+            "video_url": "https://www.youtube.com/watch?v=oZ6ONDZXuV4",
+            "text": "a bit over price",
+            "positive_features": [],
+            "negative_features": [
+              [
+                "price",
+                1
+              ]
+            ],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgxPt9g6usaTZUb5Vkd4AaABAg",
+            "video_title": "Unboxing Meta Ray-Ban Display Glasses",
+            "video_url": "https://www.youtube.com/watch?v=oBZ8toFKZls",
+            "text": "These are going to look like bulky tech in 10 years, contact lenses are next",
+            "positive_features": [
+              [
+                "design",
+                1
+              ]
+            ],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "Ugz1IikTSUe-o-sB5D14AaABAg",
+            "video_title": "RayNeo X3 Pro vs Ray-Ban Meta — $500 Upgrade or Overpriced?",
+            "video_url": "https://www.youtube.com/watch?v=ZLhSHXvGUgA",
+            "text": "Wore both for a week. That $500 gap set my expectations really high.\nSo is Power (RayNeo X3 Pro) worth the premium — or does Polish (Meta Ray-Ban Display) still win?\n\nDrop your vote: Team RayNeo 🚀 or Team Meta 🕶",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgzAYvU-WC6Sfx7WltF4AaABAg",
+            "video_title": "Unboxing Meta Ray-Ban Display Glasses",
+            "video_url": "https://www.youtube.com/watch?v=oBZ8toFKZls",
+            "text": "Why not have a bracelet charging spot inside the glasses case as well?",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgwpvbgtdJfwnVDkmL94AaABAg",
+            "video_title": "Wait... Smart Glasses are Suddenly Good?",
+            "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+            "text": "Not giving fb my contacts 😂 so deal breaker to use their call tech. Hoping Apple comes out with this soon. Lost hope about snap. The OG for these camera glasses.",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgwyZsfUkVCfnwh4Xul4AaABAg",
+            "video_title": "📦 Unboxing Meta Ray-Ban Display",
+            "video_url": "https://www.youtube.com/watch?v=bJ7EZ1imsc0",
+            "text": "Kanadi charge panra dapa epdi charge pannveenga",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgzvDZb2wRSV_BJSdl54AaABAg",
+            "video_title": "Wait... Smart Glasses are Suddenly Good?",
+            "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+            "text": "I want AI VR Glasses vr is Great but headsets are heavy and I don't like em",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgwZNEm_vik239wn8Fh4AaABAg",
+            "video_title": "Wait... Smart Glasses are Suddenly Good?",
+            "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+            "text": "im quite confident they will make a contact lens version in a matter of time",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgwRH0Q5Ee32Zg-cbUd4AaABAg",
+            "video_title": "Wait... Smart Glasses are Suddenly Good?",
+            "video_url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo",
+            "text": "Can these make video calls on HUD",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          }
+        ]
+      },
+      "cross_brand_mentions": {
+        "relevant_comment_count": 23,
+        "positive_mentions": 6,
+        "negative_mentions": 1,
+        "top_praised_features": [
+          [
+            "display",
+            4
+          ],
+          [
+            "design",
+            2
+          ],
+          [
+            "camera",
+            1
+          ],
+          [
+            "sound",
+            1
+          ]
+        ],
+        "top_complained_features": [
+          [
+            "battery",
+            1
+          ]
+        ],
+        "positive_source_split": [
+          [
+            "even",
+            5
+          ],
+          [
+            "meta",
+            1
+          ]
+        ],
+        "negative_source_split": [
+          [
+            "even",
+            1
+          ]
+        ],
+        "comparison_only": {
+          "relevant_comment_count": 8,
+          "positive_mentions": 4,
+          "negative_mentions": 0,
+          "top_praised_features": [
+            [
+              "display",
+              3
+            ],
+            [
+              "design",
+              2
+            ]
+          ],
+          "top_complained_features": [],
+          "positive_source_split": [
+            [
+              "even",
+              4
+            ]
+          ],
+          "negative_source_split": []
+        }
+      }
+    },
+    "even": {
+      "video_count": 28,
+      "comment_count": 3269,
+      "relevant_comment_count": 731,
+      "sentiment_counts": {
+        "positive": 199,
+        "negative": 59,
+        "neutral": 491
+      },
+      "relevant_comment_rate": 0.2236,
+      "sentiment_rates": {
+        "positive": 0.0609,
+        "negative": 0.018,
+        "neutral": 0.6717
+      },
+      "top_praised_features": [
+        [
+          "design",
+          119
+        ],
+        [
+          "display",
+          36
+        ],
+        [
+          "connectivity",
+          19
+        ],
+        [
+          "translation",
+          18
+        ],
+        [
+          "navigation",
+          10
+        ],
+        [
+          "price",
+          9
+        ],
+        [
+          "ai",
+          6
+        ],
+        [
+          "battery",
+          6
+        ]
+      ],
+      "top_complained_features": [
+        [
+          "price",
+          29
+        ],
+        [
+          "privacy",
+          5
+        ],
+        [
+          "camera",
+          5
+        ],
+        [
+          "design",
+          5
+        ],
+        [
+          "translation",
+          5
+        ],
+        [
+          "sound",
+          4
+        ],
+        [
+          "display",
+          3
+        ],
+        [
+          "navigation",
+          3
+        ]
+      ],
+      "top_product_doubts": [
+        [
+          "compatibility",
+          12
+        ],
+        [
+          "battery_life",
+          12
+        ],
+        [
+          "usefulness",
+          4
+        ],
+        [
+          "comfort",
+          3
+        ],
+        [
+          "privacy",
+          1
+        ]
+      ],
+      "persona_signals": [
+        [
+          "traveler",
+          40
+        ],
+        [
+          "creator",
+          12
+        ],
+        [
+          "casual_consumer",
+          9
+        ],
+        [
+          "productivity",
+          7
+        ],
+        [
+          "tech_enthusiast",
+          6
+        ]
+      ],
+      "persona_signal_units": 74,
+      "top_terms": [
+        [
+          "you",
+          729
+        ],
+        [
+          "can",
+          437
+        ],
+        [
+          "like",
+          381
+        ],
+        [
+          "are",
+          366
+        ],
+        [
+          "but",
+          356
+        ],
+        [
+          "not",
+          281
+        ],
+        [
+          "these",
+          272
+        ],
+        [
+          "need",
+          186
+        ],
+        [
+          "how",
+          180
+        ],
+        [
+          "will",
+          173
+        ],
+        [
+          "get",
+          171
+        ],
+        [
+          "use",
+          160
+        ],
+        [
+          "was",
+          157
+        ],
+        [
+          "more",
+          141
+        ],
+        [
+          "see",
+          141
+        ],
+        [
+          "don",
+          134
+        ],
+        [
+          "one",
+          132
+        ],
+        [
+          "now",
+          129
+        ],
+        [
+          "ring",
+          128
+        ],
+        [
+          "all",
+          127
+        ]
+      ],
+      "validation_samples": [
+        {
+          "comment_id": "Ugx-xzrUTQ-wWNvafjJ4AaABAg",
+          "video_title": "The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2",
+          "video_url": "https://www.youtube.com/watch?v=ikyOQrNXXnE",
+          "text": "Send me a pair",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgyhLMTkbHgioKIJDot4AaABAg",
+          "video_title": "The Everyday Display Smart Glasses",
+          "video_url": "https://www.youtube.com/watch?v=EBoVJwmDU-8",
+          "text": "Should have addressed battery life in greater detail.  This is a major issues for users of smart glasses.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugzw2FDPuY8AJlDaSlx4AaABAg",
+          "video_title": "The Everyday Display Smart Glasses",
+          "video_url": "https://www.youtube.com/watch?v=EBoVJwmDU-8",
+          "text": "The subtitles for people speaking would be good for deaf people",
+          "positive_features": [
+            [
+              "translation",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgykIanncd_4IMKf6_B4AaABAg",
+          "video_title": "The most ADVANCED glasses ever made 😭 #EvenRealities #EvenG2 #EvenRealitiesPartner",
+          "video_url": "https://www.youtube.com/watch?v=buDkt8zDzDI",
+          "text": "An older kid was recording me and my friends w some of those at school",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgxqbXeWzse2W3yxHtl4AaABAg",
+          "video_title": "HO PROVATO GLI OCCHIALI SMART DEL FUTURO: EVEN REALITIES G2",
+          "video_url": "https://www.youtube.com/watch?v=sXRC55ksuEA",
+          "text": "Ciao, in rete si legge di tanti problemi riguardo i tempi di spedizione, l'assistenza ed il software ancora acerbo ma soprattutto riguardo la connessione Bluetooth estremamente instabile. Dato il prezzo elevato potresti dirmi qualcosa a riguardo? Grazie ed un saluto da...Bari!",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxUYsMLqzFG0ONO9pR4AaABAg",
+          "video_title": "HO PROVATO GLI OCCHIALI SMART DEL FUTURO: EVEN REALITIES G2",
+          "video_url": "https://www.youtube.com/watch?v=sXRC55ksuEA",
+          "text": "Finalmente un design accattivante! Ti stanno benissimo, sembri Anche più giovane di 24 ore!",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwgijMzlBUUqCRCT8R4AaABAg",
+          "video_title": "HO PROVATO GLI OCCHIALI SMART DEL FUTURO: EVEN REALITIES G2",
+          "video_url": "https://www.youtube.com/watch?v=sXRC55ksuEA",
+          "text": "Peccato manchino gli speaker, sarebbe stato veramente meglio. La fotocamera se ci fosse la si userebbe poco magari con un oblò per coprirla. Se aggiungono come gadget da prendere a parte un localizzatore GPS e gli occhiali di detective Conan diventano realtà. Veramente belli, li prenderò in futuro per me e mio padre, forse un po' costosi sia gli occhiali che l'aggancio per lenti da sole. La cosa bella che il software è open source e quindi personalizzabile e programmabile da tutti gli smanettoni.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "tech_enthusiast"
+        },
+        {
+          "comment_id": "UgzCYtu9wGrMePZ5Gl14AaABAg",
+          "video_title": "The Future of Glasses: Even Realities G2 Unboxing",
+          "video_url": "https://www.youtube.com/watch?v=pkP28wcvTAg",
+          "text": "Nah mate, the perfect glasses for me allow me to see and experience the real world - to be a human amongst other humans. Injecting chatprompts, the ability to record without people knowing, and just putting a “ur too stupid to not have information constantly injected directly into your eyeballs” pair of glasses into a marketing campaign like this is a sign of a hell to come. Gonna be a bunch of mentally deficient people running around having literally lost the ability to interact with the world in real time without this. Shame on all of you",
+          "positive_features": [
+            [
+              "connectivity",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwcIu0uBWpBIEyqnDR4AaABAg",
+          "video_title": "The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2",
+          "video_url": "https://www.youtube.com/watch?v=ikyOQrNXXnE",
+          "text": "Idc how much they cost , if you can’t commit to a relationship don’t be in it .",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwtgoAOqi3CG7TnDTN4AaABAg",
+          "video_title": "Even G2 and R1",
+          "video_url": "https://www.youtube.com/watch?v=0cgQkzoZMWc",
+          "text": "Bro about how much does it cost",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugz8xNBYksm2s-SV_2N4AaABAg",
+          "video_title": "The Future of Smart Glasses is Here: Meta Ray-Ban Display vs Even G2",
+          "video_url": "https://www.youtube.com/watch?v=BYAOd4exbVo",
+          "text": "G2 is my hands-down winner, no questions asked! \nIt has usability and practicality that Meta does not offer unless you have one eye. \nAs an ESL instructor, I use the teleprompter and language translation features in and out of the classroom. \n\nConversant is another feature that separates G2 from Meta. I also enjoy using the ring as a convenient and non-obtrusive navigation tool. \nThank you, Will and G2! \nThe future is now.",
+          "positive_features": [
+            [
+              "navigation",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "traveler"
+        },
+        {
+          "comment_id": "UgzNoc9cxNuKvaz2W4F4AaABAg",
+          "video_title": "The Future of Smart Glasses is Here: Meta Ray-Ban Display vs Even G2",
+          "video_url": "https://www.youtube.com/watch?v=BYAOd4exbVo",
+          "text": "I own the Meta gen 1 and definitely could live without the camera, but I love listening to music, so speakers are a must for me, I’ll wait until tech gets better so I can have a screen and audio in a smaller frame, ditch the camera because people really feels like being watched when you talk to them.",
+          "positive_features": [
+            [
+              "display",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwD9q9ycCnaa_zEQ054AaABAg",
+          "video_title": "The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2",
+          "video_url": "https://www.youtube.com/watch?v=ikyOQrNXXnE",
+          "text": "Understands language o' women glasses 🤓",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxUDfxEG38idVzGbu94AaABAg",
+          "video_title": "The Future of Smart Glasses - Even G2",
+          "video_url": "https://www.youtube.com/watch?v=ykvb8FvSMmo",
+          "text": "How do I make the display on 2 sides? Right now it only displays on the right side",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxfKTgPy5NA6BwM3g94AaABAg",
+          "video_title": "The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2",
+          "video_url": "https://www.youtube.com/watch?v=ikyOQrNXXnE",
+          "text": "Subtitle in rl 😅",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxqmHt-3HUZ27X50U54AaABAg",
+          "video_title": "The Future of Glasses: Even Realities G2 Unboxing",
+          "video_url": "https://www.youtube.com/watch?v=pkP28wcvTAg",
+          "text": "Your presentation was eye-opening 👍! Seriously, you introduced me to Will and Even G2s. I teach ESL to corporate employees at Google, Apple, and Agilent Technologies, and I am convinced that the addition of smart glasses from Even G2 will make me a better mentor for my students. The teleprompter and language translation features, plus the handsomely designed ring, are game changers. I've immersed myself in understanding Smart Glasses with AI/AR capabilities and how well I can use them to help my students learn to love learning English! \n\nWill Even Realities G2 be designed to accept over-the-air (OTA) software updates direct to the eyeglasses?!",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "traveler"
+        },
+        {
+          "comment_id": "UgyrdvOXq85ue3Xd0nZ4AaABAg",
+          "video_title": "The Everyday Display Smart Glasses",
+          "video_url": "https://www.youtube.com/watch?v=EBoVJwmDU-8",
+          "text": "I like everything about this, but I've been  looking for something that looks exactly like this but with just a text editor like Vim, so I can just use my keyboard to write just about anywhere.",
+          "positive_features": [
+            [
+              "design",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugzh3XkBTdYCXIyicyd4AaABAg",
+          "video_title": "Even G2 and R1",
+          "video_url": "https://www.youtube.com/watch?v=0cgQkzoZMWc",
+          "text": "Does the Even G2 used internet connection or can it be connected to phone?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwAQkjM11eorarRnq14AaABAg",
+          "video_title": "The Everyday Display Smart Glasses",
+          "video_url": "https://www.youtube.com/watch?v=EBoVJwmDU-8",
+          "text": "Can audio be sent to ear buds or a more discreet hearing peice?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgzwRDDrN2aVUh_bOiF4AaABAg",
+          "video_title": "The Everyday Display Smart Glasses",
+          "video_url": "https://www.youtube.com/watch?v=EBoVJwmDU-8",
+          "text": "Which iPhone is that?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [
+            [
+              "compatibility",
+              1
+            ]
+          ],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugya4wJVazRquPLKrFx4AaABAg",
+          "video_title": "The Future of Glasses: Even Realities G2 Unboxing",
+          "video_url": "https://www.youtube.com/watch?v=pkP28wcvTAg",
+          "text": "Amazing PRODUCT I'm not interested in cameras or video recording. Translation, direction and summary are JUST beyond average, audio \"Bone Conducting\" could be the G3 or any other disruptional products.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgyW2-OI7t5iJB5pJfh4AaABAg",
+          "video_title": "The Future of Smart Glasses - Even G2",
+          "video_url": "https://www.youtube.com/watch?v=ykvb8FvSMmo",
+          "text": "The price is very reasonable, and the look is appealing, but it needs a really killer app.  What could make the G2 _necessary?_",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxQlMuQpPgiv8_UtCt4AaABAg",
+          "video_title": "The Future of Smart Glasses - Even G2",
+          "video_url": "https://www.youtube.com/watch?v=ykvb8FvSMmo",
+          "text": "Do they work off WiFi or Bluetooth. What about cost of replacement lenses?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwijbkYybX7M9q3aBl4AaABAg",
+          "video_title": "let's build a coffee-powered PC with Even G2",
+          "video_url": "https://www.youtube.com/watch?v=UbIqhPqJuK0",
+          "text": "U made the pair of glasses like a true assistant",
+          "positive_features": [
+            [
+              "connectivity",
+              1
+            ],
+            [
+              "ai",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        }
+      ],
+      "top_videos": [
+        {
+          "video_id": "tAIhp9hia90",
+          "title": "Introducing Even G2 and R1. Get Ready to Wear the Future",
+          "channel_title": "Even Realities",
+          "view_count": 67133895,
+          "comment_count": 160,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=tAIhp9hia90"
+        },
+        {
+          "video_id": "buDkt8zDzDI",
+          "title": "The most ADVANCED glasses ever made 😭 #EvenRealities #EvenG2 #EvenRealitiesPartner",
+          "channel_title": "John Casterline",
+          "view_count": 38564779,
+          "comment_count": 4240,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=buDkt8zDzDI"
+        },
+        {
+          "video_id": "E_Hrbj4h9Sw",
+          "title": "REAL Tony Stark Smart Glasses - Even Realities G2",
+          "channel_title": "Nathan Espinoza",
+          "view_count": 24419003,
+          "comment_count": 254,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=E_Hrbj4h9Sw"
+        },
+        {
+          "video_id": "ykvb8FvSMmo",
+          "title": "The Future of Smart Glasses - Even G2",
+          "channel_title": "Tyriel Wood - VR Tech",
+          "view_count": 7410884,
+          "comment_count": 201,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=ykvb8FvSMmo"
+        },
+        {
+          "video_id": "UbIqhPqJuK0",
+          "title": "let's build a coffee-powered PC with Even G2",
+          "channel_title": "mryeester",
+          "view_count": 7189220,
+          "comment_count": 240,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=UbIqhPqJuK0"
+        },
+        {
+          "video_id": "yZrcgiKFOD0",
+          "title": "Even G2 and R1. A New Quietly Extraordinary Power for Your Everyday Life",
+          "channel_title": "Even Realities",
+          "view_count": 5525085,
+          "comment_count": 712,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=yZrcgiKFOD0"
+        },
+        {
+          "video_id": "ikyOQrNXXnE",
+          "title": "The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2",
+          "channel_title": "Austin Mollno",
+          "view_count": 4328254,
+          "comment_count": 544,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=ikyOQrNXXnE"
+        },
+        {
+          "video_id": "pkP28wcvTAg",
+          "title": "The Future of Glasses: Even Realities G2 Unboxing",
+          "channel_title": "The Spectacle Factory",
+          "view_count": 4290093,
+          "comment_count": 402,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=pkP28wcvTAg"
+        },
+        {
+          "video_id": "S-GQvElmXAo",
+          "title": "EVEN G2 VS EVEN G1 - EVEN Better Smartglasses! 👓",
+          "channel_title": "Robot Review Tech",
+          "view_count": 2466906,
+          "comment_count": 206,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=S-GQvElmXAo"
+        },
+        {
+          "video_id": "EBoVJwmDU-8",
+          "title": "The Everyday Display Smart Glasses",
+          "channel_title": "Unbox Therapy",
+          "view_count": 2338471,
+          "comment_count": 363,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=EBoVJwmDU-8"
+        },
+        {
+          "video_id": "0cgQkzoZMWc",
+          "title": "Even G2 and R1",
+          "channel_title": "Parker Burton",
+          "view_count": 1448073,
+          "comment_count": 177,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=0cgQkzoZMWc"
+        },
+        {
+          "video_id": "Om-96ivMxzs",
+          "title": "HUGE Smart Glasses Upgrade for 2026 @EvenRealities   #EvenRealities #EvenG2 #evenrealitiespartner",
+          "channel_title": "Alementary",
+          "view_count": 1316391,
+          "comment_count": 39,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=Om-96ivMxzs"
+        }
+      ],
+      "recent_month_comments": {
+        "comment_count": 575,
+        "relevant_comment_count": 73,
+        "sentiment_counts": {
+          "positive": 18,
+          "negative": 3,
+          "neutral": 53
+        },
+        "relevant_comment_rate": 0.127,
+        "sentiment_rates": {
+          "positive": 0.0313,
+          "negative": 0.0052,
+          "neutral": 0.726
+        },
+        "top_praised_features": [
+          [
+            "design",
+            9
+          ],
+          [
+            "translation",
+            3
+          ],
+          [
+            "connectivity",
+            3
+          ],
+          [
+            "display",
+            3
+          ],
+          [
+            "navigation",
+            2
+          ],
+          [
+            "ai",
+            1
+          ],
+          [
+            "price",
+            1
+          ]
+        ],
+        "top_complained_features": [
+          [
+            "price",
+            3
+          ]
+        ],
+        "top_product_doubts": [
+          [
+            "compatibility",
+            2
+          ],
+          [
+            "usefulness",
+            2
+          ]
+        ],
+        "persona_signals": [
+          [
+            "traveler",
+            4
+          ],
+          [
+            "creator",
+            2
+          ],
+          [
+            "tech_enthusiast",
+            1
+          ]
+        ],
+        "persona_signal_units": 7,
+        "top_terms": [
+          [
+            "you",
+            142
+          ],
+          [
+            "can",
+            68
+          ],
+          [
+            "like",
+            50
+          ],
+          [
+            "are",
+            45
+          ],
+          [
+            "not",
+            41
+          ],
+          [
+            "listen",
+            39
+          ],
+          [
+            "people",
+            38
+          ],
+          [
+            "but",
+            36
+          ],
+          [
+            "these",
+            32
+          ],
+          [
+            "need",
+            31
+          ],
+          [
+            "how",
+            28
+          ],
+          [
+            "she",
+            25
+          ],
+          [
+            "get",
+            24
+          ],
+          [
+            "bro",
+            23
+          ],
+          [
+            "was",
+            22
+          ],
+          [
+            "game",
+            22
+          ],
+          [
+            "forza",
+            20
+          ],
+          [
+            "don",
+            20
+          ],
+          [
+            "love",
+            20
+          ],
+          [
+            "listening",
+            19
+          ]
+        ],
+        "validation_samples": [
+          {
+            "comment_id": "Ugx-xzrUTQ-wWNvafjJ4AaABAg",
+            "video_title": "The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2",
+            "video_url": "https://www.youtube.com/watch?v=ikyOQrNXXnE",
+            "text": "Send me a pair",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgyhLMTkbHgioKIJDot4AaABAg",
+            "video_title": "The Everyday Display Smart Glasses",
+            "video_url": "https://www.youtube.com/watch?v=EBoVJwmDU-8",
+            "text": "Should have addressed battery life in greater detail.  This is a major issues for users of smart glasses.",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "Ugzw2FDPuY8AJlDaSlx4AaABAg",
+            "video_title": "The Everyday Display Smart Glasses",
+            "video_url": "https://www.youtube.com/watch?v=EBoVJwmDU-8",
+            "text": "The subtitles for people speaking would be good for deaf people",
+            "positive_features": [
+              [
+                "translation",
+                1
+              ]
+            ],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgykIanncd_4IMKf6_B4AaABAg",
+            "video_title": "The most ADVANCED glasses ever made 😭 #EvenRealities #EvenG2 #EvenRealitiesPartner",
+            "video_url": "https://www.youtube.com/watch?v=buDkt8zDzDI",
+            "text": "An older kid was recording me and my friends w some of those at school",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": "creator"
+          },
+          {
+            "comment_id": "UgxqbXeWzse2W3yxHtl4AaABAg",
+            "video_title": "HO PROVATO GLI OCCHIALI SMART DEL FUTURO: EVEN REALITIES G2",
+            "video_url": "https://www.youtube.com/watch?v=sXRC55ksuEA",
+            "text": "Ciao, in rete si legge di tanti problemi riguardo i tempi di spedizione, l'assistenza ed il software ancora acerbo ma soprattutto riguardo la connessione Bluetooth estremamente instabile. Dato il prezzo elevato potresti dirmi qualcosa a riguardo? Grazie ed un saluto da...Bari!",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgxUYsMLqzFG0ONO9pR4AaABAg",
+            "video_title": "HO PROVATO GLI OCCHIALI SMART DEL FUTURO: EVEN REALITIES G2",
+            "video_url": "https://www.youtube.com/watch?v=sXRC55ksuEA",
+            "text": "Finalmente un design accattivante! Ti stanno benissimo, sembri Anche più giovane di 24 ore!",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgwgijMzlBUUqCRCT8R4AaABAg",
+            "video_title": "HO PROVATO GLI OCCHIALI SMART DEL FUTURO: EVEN REALITIES G2",
+            "video_url": "https://www.youtube.com/watch?v=sXRC55ksuEA",
+            "text": "Peccato manchino gli speaker, sarebbe stato veramente meglio. La fotocamera se ci fosse la si userebbe poco magari con un oblò per coprirla. Se aggiungono come gadget da prendere a parte un localizzatore GPS e gli occhiali di detective Conan diventano realtà. Veramente belli, li prenderò in futuro per me e mio padre, forse un po' costosi sia gli occhiali che l'aggancio per lenti da sole. La cosa bella che il software è open source e quindi personalizzabile e programmabile da tutti gli smanettoni.",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": "tech_enthusiast"
+          },
+          {
+            "comment_id": "UgzCYtu9wGrMePZ5Gl14AaABAg",
+            "video_title": "The Future of Glasses: Even Realities G2 Unboxing",
+            "video_url": "https://www.youtube.com/watch?v=pkP28wcvTAg",
+            "text": "Nah mate, the perfect glasses for me allow me to see and experience the real world - to be a human amongst other humans. Injecting chatprompts, the ability to record without people knowing, and just putting a “ur too stupid to not have information constantly injected directly into your eyeballs” pair of glasses into a marketing campaign like this is a sign of a hell to come. Gonna be a bunch of mentally deficient people running around having literally lost the ability to interact with the world in real time without this. Shame on all of you",
+            "positive_features": [
+              [
+                "connectivity",
+                1
+              ]
+            ],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgwcIu0uBWpBIEyqnDR4AaABAg",
+            "video_title": "The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2",
+            "video_url": "https://www.youtube.com/watch?v=ikyOQrNXXnE",
+            "text": "Idc how much they cost , if you can’t commit to a relationship don’t be in it .",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgwtgoAOqi3CG7TnDTN4AaABAg",
+            "video_title": "Even G2 and R1",
+            "video_url": "https://www.youtube.com/watch?v=0cgQkzoZMWc",
+            "text": "Bro about how much does it cost",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "Ugz8xNBYksm2s-SV_2N4AaABAg",
+            "video_title": "The Future of Smart Glasses is Here: Meta Ray-Ban Display vs Even G2",
+            "video_url": "https://www.youtube.com/watch?v=BYAOd4exbVo",
+            "text": "G2 is my hands-down winner, no questions asked! \nIt has usability and practicality that Meta does not offer unless you have one eye. \nAs an ESL instructor, I use the teleprompter and language translation features in and out of the classroom. \n\nConversant is another feature that separates G2 from Meta. I also enjoy using the ring as a convenient and non-obtrusive navigation tool. \nThank you, Will and G2! \nThe future is now.",
+            "positive_features": [
+              [
+                "navigation",
+                1
+              ]
+            ],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": "traveler"
+          },
+          {
+            "comment_id": "UgzNoc9cxNuKvaz2W4F4AaABAg",
+            "video_title": "The Future of Smart Glasses is Here: Meta Ray-Ban Display vs Even G2",
+            "video_url": "https://www.youtube.com/watch?v=BYAOd4exbVo",
+            "text": "I own the Meta gen 1 and definitely could live without the camera, but I love listening to music, so speakers are a must for me, I’ll wait until tech gets better so I can have a screen and audio in a smaller frame, ditch the camera because people really feels like being watched when you talk to them.",
+            "positive_features": [
+              [
+                "display",
+                1
+              ]
+            ],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          }
+        ]
+      },
+      "cross_brand_mentions": {
+        "relevant_comment_count": 5,
+        "positive_mentions": 1,
+        "negative_mentions": 0,
+        "top_praised_features": [
+          [
+            "battery",
+            1
+          ],
+          [
+            "display",
+            1
+          ]
+        ],
+        "top_complained_features": [],
+        "positive_source_split": [
+          [
+            "rokid",
+            1
+          ]
+        ],
+        "negative_source_split": [],
+        "comparison_only": {
+          "relevant_comment_count": 3,
+          "positive_mentions": 0,
+          "negative_mentions": 0,
+          "top_praised_features": [],
+          "top_complained_features": [],
+          "positive_source_split": [],
+          "negative_source_split": []
+        }
+      }
+    },
+    "rokid": {
+      "video_count": 21,
+      "comment_count": 2375,
+      "relevant_comment_count": 252,
+      "sentiment_counts": {
+        "positive": 64,
+        "negative": 18,
+        "neutral": 172
+      },
+      "relevant_comment_rate": 0.1061,
+      "sentiment_rates": {
+        "positive": 0.0269,
+        "negative": 0.0076,
+        "neutral": 0.6825
+      },
+      "top_praised_features": [
+        [
+          "design",
+          28
+        ],
+        [
+          "sound",
+          9
+        ],
+        [
+          "display",
+          8
+        ],
+        [
+          "camera",
+          7
+        ],
+        [
+          "battery",
+          7
+        ],
+        [
+          "translation",
+          5
+        ],
+        [
+          "connectivity",
+          5
+        ],
+        [
+          "ai",
+          3
+        ]
+      ],
+      "top_complained_features": [
+        [
+          "price",
+          4
+        ],
+        [
+          "battery",
+          4
+        ],
+        [
+          "sound",
+          2
+        ],
+        [
+          "comfort",
+          2
+        ],
+        [
+          "design",
+          2
+        ],
+        [
+          "camera",
+          2
+        ],
+        [
+          "privacy",
+          2
+        ],
+        [
+          "connectivity",
+          1
+        ]
+      ],
+      "top_product_doubts": [
+        [
+          "compatibility",
+          8
+        ],
+        [
+          "privacy",
+          5
+        ],
+        [
+          "battery_life",
+          3
+        ],
+        [
+          "usefulness",
+          1
+        ],
+        [
+          "camera_quality",
+          1
+        ]
+      ],
+      "persona_signals": [
+        [
+          "traveler",
+          24
+        ],
+        [
+          "creator",
+          23
+        ],
+        [
+          "tech_enthusiast",
+          6
+        ],
+        [
+          "casual_consumer",
+          3
+        ]
+      ],
+      "persona_signal_units": 56,
+      "top_terms": [
+        [
+          "you",
+          193
+        ],
+        [
+          "are",
+          126
+        ],
+        [
+          "can",
+          121
+        ],
+        [
+          "but",
+          108
+        ],
+        [
+          "que",
+          102
+        ],
+        [
+          "like",
+          99
+        ],
+        [
+          "these",
+          93
+        ],
+        [
+          "not",
+          81
+        ],
+        [
+          "smart",
+          77
+        ],
+        [
+          "will",
+          59
+        ],
+        [
+          "good",
+          53
+        ],
+        [
+          "get",
+          49
+        ],
+        [
+          "was",
+          49
+        ],
+        [
+          "more",
+          48
+        ],
+        [
+          "all",
+          48
+        ],
+        [
+          "las",
+          48
+        ],
+        [
+          "one",
+          47
+        ],
+        [
+          "display",
+          47
+        ],
+        [
+          "want",
+          46
+        ],
+        [
+          "out",
+          45
+        ]
+      ],
+      "validation_samples": [
+        {
+          "comment_id": "UgxxqCUU5vvr64PaDy14AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "Which is best for live translation by voice/sound. Without having to use your phone, or only translate by text",
+          "positive_features": [
+            [
+              "sound",
+              1
+            ],
+            [
+              "translation",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "traveler"
+        },
+        {
+          "comment_id": "Ugy618yBnRhGWu69_614AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "smart glasses with nothing more than speakers and buttons are dumb, you can literally do the same thing with any modern earbuds or headphones for the same price or less with way better audio",
+          "positive_features": [],
+          "negative_features": [
+            [
+              "sound",
+              1
+            ]
+          ],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugxg8gAK4e_kc8W7N_h4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "I need information about the OhO Sunshine Edge Pro 4K. How many hours can these glasses record video continuously?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgztgZBCOgcb_h2CKlx4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "I would like to see a review on drones, the price and the features as well as if they a need specia\n Permissions in different countries? Hope is not too much and maybe you did it already? Let me k ow so I can whath it. I like the ones that are small . , can stand winds and follow you …",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwfahYF3huOHBM2AIV4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "In case this is useful for your new lead generation: Found you from Google search \"best eyeglasses camera\" -> click your YouTube video (this) -> like and subscribe before watching the review haha",
+          "positive_features": [
+            [
+              "camera",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgwwCAhvOCnC_DKgryp4AaABAg",
+          "video_title": "能在眼前翻譯的AI眼鏡！還能拍照、錄影、導航、聽音樂！Rokid Glasses樂奇智慧眼鏡開箱！【Joeman】",
+          "video_url": "https://www.youtube.com/watch?v=rI5YuE5mIS4",
+          "text": "the AI assistant sounds super helpful",
+          "positive_features": [
+            [
+              "ai",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxLH-SZGdX6aehMIE54AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "oho sunglasses look neat, may try that",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwoRUB9TeNk7Z_an0R4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "The price breakdown made me realize I’m judging smart glasses like AI search too. I use AICarma to see what ChatGPT says about brands, same idea.",
+          "positive_features": [
+            [
+              "price",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgyA9vZot7-m2_7FWz54AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "Instead of just calling them Smart glasses. Can we call them smart Camera glasses, smart AR  glasses and or Smart AR Camera Glasses. All I want is Smart AR  (Augmented Reality) Glasses.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwF-I_gbZUAojXrQDJ4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "Are their any options for someone blind in one eye and needs prescription lense on the other,.. or am I frucked and doomed to live in the real world forever?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [
+            [
+              "usefulness",
+              1
+            ]
+          ],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugz1WURS3bPQSxBvrKd4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "can we please stop  referring to glasses as \"smart\" glases, just because they have a camera, bluetooth headphoones and maybe a microphone to use your phones \"AI\" assistant. imho \"smart\" glasses should at least have a screen",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgynM-9W3UoKoo1aRi94AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "Im ngl, no recording light is concerning",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgwXMQfZTdY2E5pbaZ94AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "Cheap frames with good lenses is my goal. Most good glasses frames are over 100 so my aim is $150 or knowing what brands to buy 2nd hand for dirt cheap 😊",
+          "positive_features": [
+            [
+              "price",
+              2
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgyTi6vHQCpe1Rg0REp4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "Other than the Rokid. You look like a robot on the more premium glasses...",
+          "positive_features": [
+            [
+              "design",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxrZU57bUcd8Yeher14AaABAg",
+          "video_title": "Probé el Futuro de las Gafas | ROKID Glasses",
+          "video_url": "https://www.youtube.com/watch?v=_0pg2_yBVtM",
+          "text": "Haz probado las principales gafas que me interesan , como lo son las Rayban Display, even realities G1 y G2, las Rokid ,  cual de ellas crees que serían la mejor opción ?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgxwLMB1TR8WaOtkcId4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "I dont want ai or camra glasses i just want some that can link to my phone as a screen that doesnt need a cord :/",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugxn3N1dp4JEaQi7z9l4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "but you need to compare tuem all, not just list price. and do it in the same video. make lasting videos, not cheap videos.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgzpLMbRz_eAyNxI_zh4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "Hell nah I need these to have a recording light",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgzlOMmMPrnIB6OmYBF4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "It's so creepy that a lot of these don't have a recording light, why do you advertice this as a plus?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [
+            [
+              "privacy",
+              1
+            ]
+          ],
+          "persona": "creator"
+        },
+        {
+          "comment_id": "UgzkkLlmASj5DHmlHQF4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "Which Smart glasses with the ability for corrective lenses  have the best sounding audio for music in your opinion.",
+          "positive_features": [
+            [
+              "sound",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgyInTx5ebWQ2EQst3R4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "Are there any good privacy ones? Meta and Amazon are notoriously bad about customer data and I want to trust I can have the product without being the product.",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [
+            [
+              "privacy",
+              1
+            ]
+          ],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgwG79Z35feDDw6tyAV4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "I'm really looking at getting some AR glasses it's really between the X3 pros and the AIR 3 and I'm slightly leaning more towards the X3 because of the form factor but that battery life is atrocious and the air 3 is a little too much in the bulky side and I like the possibilities you can do with that one but I also wanted to be more of an actual AR experience without just being a Android phone slap to my face",
+          "positive_features": [
+            [
+              "battery",
+              1
+            ]
+          ],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "Ugx2HMF_X-WofeZTcip4AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "Hey, thanks for the video! One of my main needs when reading books or magazines is to translate individual words that I’m pointing at. Which device do you think would work best for this purpose?",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": ""
+        },
+        {
+          "comment_id": "UgyTjlueCdyhzRwstx54AaABAg",
+          "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+          "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+          "text": "Fu*k Meta and their no horizontal recording, so stupid. Rokid all the way!",
+          "positive_features": [],
+          "negative_features": [],
+          "doubt_topics": [],
+          "persona": "creator"
+        }
+      ],
+      "top_videos": [
+        {
+          "video_id": "_0pg2_yBVtM",
+          "title": "Probé el Futuro de las Gafas | ROKID Glasses",
+          "channel_title": "Domingo Gomes",
+          "view_count": 780142,
+          "comment_count": 223,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=_0pg2_yBVtM"
+        },
+        {
+          "video_id": "TaUSsP_GeE8",
+          "title": "The Coolest Tech Unveiled at CES 2026!",
+          "channel_title": "UrAvgConsumer",
+          "view_count": 495857,
+          "comment_count": 52,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=TaUSsP_GeE8"
+        },
+        {
+          "video_id": "tupoyyJwo8M",
+          "title": "「邦尼評測」扯！內建「螢幕」AI 眼鏡！Micro LED 螢幕？Rokid Glasses 開箱評測（GPT-5 , AI眼鏡優缺點、即時翻譯、智慧眼鏡推薦 AI提詞機、AI眼鏡值不值得買？",
+          "channel_title": "邦尼幫你 3C 科技 - 開箱評測",
+          "view_count": 432440,
+          "comment_count": 1493,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=tupoyyJwo8M"
+        },
+        {
+          "video_id": "PVs0pwPTLRs",
+          "title": "Best Smart Glasses For Everyone At Every Price Point",
+          "channel_title": "Steven Sullivan",
+          "view_count": 381656,
+          "comment_count": 284,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=PVs0pwPTLRs"
+        },
+        {
+          "video_id": "rI5YuE5mIS4",
+          "title": "能在眼前翻譯的AI眼鏡！還能拍照、錄影、導航、聽音樂！Rokid Glasses樂奇智慧眼鏡開箱！【Joeman】",
+          "channel_title": "Joeman",
+          "view_count": 374430,
+          "comment_count": 527,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=rI5YuE5mIS4"
+        },
+        {
+          "video_id": "7xPpH5h_iTA",
+          "title": "These Glasses are Next-Level - Rokid Smart Glasses!",
+          "channel_title": "iJustine",
+          "view_count": 349521,
+          "comment_count": 130,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=7xPpH5h_iTA"
+        },
+        {
+          "video_id": "1u8qNhSJdFg",
+          "title": "The Best of Both Worlds… - Rokid Glasses",
+          "channel_title": "ShortCircuit",
+          "view_count": 315315,
+          "comment_count": 709,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=1u8qNhSJdFg"
+        },
+        {
+          "video_id": "sg7Gp-gFh-E",
+          "title": "MKBHD vs Meta Ray-Ban Display Glasses😱🔥",
+          "channel_title": "Singular Podcast",
+          "view_count": 273608,
+          "comment_count": 76,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=sg7Gp-gFh-E"
+        },
+        {
+          "video_id": "m5sLBp1m3H4",
+          "title": "不用拿手機了！開箱Rokid AI 智慧眼鏡：繁中導航＋即時翻譯＋錄影拍照全都有！",
+          "channel_title": "3cTim哥生活日常",
+          "view_count": 179634,
+          "comment_count": 77,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=m5sLBp1m3H4"
+        },
+        {
+          "video_id": "nL7JUDYxmnU",
+          "title": "開箱試用 智能電話配搭智能眼鏡 將成趨勢？ ｜入手注意事項｜AI支援廣東話｜只重49g #RokidGlasses #karenly #4k",
+          "channel_title": "Karenly",
+          "view_count": 174848,
+          "comment_count": 497,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=nL7JUDYxmnU"
+        },
+        {
+          "video_id": "4IXLFUiTcdw",
+          "title": "I Tried Rokid AI Glasses at CES 2026 Las Vegas - POV Everywhere",
+          "channel_title": "The Q",
+          "view_count": 148271,
+          "comment_count": 4,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=4IXLFUiTcdw"
+        },
+        {
+          "video_id": "P4salmcNMU0",
+          "title": "Ironman 真身降臨？Second Device 的新時代！Rokid Glasses 實測：AI 廣東話助理 + 提詞器｜去旅行面對面即時翻譯！#cc字幕 #廣東話",
+          "channel_title": "奇積Kjack",
+          "view_count": 142450,
+          "comment_count": 544,
+          "is_short_hint": 0,
+          "url": "https://www.youtube.com/watch?v=P4salmcNMU0"
+        }
+      ],
+      "recent_month_comments": {
+        "comment_count": 133,
+        "relevant_comment_count": 24,
+        "sentiment_counts": {
+          "positive": 8,
+          "negative": 1,
+          "neutral": 15
+        },
+        "relevant_comment_rate": 0.1805,
+        "sentiment_rates": {
+          "positive": 0.0602,
+          "negative": 0.0075,
+          "neutral": 0.625
+        },
+        "top_praised_features": [
+          [
+            "price",
+            3
+          ],
+          [
+            "sound",
+            2
+          ],
+          [
+            "translation",
+            1
+          ],
+          [
+            "camera",
+            1
+          ],
+          [
+            "ai",
+            1
+          ],
+          [
+            "design",
+            1
+          ],
+          [
+            "battery",
+            1
+          ]
+        ],
+        "top_complained_features": [
+          [
+            "sound",
+            1
+          ]
+        ],
+        "top_product_doubts": [
+          [
+            "privacy",
+            2
+          ],
+          [
+            "usefulness",
+            1
+          ]
+        ],
+        "persona_signals": [
+          [
+            "creator",
+            5
+          ],
+          [
+            "traveler",
+            1
+          ]
+        ],
+        "persona_signal_units": 6,
+        "top_terms": [
+          [
+            "are",
+            14
+          ],
+          [
+            "you",
+            13
+          ],
+          [
+            "smart",
+            12
+          ],
+          [
+            "can",
+            12
+          ],
+          [
+            "want",
+            9
+          ],
+          [
+            "these",
+            7
+          ],
+          [
+            "all",
+            7
+          ],
+          [
+            "not",
+            6
+          ],
+          [
+            "need",
+            6
+          ],
+          [
+            "more",
+            6
+          ],
+          [
+            "like",
+            6
+          ],
+          [
+            "don",
+            5
+          ],
+          [
+            "best",
+            5
+          ],
+          [
+            "but",
+            5
+          ],
+          [
+            "same",
+            4
+          ],
+          [
+            "any",
+            4
+          ],
+          [
+            "price",
+            4
+          ],
+          [
+            "product",
+            4
+          ],
+          [
+            "because",
+            4
+          ],
+          [
+            "one",
+            4
+          ]
+        ],
+        "validation_samples": [
+          {
+            "comment_id": "UgxxqCUU5vvr64PaDy14AaABAg",
+            "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+            "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+            "text": "Which is best for live translation by voice/sound. Without having to use your phone, or only translate by text",
+            "positive_features": [
+              [
+                "sound",
+                1
+              ],
+              [
+                "translation",
+                1
+              ]
+            ],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": "traveler"
+          },
+          {
+            "comment_id": "Ugy618yBnRhGWu69_614AaABAg",
+            "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+            "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+            "text": "smart glasses with nothing more than speakers and buttons are dumb, you can literally do the same thing with any modern earbuds or headphones for the same price or less with way better audio",
+            "positive_features": [],
+            "negative_features": [
+              [
+                "sound",
+                1
+              ]
+            ],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "Ugxg8gAK4e_kc8W7N_h4AaABAg",
+            "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+            "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+            "text": "I need information about the OhO Sunshine Edge Pro 4K. How many hours can these glasses record video continuously?",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgztgZBCOgcb_h2CKlx4AaABAg",
+            "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+            "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+            "text": "I would like to see a review on drones, the price and the features as well as if they a need specia\n Permissions in different countries? Hope is not too much and maybe you did it already? Let me k ow so I can whath it. I like the ones that are small . , can stand winds and follow you …",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgwfahYF3huOHBM2AIV4AaABAg",
+            "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+            "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+            "text": "In case this is useful for your new lead generation: Found you from Google search \"best eyeglasses camera\" -> click your YouTube video (this) -> like and subscribe before watching the review haha",
+            "positive_features": [
+              [
+                "camera",
+                1
+              ]
+            ],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": "creator"
+          },
+          {
+            "comment_id": "UgwwCAhvOCnC_DKgryp4AaABAg",
+            "video_title": "能在眼前翻譯的AI眼鏡！還能拍照、錄影、導航、聽音樂！Rokid Glasses樂奇智慧眼鏡開箱！【Joeman】",
+            "video_url": "https://www.youtube.com/watch?v=rI5YuE5mIS4",
+            "text": "the AI assistant sounds super helpful",
+            "positive_features": [
+              [
+                "ai",
+                1
+              ]
+            ],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgxLH-SZGdX6aehMIE54AaABAg",
+            "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+            "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+            "text": "oho sunglasses look neat, may try that",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgwoRUB9TeNk7Z_an0R4AaABAg",
+            "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+            "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+            "text": "The price breakdown made me realize I’m judging smart glasses like AI search too. I use AICarma to see what ChatGPT says about brands, same idea.",
+            "positive_features": [
+              [
+                "price",
+                1
+              ]
+            ],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgyA9vZot7-m2_7FWz54AaABAg",
+            "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+            "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+            "text": "Instead of just calling them Smart glasses. Can we call them smart Camera glasses, smart AR  glasses and or Smart AR Camera Glasses. All I want is Smart AR  (Augmented Reality) Glasses.",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgwF-I_gbZUAojXrQDJ4AaABAg",
+            "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+            "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+            "text": "Are their any options for someone blind in one eye and needs prescription lense on the other,.. or am I frucked and doomed to live in the real world forever?",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [
+              [
+                "usefulness",
+                1
+              ]
+            ],
+            "persona": ""
+          },
+          {
+            "comment_id": "Ugz1WURS3bPQSxBvrKd4AaABAg",
+            "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+            "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+            "text": "can we please stop  referring to glasses as \"smart\" glases, just because they have a camera, bluetooth headphoones and maybe a microphone to use your phones \"AI\" assistant. imho \"smart\" glasses should at least have a screen",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": ""
+          },
+          {
+            "comment_id": "UgynM-9W3UoKoo1aRi94AaABAg",
+            "video_title": "Best Smart Glasses For Everyone At Every Price Point",
+            "video_url": "https://www.youtube.com/watch?v=PVs0pwPTLRs",
+            "text": "Im ngl, no recording light is concerning",
+            "positive_features": [],
+            "negative_features": [],
+            "doubt_topics": [],
+            "persona": "creator"
+          }
+        ]
+      },
+      "cross_brand_mentions": {
+        "relevant_comment_count": 3,
+        "positive_mentions": 0,
+        "negative_mentions": 0,
+        "top_praised_features": [],
+        "top_complained_features": [],
+        "positive_source_split": [],
+        "negative_source_split": [],
+        "comparison_only": {
+          "relevant_comment_count": 1,
+          "positive_mentions": 0,
+          "negative_mentions": 0,
+          "top_praised_features": [],
+          "top_complained_features": [],
+          "positive_source_split": [],
+          "negative_source_split": []
+        }
+      }
+    }
+  },
+  "run_history": [
+    {
+      "run_id": 22,
+      "started_utc": 1772177523,
+      "ended_utc": 1772177533,
+      "status": "ok",
+      "quota_used": 218,
+      "videos_new": 4,
+      "comments_new": 492,
+      "notes": "daily_used_before:3033;daily_remaining_before:4967;rokid_video_exhausted:4IXLFUiTcdw;meta_display_video_exhausted:ZLhSHXvGUgA;even_video_exhausted:0cgQkzoZMWc;search_brand:rokid;search_query:\"Rokid Glasses\";rokid_short_search:1;rokid_videos:16;rokid_video_exhausted:_0pg2_yBVtM;rokid_video_exhausted:TaUSsP_GeE8;rokid_comment_error:400;rokid_video_exhausted:PVs0pwPTLRs;rokid_video_exhausted:7xPpH5h_iTA;daily_used_after:3251"
+    },
+    {
+      "run_id": 21,
+      "started_utc": 1772177195,
+      "ended_utc": 1772177205,
+      "status": "ok",
+      "quota_used": 118,
+      "videos_new": 12,
+      "comments_new": 427,
+      "notes": "daily_used_before:2915;daily_remaining_before:5085;rokid_video_exhausted:m5sLBp1m3H4;meta_video_exhausted:cunXkHBVCeQ;meta_display_video_exhausted:L1d_U2wVH9E;even_video_exhausted:BYAOd4exbVo;search_brand:even;search_query:\"Even Realities G2\";even_videos:25;even_video_exhausted:tAIhp9hia90;even_comment_error:400;even_video_exhausted:E_Hrbj4h9Sw;even_video_exhausted:ykvb8FvSMmo;even_video_exhausted:UbIqhPqJuK0;daily_used_after:3033"
+    },
+    {
+      "run_id": 20,
+      "started_utc": 1772176838,
+      "ended_utc": 1772176858,
+      "status": "ok",
+      "quota_used": 129,
+      "videos_new": 0,
+      "comments_new": 2396,
+      "notes": "daily_used_before:2786;daily_remaining_before:5214;meta_video_exhausted:zCb3wMIyiHg;search_brand:meta_display;search_query:\"Meta Ray-Ban Display\";meta_display_videos:9;meta_display_video_exhausted:bJ7EZ1imsc0;meta_display_video_exhausted:gZ9IsB72nVk;daily_used_after:2915"
+    },
+    {
+      "run_id": 19,
+      "started_utc": 1772176490,
+      "ended_utc": 1772176506,
+      "status": "ok",
+      "quota_used": 127,
+      "videos_new": 0,
+      "comments_new": 1267,
+      "notes": "daily_used_before:2659;daily_remaining_before:5341;rokid_video_exhausted:sg7Gp-gFh-E;meta_video_exhausted:lBwwp6Bnsn0;even_video_exhausted:EBoVJwmDU-8;search_brand:meta;search_query:\"Ray-Ban Meta\";meta_videos:6;meta_video_exhausted:azBPIuNNbPA;meta_video_exhausted:jSWY3zVL1Lw;meta_video_exhausted:xEZ9rDRueO0;meta_video_exhausted:Ul_F-2rC7Oc;daily_used_after:2786"
+    },
+    {
+      "run_id": 18,
+      "started_utc": 1772176149,
+      "ended_utc": 1772176162,
+      "status": "ok",
+      "quota_used": 122,
+      "videos_new": 0,
+      "comments_new": 960,
+      "notes": "daily_used_before:2537;daily_remaining_before:5463;meta_video_exhausted:q2eo5FO62Tw;even_video_exhausted:S-GQvElmXAo;search_brand:rokid;search_query:\"Rokid Glasses\";rokid_videos:12;rokid_video_exhausted:_0pg2_yBVtM;rokid_video_exhausted:TaUSsP_GeE8;rokid_video_exhausted:PVs0pwPTLRs;rokid_video_exhausted:rI5YuE5mIS4;rokid_video_exhausted:7xPpH5h_iTA;daily_used_after:2659"
+    },
+    {
+      "run_id": 17,
+      "started_utc": 1772175814,
+      "ended_utc": 1772175825,
+      "status": "ok",
+      "quota_used": 119,
+      "videos_new": 0,
+      "comments_new": 875,
+      "notes": "daily_used_before:2418;daily_remaining_before:5582;rokid_video_exhausted:T_LSamQUOlM;meta_video_exhausted:Jt1qaYlhHqs;meta_display_video_exhausted:oZ6ONDZXuV4;even_video_exhausted:pkP28wcvTAg;search_brand:even;search_query:\"Even Realities G2\";even_videos:12;even_video_exhausted:tAIhp9hia90;even_video_exhausted:E_Hrbj4h9Sw;even_video_exhausted:ykvb8FvSMmo;even_video_exhausted:yZrcgiKFOD0;even_video_exhausted:ikyOQrNXXnE;daily_used_after:2537"
+    },
+    {
+      "run_id": 16,
+      "started_utc": 1772175478,
+      "ended_utc": 1772175492,
+      "status": "ok",
+      "quota_used": 221,
+      "videos_new": 1,
+      "comments_new": 1500,
+      "notes": "daily_used_before:2197;daily_remaining_before:5803;rokid_video_exhausted:O-OBWaNDheA;meta_video_exhausted:8U0e7Sz2CJA;meta_display_video_exhausted:zTxJKjTwE6M;even_video_exhausted:YN9XJuWxLqA;search_brand:meta_display;search_query:\"Meta Ray-Ban Display\";meta_display_short_search:1;meta_display_videos:10;meta_display_video_exhausted:bJ7EZ1imsc0;daily_used_after:2418"
+    },
+    {
+      "run_id": 15,
+      "started_utc": 1772175148,
+      "ended_utc": 1772175161,
+      "status": "ok",
+      "quota_used": 123,
+      "videos_new": 0,
+      "comments_new": 1021,
+      "notes": "daily_used_before:2074;daily_remaining_before:5926;rokid_video_exhausted:64ylkhs3QE0;meta_video_exhausted:rwau9utMKe4;meta_display_video_exhausted:7YuA7u_pqAg;even_video_exhausted:KGGZMj7stPQ;search_brand:meta;search_query:\"Ray-Ban Meta\";meta_videos:6;meta_video_exhausted:azBPIuNNbPA;meta_video_exhausted:xEZ9rDRueO0;meta_video_exhausted:Ul_F-2rC7Oc;daily_used_after:2197"
+    },
+    {
+      "run_id": 14,
+      "started_utc": 1772174833,
+      "ended_utc": 1772174844,
+      "status": "ok",
+      "quota_used": 119,
+      "videos_new": 0,
+      "comments_new": 743,
+      "notes": "daily_used_before:1955;daily_remaining_before:6045;rokid_video_exhausted:1t4LmYCDBWg;meta_display_video_exhausted:v5mECzUb8Ls;even_video_exhausted:wJa-3XYgJNk;search_brand:rokid;search_query:\"Rokid Glasses\";rokid_videos:12;rokid_video_exhausted:_0pg2_yBVtM;rokid_video_exhausted:TaUSsP_GeE8;rokid_video_exhausted:PVs0pwPTLRs;rokid_video_exhausted:rI5YuE5mIS4;rokid_video_exhausted:7xPpH5h_iTA;daily_used_after:2074"
+    },
+    {
+      "run_id": 13,
+      "started_utc": 1772174520,
+      "ended_utc": 1772174531,
+      "status": "ok",
+      "quota_used": 119,
+      "videos_new": 0,
+      "comments_new": 1249,
+      "notes": "daily_used_before:1836;daily_remaining_before:6164;rokid_video_exhausted:6OdgS8IMGY4;meta_video_exhausted:rkLetBCOBSc;meta_display_video_exhausted:ZLhSHXvGUgA;even_video_exhausted:sXRC55ksuEA;search_brand:even;search_query:\"Even Realities G2\";even_videos:12;even_video_exhausted:tAIhp9hia90;even_video_exhausted:E_Hrbj4h9Sw;even_video_exhausted:ykvb8FvSMmo;daily_used_after:1955"
+    },
+    {
+      "run_id": 12,
+      "started_utc": 1772174204,
+      "ended_utc": 1772174219,
+      "status": "ok",
+      "quota_used": 123,
+      "videos_new": 0,
+      "comments_new": 1762,
+      "notes": "daily_used_before:1713;daily_remaining_before:6287;rokid_video_exhausted:oBYCm-3nXPE;meta_display_video_exhausted:L1d_U2wVH9E;even_video_exhausted:b_uEGLKxkWs;search_brand:meta_display;search_query:\"Meta Ray-Ban Display\";meta_display_videos:9;meta_display_video_exhausted:bJ7EZ1imsc0;daily_used_after:1836"
+    },
+    {
+      "run_id": 11,
+      "started_utc": 1772174001,
+      "ended_utc": 1772174008,
+      "status": "ok",
+      "quota_used": 111,
+      "videos_new": 0,
+      "comments_new": 806,
+      "notes": "daily_used_before:1602;daily_remaining_before:6398;search_brand:meta;search_query:\"Ray-Ban Meta\";meta_videos:6;daily_used_after:1713"
+    },
+    {
+      "run_id": 10,
+      "started_utc": 1772173691,
+      "ended_utc": 1772173699,
+      "status": "ok",
+      "quota_used": 111,
+      "videos_new": 0,
+      "comments_new": 767,
+      "notes": "daily_used_before:1491;daily_remaining_before:6509;search_brand:rokid;search_query:\"Rokid Glasses\";rokid_videos:12;daily_used_after:1602"
+    },
+    {
+      "run_id": 9,
+      "started_utc": 1772173555,
+      "ended_utc": 1772173561,
+      "status": "ok",
+      "quota_used": 111,
+      "videos_new": 0,
+      "comments_new": 80,
+      "notes": "daily_used_before:1380;daily_remaining_before:2620;search_brand:even;search_query:\"Even Realities G2\";even_videos:12;daily_used_after:1491"
+    },
+    {
+      "run_id": 8,
+      "started_utc": 1772173346,
+      "ended_utc": 1772173351,
+      "status": "ok",
+      "quota_used": 111,
+      "videos_new": 9,
+      "comments_new": 164,
+      "notes": "daily_used_before:1269;daily_remaining_before:2731;search_brand:meta_display;search_query:\"Meta Ray-Ban Display\";meta_display_videos:9;daily_used_after:1380"
+    },
+    {
+      "run_id": 7,
+      "started_utc": 1772173329,
+      "ended_utc": 1772173334,
+      "status": "ok",
+      "quota_used": 111,
+      "videos_new": 13,
+      "comments_new": 160,
+      "notes": "daily_used_before:1158;daily_remaining_before:2842;search_brand:meta;search_query:\"Ray-Ban Meta\";meta_videos:13;daily_used_after:1269"
+    },
+    {
+      "run_id": 6,
+      "started_utc": 1772173325,
+      "ended_utc": 1772173329,
+      "status": "ok",
+      "quota_used": 111,
+      "videos_new": 3,
+      "comments_new": 40,
+      "notes": "daily_used_before:1047;daily_remaining_before:2953;search_brand:rokid;search_query:\"Rokid Glasses\";rokid_videos:12;daily_used_after:1158"
+    },
+    {
+      "run_id": 5,
+      "started_utc": 1772173248,
+      "ended_utc": 1772173255,
+      "status": "ok",
+      "quota_used": 111,
+      "videos_new": 12,
+      "comments_new": 140,
+      "notes": "daily_used_before:936;daily_remaining_before:3064;search_brand:even;search_query:\"Even Realities G2\";even_videos:12;daily_used_after:1047"
+    },
+    {
+      "run_id": 4,
+      "started_utc": 1772173238,
+      "ended_utc": 1772173325,
+      "status": "error",
+      "quota_used": 0,
+      "videos_new": 0,
+      "comments_new": 0,
+      "notes": "manual_stale_cleanup;kickstart_interrupted"
+    },
+    {
+      "run_id": 3,
+      "started_utc": 1772173228,
+      "ended_utc": 1772173325,
+      "status": "error",
+      "quota_used": 0,
+      "videos_new": 0,
+      "comments_new": 0,
+      "notes": "manual_stale_cleanup;kickstart_interrupted"
+    }
+  ]
+}

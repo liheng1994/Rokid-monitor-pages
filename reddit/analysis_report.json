@@ -1,0 +1,3994 @@
+{
+  "generated_utc": 1772761606,
+  "window_months": 2,
+  "products": {
+    "rokid": {
+      "post_count": 218,
+      "excluded_irrelevant_posts_in_window": 2,
+      "comment_count": 1610,
+      "unique_post_authors": 131,
+      "comment_fetch_coverage_ratio": 0.9753,
+      "source_summary": {
+        "official_subreddit_posts": 220,
+        "search_posts": 0
+      },
+      "top_complaints": [
+        [
+          "connectivity",
+          36
+        ],
+        [
+          "customer_service",
+          33
+        ],
+        [
+          "software",
+          31
+        ],
+        [
+          "display",
+          31
+        ],
+        [
+          "ai",
+          19
+        ],
+        [
+          "prescription_lenses",
+          17
+        ],
+        [
+          "battery",
+          16
+        ],
+        [
+          "comfort",
+          16
+        ],
+        [
+          "price",
+          12
+        ],
+        [
+          "camera",
+          6
+        ]
+      ],
+      "top_complaints_breakdown": {
+        "connectivity": [
+          [
+            "Bluetooth Pairing & Setup",
+            13,
+            36.1
+          ],
+          [
+            "Phone/OS Compatibility",
+            10,
+            27.8
+          ],
+          [
+            "Audio & Call Volume",
+            8,
+            22.2
+          ],
+          [
+            "Other",
+            3,
+            8.3
+          ],
+          [
+            "Permissions (mic)",
+            1,
+            2.8
+          ],
+          [
+            "Network/Internet",
+            1,
+            2.8
+          ]
+        ],
+        "ai": [
+          [
+            "Feature coverage (assistant)",
+            9,
+            47.4
+          ],
+          [
+            "Accuracy/Quality",
+            5,
+            26.3
+          ],
+          [
+            "Voice recognition/ASR",
+            2,
+            10.5
+          ],
+          [
+            "Translation/Captions",
+            2,
+            10.5
+          ],
+          [
+            "Assistant recommendations/chat",
+            1,
+            5.3
+          ]
+        ],
+        "camera": [
+          [
+            "Video Stability/Jerky",
+            2,
+            33.3
+          ],
+          [
+            "Audio in Recording",
+            1,
+            16.7
+          ],
+          [
+            "Hardware defect/Support",
+            1,
+            16.7
+          ],
+          [
+            "Low-light/Night",
+            1,
+            16.7
+          ],
+          [
+            "Appearance in camera (overlay)",
+            1,
+            16.7
+          ]
+        ],
+        "battery": [
+          [
+            "Charging Case/Capsules",
+            6,
+            37.5
+          ],
+          [
+            "Battery Life & Drain",
+            5,
+            31.2
+          ],
+          [
+            "Battery Indicator Accuracy",
+            3,
+            18.8
+          ],
+          [
+            "Overheating & Safety",
+            1,
+            6.2
+          ],
+          [
+            "Other",
+            1,
+            6.2
+          ]
+        ],
+        "software": [
+          [
+            "Updates & Firmware",
+            9,
+            29.0
+          ],
+          [
+            "Media & Apps",
+            8,
+            25.8
+          ],
+          [
+            "Call/Mic & Voice",
+            3,
+            9.7
+          ],
+          [
+            "Other",
+            3,
+            9.7
+          ],
+          [
+            "Navigation & Maps",
+            2,
+            6.5
+          ],
+          [
+            "Input & Controls",
+            2,
+            6.5
+          ],
+          [
+            "Notifications & Phone Integration",
+            1,
+            3.2
+          ],
+          [
+            "Performance & Latency",
+            1,
+            3.2
+          ],
+          [
+            "Stability/Bugs",
+            1,
+            3.2
+          ],
+          [
+            "Account/Login & Sync",
+            1,
+            3.2
+          ]
+        ],
+        "comfort": [
+          [
+            "Nose Fit/Pressure",
+            6,
+            37.5
+          ],
+          [
+            "Weight/Long-wear Fatigue",
+            4,
+            25.0
+          ],
+          [
+            "Eye Strain/Headache",
+            2,
+            12.5
+          ],
+          [
+            "Other",
+            2,
+            12.5
+          ],
+          [
+            "Accessories fit (clip-on)",
+            1,
+            6.2
+          ],
+          [
+            "Aesthetics/Form Factor",
+            1,
+            6.2
+          ]
+        ],
+        "display": [
+          [
+            "Focus/Blur & Rx Interaction",
+            17,
+            54.8
+          ],
+          [
+            "Display Settings (clock/units/widgets)",
+            6,
+            19.4
+          ],
+          [
+            "Positioning & Alignment",
+            4,
+            12.9
+          ],
+          [
+            "Glare/Reflections/Artifacts",
+            2,
+            6.5
+          ],
+          [
+            "Language/Localization",
+            1,
+            3.2
+          ],
+          [
+            "Translation UX (audio vs text)",
+            1,
+            3.2
+          ]
+        ],
+        "price": [
+          [
+            "Value for Money",
+            5,
+            41.7
+          ],
+          [
+            "Accessory/Lens Costs",
+            4,
+            33.3
+          ],
+          [
+            "Return Economics",
+            1,
+            8.3
+          ],
+          [
+            "Other",
+            1,
+            8.3
+          ],
+          [
+            "Discounts/Coupons/Price Changes",
+            1,
+            8.3
+          ]
+        ],
+        "privacy": [
+          [
+            "Model/On-device AI & data stack",
+            2,
+            50.0
+          ],
+          [
+            "Recording/Indicator",
+            1,
+            25.0
+          ],
+          [
+            "Security/Pairing",
+            1,
+            25.0
+          ]
+        ],
+        "customer_service": [
+          [
+            "Accessories/Parts",
+            11,
+            33.3
+          ],
+          [
+            "Order Issues",
+            10,
+            30.3
+          ],
+          [
+            "Shipping/Tracking",
+            5,
+            15.2
+          ],
+          [
+            "Support Responsiveness",
+            2,
+            6.1
+          ],
+          [
+            "Other",
+            2,
+            6.1
+          ],
+          [
+            "Returns/Refunds",
+            2,
+            6.1
+          ],
+          [
+            "Community/Moderation issues",
+            1,
+            3.0
+          ]
+        ],
+        "prescription_lenses": [
+          [
+            "Readability/Progressives",
+            7,
+            41.2
+          ],
+          [
+            "Insert Fit/Installation",
+            3,
+            17.6
+          ],
+          [
+            "Availability/Process/Partners",
+            2,
+            11.8
+          ],
+          [
+            "Rx Limits/Compatibility",
+            2,
+            11.8
+          ],
+          [
+            "Cost/Pricing",
+            1,
+            5.9
+          ],
+          [
+            "Optical Quality (glare/distortion)",
+            1,
+            5.9
+          ],
+          [
+            "Other",
+            1,
+            5.9
+          ]
+        ]
+      },
+      "top_liked_features": [
+        [
+          "ai",
+          46
+        ],
+        [
+          "software",
+          43
+        ],
+        [
+          "display",
+          28
+        ],
+        [
+          "camera",
+          22
+        ],
+        [
+          "audio",
+          18
+        ],
+        [
+          "navigation",
+          18
+        ],
+        [
+          "translation",
+          13
+        ],
+        [
+          "prescription_lenses",
+          11
+        ],
+        [
+          "developer",
+          10
+        ],
+        [
+          "fashion",
+          8
+        ]
+      ],
+      "top_liked_features_breakdown": {
+        "software": [
+          [
+            "Overall app experience",
+            18,
+            41.9
+          ],
+          [
+            "Call/phone integration",
+            11,
+            25.6
+          ],
+          [
+            "Reliability & updates",
+            6,
+            14.0
+          ],
+          [
+            "Other",
+            4,
+            9.3
+          ],
+          [
+            "Notifications integration",
+            3,
+            7.0
+          ],
+          [
+            "Customization & settings",
+            1,
+            2.3
+          ]
+        ],
+        "customer_service": [
+          [
+            "Helpful support / responsiveness",
+            3,
+            60.0
+          ],
+          [
+            "Community support",
+            2,
+            40.0
+          ]
+        ],
+        "prescription_lenses": [
+          [
+            "Prescription compatibility",
+            11,
+            100.0
+          ]
+        ],
+        "audio": [
+          [
+            "Microphone & call audio",
+            7,
+            38.9
+          ],
+          [
+            "Music listening",
+            5,
+            27.8
+          ],
+          [
+            "Speaker quality",
+            4,
+            22.2
+          ],
+          [
+            "Other",
+            2,
+            11.1
+          ]
+        ],
+        "fashion": [
+          [
+            "Stylish/looks like normal glasses",
+            5,
+            62.5
+          ],
+          [
+            "Color/photochromic options",
+            2,
+            25.0
+          ],
+          [
+            "Waveguide visibility concerns",
+            1,
+            12.5
+          ]
+        ],
+        "ai": [
+          [
+            "Assistant usefulness/productivity",
+            10,
+            21.7
+          ],
+          [
+            "Quality/accuracy",
+            9,
+            19.6
+          ],
+          [
+            "ChatGPT/LLM integration",
+            6,
+            13.0
+          ],
+          [
+            "Vision AI / object recognition",
+            5,
+            10.9
+          ],
+          [
+            "Comparison & feature gaps",
+            4,
+            8.7
+          ],
+          [
+            "Speed/latency",
+            4,
+            8.7
+          ],
+          [
+            "AI shortcuts & automation",
+            4,
+            8.7
+          ],
+          [
+            "Other",
+            4,
+            8.7
+          ]
+        ],
+        "design": [
+          [
+            "Build quality/premium feel",
+            3,
+            60.0
+          ],
+          [
+            "Waveguide/optics engineering",
+            1,
+            20.0
+          ],
+          [
+            "Accessories/modularity",
+            1,
+            20.0
+          ]
+        ],
+        "navigation": [
+          [
+            "Google Maps availability & regions",
+            8,
+            44.4
+          ],
+          [
+            "Turn-by-turn convenience",
+            7,
+            38.9
+          ],
+          [
+            "Hands-free on the go",
+            3,
+            16.7
+          ]
+        ],
+        "developer": [
+          [
+            "SDK / developer friendliness",
+            5,
+            50.0
+          ],
+          [
+            "Customization / tinkering",
+            2,
+            20.0
+          ],
+          [
+            "Community & examples",
+            2,
+            20.0
+          ],
+          [
+            "Performance/compute potential",
+            1,
+            10.0
+          ]
+        ],
+        "translation": [
+          [
+            "Real-time translation value",
+            11,
+            84.6
+          ],
+          [
+            "Language coverage",
+            2,
+            15.4
+          ]
+        ],
+        "camera": [
+          [
+            "Photo quality",
+            7,
+            31.8
+          ],
+          [
+            "Hands-free capture",
+            5,
+            22.7
+          ],
+          [
+            "Video quality",
+            4,
+            18.2
+          ],
+          [
+            "Other",
+            4,
+            18.2
+          ],
+          [
+            "Stabilization",
+            2,
+            9.1
+          ]
+        ],
+        "display": [
+          [
+            "HUD utility (see info on lens)",
+            5,
+            17.9
+          ],
+          [
+            "Language & subtitles usage",
+            5,
+            17.9
+          ],
+          [
+            "Aesthetics of waveguide/display",
+            4,
+            14.3
+          ],
+          [
+            "Display vs no-display choice",
+            4,
+            14.3
+          ],
+          [
+            "Adjustability (height/position)",
+            4,
+            14.3
+          ],
+          [
+            "Other",
+            3,
+            10.7
+          ],
+          [
+            "Readability/clarity",
+            1,
+            3.6
+          ],
+          [
+            "Spatial anchoring / AR",
+            1,
+            3.6
+          ],
+          [
+            "Focus/blur improvements",
+            1,
+            3.6
+          ]
+        ]
+      },
+      "frequently_asked_questions": [
+        [
+          "ai",
+          43
+        ],
+        [
+          "display",
+          38
+        ],
+        [
+          "connectivity",
+          30
+        ],
+        [
+          "battery_life",
+          25
+        ],
+        [
+          "prescription_lenses",
+          25
+        ],
+        [
+          "translation",
+          22
+        ],
+        [
+          "after_sales",
+          21
+        ],
+        [
+          "audio",
+          16
+        ],
+        [
+          "navigation",
+          11
+        ],
+        [
+          "development_related",
+          10
+        ],
+        [
+          "privacy",
+          8
+        ]
+      ],
+      "persona_signals": [
+        [
+          "productivity",
+          171
+        ],
+        [
+          "fashion_lifestyle",
+          132
+        ],
+        [
+          "traveler",
+          74
+        ],
+        [
+          "developer",
+          43
+        ],
+        [
+          "tech_enthusiast",
+          35
+        ],
+        [
+          "creator",
+          27
+        ]
+      ],
+      "module_totals": {
+        "top_complaints": 221,
+        "top_liked_features": 227,
+        "frequently_asked_questions": 249,
+        "persona_signals": 482,
+        "repeat_share_authors_posts": 131
+      },
+      "sentiment_units": {
+        "positive_signal_units": 157,
+        "negative_signal_units": 154
+      },
+      "sentiment_threads": {
+        "positive_signal_threads": 99,
+        "negative_signal_threads": 84
+      },
+      "repeat_post_authors": {
+        "one_time": 100,
+        "repeat_2_3": 20,
+        "repeat_4_plus": 11
+      },
+      "top_terms": [
+        [
+          "you",
+          986
+        ],
+        [
+          "but",
+          496
+        ],
+        [
+          "can",
+          434
+        ],
+        [
+          "are",
+          395
+        ],
+        [
+          "not",
+          360
+        ],
+        [
+          "app",
+          265
+        ],
+        [
+          "like",
+          257
+        ],
+        [
+          "get",
+          232
+        ],
+        [
+          "was",
+          198
+        ],
+        [
+          "use",
+          193
+        ],
+        [
+          "will",
+          191
+        ],
+        [
+          "display",
+          190
+        ],
+        [
+          "all",
+          176
+        ],
+        [
+          "now",
+          168
+        ],
+        [
+          "don",
+          162
+        ],
+        [
+          "out",
+          157
+        ],
+        [
+          "phone",
+          152
+        ],
+        [
+          "lenses",
+          152
+        ],
+        [
+          "also",
+          150
+        ],
+        [
+          "more",
+          147
+        ]
+      ],
+      "representative_pain_posts": {
+        "connectivity": {
+          "post_id": "1rkpbu9",
+          "title": "Hi Rokid App is finally importing calendar entries from phone but marking them all completed.",
+          "subreddit": "rokid_official",
+          "score": 3,
+          "num_comments": 4,
+          "author": "fearfair",
+          "created_utc": 1772640219,
+          "url": "https://reddit.com/r/rokid_official/comments/1rkpbu9"
+        },
+        "ai": {
+          "post_id": "1rk518a",
+          "title": "Issue with call function on rokid ai glasses",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 9,
+          "author": "Zodian87",
+          "created_utc": 1772580090,
+          "url": "https://reddit.com/r/rokid_official/comments/1rk518a"
+        },
+        "camera": {
+          "post_id": "1rk518a",
+          "title": "Issue with call function on rokid ai glasses",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 9,
+          "author": "Zodian87",
+          "created_utc": 1772580090,
+          "url": "https://reddit.com/r/rokid_official/comments/1rk518a"
+        },
+        "battery": {
+          "post_id": "1rk518a",
+          "title": "Issue with call function on rokid ai glasses",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 9,
+          "author": "Zodian87",
+          "created_utc": 1772580090,
+          "url": "https://reddit.com/r/rokid_official/comments/1rk518a"
+        },
+        "software": {
+          "post_id": "1rk518a",
+          "title": "Issue with call function on rokid ai glasses",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 9,
+          "author": "Zodian87",
+          "created_utc": 1772580090,
+          "url": "https://reddit.com/r/rokid_official/comments/1rk518a"
+        },
+        "comfort": {
+          "post_id": "1rj5lyk",
+          "title": "Will I ever get my product?",
+          "subreddit": "rokid_official",
+          "score": 0,
+          "num_comments": 11,
+          "author": "Sad_Woodpecker_5448",
+          "created_utc": 1772486397,
+          "url": "https://reddit.com/r/rokid_official/comments/1rj5lyk"
+        },
+        "display": {
+          "post_id": "1rg3og9",
+          "title": "The First 48",
+          "subreddit": "rokid_official",
+          "score": 7,
+          "num_comments": 12,
+          "author": "beltemps",
+          "created_utc": 1772189983,
+          "url": "https://reddit.com/r/rokid_official/comments/1rg3og9"
+        },
+        "price": {
+          "post_id": "1rg3og9",
+          "title": "The First 48",
+          "subreddit": "rokid_official",
+          "score": 7,
+          "num_comments": 12,
+          "author": "beltemps",
+          "created_utc": 1772189983,
+          "url": "https://reddit.com/r/rokid_official/comments/1rg3og9"
+        },
+        "privacy": {
+          "post_id": "1rfumch",
+          "title": "👉 Gemini Now Available on Hi Rokid as Optional LLM",
+          "subreddit": "rokid_official",
+          "score": 11,
+          "num_comments": 11,
+          "author": "Disastrous-Gene-6757",
+          "created_utc": 1772160119,
+          "url": "https://reddit.com/r/rokid_official/comments/1rfumch"
+        },
+        "customer_service": {
+          "post_id": "1reu6rm",
+          "title": "What happened to my order???",
+          "subreddit": "rokid_official",
+          "score": 0,
+          "num_comments": 9,
+          "author": "Terrible_Power_1149",
+          "created_utc": 1772063345,
+          "url": "https://reddit.com/r/rokid_official/comments/1reu6rm"
+        },
+        "prescription_lenses": {
+          "post_id": "1qzp6sv",
+          "title": "Questions about the Rokid AI glasses",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 18,
+          "author": "MatthiasKrios",
+          "created_utc": 1770595657,
+          "url": "https://reddit.com/r/rokid_official/comments/1qzp6sv"
+        }
+      },
+      "representative_like_posts": {
+        "software": {
+          "post_id": "1rk518a",
+          "title": "Issue with call function on rokid ai glasses",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 9,
+          "author": "Zodian87",
+          "created_utc": 1772580090,
+          "url": "https://reddit.com/r/rokid_official/comments/1rk518a"
+        },
+        "customer_service": {
+          "post_id": "1rk518a",
+          "title": "Issue with call function on rokid ai glasses",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 9,
+          "author": "Zodian87",
+          "created_utc": 1772580090,
+          "url": "https://reddit.com/r/rokid_official/comments/1rk518a"
+        },
+        "prescription_lenses": {
+          "post_id": "1rk518a",
+          "title": "Issue with call function on rokid ai glasses",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 9,
+          "author": "Zodian87",
+          "created_utc": 1772580090,
+          "url": "https://reddit.com/r/rokid_official/comments/1rk518a"
+        },
+        "audio": {
+          "post_id": "1rk518a",
+          "title": "Issue with call function on rokid ai glasses",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 9,
+          "author": "Zodian87",
+          "created_utc": 1772580090,
+          "url": "https://reddit.com/r/rokid_official/comments/1rk518a"
+        },
+        "fashion": {
+          "post_id": "1rj5lyk",
+          "title": "Will I ever get my product?",
+          "subreddit": "rokid_official",
+          "score": 0,
+          "num_comments": 11,
+          "author": "Sad_Woodpecker_5448",
+          "created_utc": 1772486397,
+          "url": "https://reddit.com/r/rokid_official/comments/1rj5lyk"
+        },
+        "ai": {
+          "post_id": "1riydob",
+          "title": "Rokid glasses languages",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 3,
+          "author": "Ornery-Process462",
+          "created_utc": 1772470851,
+          "url": "https://reddit.com/r/rokid_official/comments/1riydob"
+        },
+        "design": {
+          "post_id": "1rg3og9",
+          "title": "The First 48",
+          "subreddit": "rokid_official",
+          "score": 7,
+          "num_comments": 12,
+          "author": "beltemps",
+          "created_utc": 1772189983,
+          "url": "https://reddit.com/r/rokid_official/comments/1rg3og9"
+        },
+        "navigation": {
+          "post_id": "1rg3og9",
+          "title": "The First 48",
+          "subreddit": "rokid_official",
+          "score": 7,
+          "num_comments": 12,
+          "author": "beltemps",
+          "created_utc": 1772189983,
+          "url": "https://reddit.com/r/rokid_official/comments/1rg3og9"
+        },
+        "developer": {
+          "post_id": "1rfumch",
+          "title": "👉 Gemini Now Available on Hi Rokid as Optional LLM",
+          "subreddit": "rokid_official",
+          "score": 11,
+          "num_comments": 11,
+          "author": "Disastrous-Gene-6757",
+          "created_utc": 1772160119,
+          "url": "https://reddit.com/r/rokid_official/comments/1rfumch"
+        },
+        "translation": {
+          "post_id": "1rdm12b",
+          "title": "Rokid rv101 questions.",
+          "subreddit": "rokid_official",
+          "score": 2,
+          "num_comments": 54,
+          "author": "RobustLicense94",
+          "created_utc": 1771952906,
+          "url": "https://reddit.com/r/rokid_official/comments/1rdm12b"
+        },
+        "camera": {
+          "post_id": "1rdm12b",
+          "title": "Rokid rv101 questions.",
+          "subreddit": "rokid_official",
+          "score": 2,
+          "num_comments": 54,
+          "author": "RobustLicense94",
+          "created_utc": 1771952906,
+          "url": "https://reddit.com/r/rokid_official/comments/1rdm12b"
+        },
+        "display": {
+          "post_id": "1rdm12b",
+          "title": "Rokid rv101 questions.",
+          "subreddit": "rokid_official",
+          "score": 2,
+          "num_comments": 54,
+          "author": "RobustLicense94",
+          "created_utc": 1771952906,
+          "url": "https://reddit.com/r/rokid_official/comments/1rdm12b"
+        }
+      },
+      "representative_faq_posts": {
+        "connectivity": {
+          "post_id": "1rkpe0b",
+          "title": "Stale Notifications from iPhone?",
+          "subreddit": "rokid_official",
+          "score": 2,
+          "num_comments": 1,
+          "author": "fearfair",
+          "created_utc": 1772640344,
+          "url": "https://reddit.com/r/rokid_official/comments/1rkpe0b"
+        },
+        "audio": {
+          "post_id": "1rk518a",
+          "title": "Issue with call function on rokid ai glasses",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 9,
+          "author": "Zodian87",
+          "created_utc": 1772580090,
+          "url": "https://reddit.com/r/rokid_official/comments/1rk518a"
+        },
+        "after_sales": {
+          "post_id": "1rk518a",
+          "title": "Issue with call function on rokid ai glasses",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 9,
+          "author": "Zodian87",
+          "created_utc": 1772580090,
+          "url": "https://reddit.com/r/rokid_official/comments/1rk518a"
+        },
+        "battery_life": {
+          "post_id": "1rjp9ju",
+          "title": "3rd party Charging Cable",
+          "subreddit": "rokid_official",
+          "score": 4,
+          "num_comments": 5,
+          "author": "crixster--",
+          "created_utc": 1772544322,
+          "url": "https://reddit.com/r/rokid_official/comments/1rjp9ju"
+        },
+        "ai": {
+          "post_id": "1riydob",
+          "title": "Rokid glasses languages",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 3,
+          "author": "Ornery-Process462",
+          "created_utc": 1772470851,
+          "url": "https://reddit.com/r/rokid_official/comments/1riydob"
+        },
+        "prescription_lenses": {
+          "post_id": "1rgrobf",
+          "title": "Can I use the prescription lens frames but non-prescription lenses?",
+          "subreddit": "rokid_official",
+          "score": 2,
+          "num_comments": 5,
+          "author": "fearfair",
+          "created_utc": 1772248704,
+          "url": "https://reddit.com/r/rokid_official/comments/1rgrobf"
+        },
+        "translation": {
+          "post_id": "1rfpp8m",
+          "title": "Gemini is onboard now!",
+          "subreddit": "rokid_official",
+          "score": 14,
+          "num_comments": 13,
+          "author": "Present_Flounder_127",
+          "created_utc": 1772147441,
+          "url": "https://reddit.com/r/rokid_official/comments/1rfpp8m"
+        },
+        "display": {
+          "post_id": "1rf0zb0",
+          "title": "How long from the time you place order do you get the glasses???",
+          "subreddit": "rokid_official",
+          "score": 1,
+          "num_comments": 10,
+          "author": "ZestycloseHeron5100",
+          "created_utc": 1772081493,
+          "url": "https://reddit.com/r/rokid_official/comments/1rf0zb0"
+        },
+        "development_related": {
+          "post_id": "1rey9hh",
+          "title": "In need of New cable",
+          "subreddit": "rokid_official",
+          "score": 3,
+          "num_comments": 6,
+          "author": "nvonshats",
+          "created_utc": 1772073744,
+          "url": "https://reddit.com/r/rokid_official/comments/1rey9hh"
+        },
+        "navigation": {
+          "post_id": "1r7da0r",
+          "title": "Rokid Glasses ETA?",
+          "subreddit": "rokid_official",
+          "score": 2,
+          "num_comments": 22,
+          "author": "ARGlasses",
+          "created_utc": 1771350786,
+          "url": "https://reddit.com/r/rokid_official/comments/1r7da0r"
+        },
+        "privacy": {
+          "post_id": "1r604l7",
+          "title": "Question about recording videos",
+          "subreddit": "rokid_official",
+          "score": 3,
+          "num_comments": 2,
+          "author": "Mike-St-Read",
+          "created_utc": 1771216794,
+          "url": "https://reddit.com/r/rokid_official/comments/1r604l7"
+        }
+      },
+      "weekly_post_counts": [
+        [
+          "2026-01",
+          41
+        ],
+        [
+          "2026-02",
+          34
+        ],
+        [
+          "2026-03",
+          27
+        ],
+        [
+          "2026-04",
+          26
+        ],
+        [
+          "2026-05",
+          25
+        ],
+        [
+          "2026-06",
+          23
+        ],
+        [
+          "2026-07",
+          14
+        ],
+        [
+          "2026-08",
+          22
+        ],
+        [
+          "2026-09",
+          8
+        ]
+      ],
+      "weekly_snapshot": {
+        "post_count": 14,
+        "comment_count": 143,
+        "top_complaints": [
+          [
+            "connectivity",
+            7
+          ],
+          [
+            "ai",
+            6
+          ],
+          [
+            "comfort",
+            3
+          ],
+          [
+            "camera",
+            1
+          ],
+          [
+            "battery",
+            1
+          ],
+          [
+            "software",
+            1
+          ],
+          [
+            "display",
+            1
+          ],
+          [
+            "price",
+            1
+          ]
+        ],
+        "top_complaints_breakdown": {
+          "connectivity": [
+            [
+              "Bluetooth Pairing & Setup",
+              3,
+              42.9
+            ],
+            [
+              "Audio & Call Volume",
+              2,
+              28.6
+            ],
+            [
+              "Phone/OS Compatibility",
+              1,
+              14.3
+            ],
+            [
+              "Other",
+              1,
+              14.3
+            ]
+          ],
+          "ai": [
+            [
+              "Feature coverage (assistant)",
+              3,
+              50.0
+            ],
+            [
+              "Voice recognition/ASR",
+              1,
+              16.7
+            ],
+            [
+              "Assistant recommendations/chat",
+              1,
+              16.7
+            ],
+            [
+              "Accuracy/Quality",
+              1,
+              16.7
+            ]
+          ],
+          "camera": [
+            [
+              "Audio in Recording",
+              1,
+              100.0
+            ]
+          ],
+          "battery": [
+            [
+              "Overheating & Safety",
+              1,
+              100.0
+            ]
+          ],
+          "software": [
+            [
+              "Call/Mic & Voice",
+              1,
+              100.0
+            ]
+          ],
+          "comfort": [
+            [
+              "Weight/Long-wear Fatigue",
+              2,
+              66.7
+            ],
+            [
+              "Nose Fit/Pressure",
+              1,
+              33.3
+            ]
+          ],
+          "display": [
+            [
+              "Display Settings (clock/units/widgets)",
+              1,
+              100.0
+            ]
+          ],
+          "price": [
+            [
+              "Value for Money",
+              1,
+              100.0
+            ]
+          ],
+          "privacy": [
+            [
+              "Model/On-device AI & data stack",
+              1,
+              100.0
+            ]
+          ],
+          "customer_service": [
+            [
+              "Shipping/Tracking",
+              1,
+              100.0
+            ]
+          ]
+        },
+        "top_liked_features": [
+          [
+            "ai",
+            6
+          ],
+          [
+            "software",
+            5
+          ],
+          [
+            "customer_service",
+            2
+          ],
+          [
+            "audio",
+            2
+          ],
+          [
+            "navigation",
+            2
+          ],
+          [
+            "developer",
+            2
+          ],
+          [
+            "prescription_lenses",
+            1
+          ],
+          [
+            "fashion",
+            1
+          ]
+        ],
+        "top_liked_features_breakdown": {
+          "software": [
+            [
+              "Overall app experience",
+              2,
+              40.0
+            ],
+            [
+              "Other",
+              2,
+              40.0
+            ],
+            [
+              "Call/phone integration",
+              1,
+              20.0
+            ]
+          ],
+          "customer_service": [
+            [
+              "Helpful support / responsiveness",
+              1,
+              50.0
+            ],
+            [
+              "Community support",
+              1,
+              50.0
+            ]
+          ],
+          "prescription_lenses": [
+            [
+              "Prescription compatibility",
+              1,
+              100.0
+            ]
+          ],
+          "audio": [
+            [
+              "Microphone & call audio",
+              1,
+              50.0
+            ],
+            [
+              "Speaker quality",
+              1,
+              50.0
+            ]
+          ],
+          "fashion": [
+            [
+              "Stylish/looks like normal glasses",
+              1,
+              100.0
+            ]
+          ],
+          "ai": [
+            [
+              "ChatGPT/LLM integration",
+              2,
+              33.3
+            ],
+            [
+              "Quality/accuracy",
+              2,
+              33.3
+            ],
+            [
+              "Comparison & feature gaps",
+              1,
+              16.7
+            ],
+            [
+              "Assistant usefulness/productivity",
+              1,
+              16.7
+            ]
+          ],
+          "design": [
+            [
+              "Build quality/premium feel",
+              1,
+              100.0
+            ]
+          ],
+          "navigation": [
+            [
+              "Turn-by-turn convenience",
+              1,
+              50.0
+            ],
+            [
+              "Google Maps availability & regions",
+              1,
+              50.0
+            ]
+          ],
+          "developer": [
+            [
+              "Performance/compute potential",
+              1,
+              50.0
+            ],
+            [
+              "Customization / tinkering",
+              1,
+              50.0
+            ]
+          ]
+        },
+        "frequently_asked_questions": [
+          [
+            "connectivity",
+            5
+          ],
+          [
+            "ai",
+            5
+          ],
+          [
+            "battery_life",
+            4
+          ],
+          [
+            "audio",
+            3
+          ],
+          [
+            "display",
+            3
+          ],
+          [
+            "after_sales",
+            1
+          ],
+          [
+            "prescription_lenses",
+            1
+          ],
+          [
+            "translation",
+            1
+          ]
+        ],
+        "persona_signals": [
+          [
+            "fashion_lifestyle",
+            22
+          ],
+          [
+            "productivity",
+            15
+          ],
+          [
+            "developer",
+            6
+          ],
+          [
+            "creator",
+            4
+          ],
+          [
+            "tech_enthusiast",
+            2
+          ],
+          [
+            "traveler",
+            2
+          ]
+        ],
+        "module_totals": {
+          "top_complaints": 23,
+          "top_liked_features": 22,
+          "frequently_asked_questions": 23,
+          "persona_signals": 51
+        },
+        "sentiment_units": {
+          "positive_signal_units": 17,
+          "negative_signal_units": 16
+        },
+        "top_posts": []
+      },
+      "top_posts": [
+        {
+          "post_id": "1qhz2oa",
+          "subreddit": "rokid_official",
+          "title": "[DIY Project] I hacked my Rokid Glasses to use Google Gemini Vision (Real-time AI Assistant) - Open Source Code Included! 🤖",
+          "score": 55,
+          "num_comments": 37,
+          "author": "z2020x",
+          "created_utc": 1768909885,
+          "url": "https://reddit.com/r/rokid_official/comments/1qhz2oa"
+        },
+        {
+          "post_id": "1r1dbdl",
+          "subreddit": "rokid_official",
+          "title": "Just received my Kickstarter accessories",
+          "score": 16,
+          "num_comments": 19,
+          "author": "vip_guy",
+          "created_utc": 1770757841,
+          "url": "https://reddit.com/r/rokid_official/comments/1r1dbdl"
+        },
+        {
+          "post_id": "1q9gghg",
+          "subreddit": "rokid_official",
+          "title": "Got my set of glasses today.  Kickstarted with prescription lenses",
+          "score": 15,
+          "num_comments": 18,
+          "author": "Shadrackc",
+          "created_utc": 1768080996,
+          "url": "https://reddit.com/r/rokid_official/comments/1q9gghg"
+        },
+        {
+          "post_id": "1qak1o9",
+          "subreddit": "rokid_official",
+          "title": "Hi ROKID, the January 8th version is amazing!",
+          "score": 15,
+          "num_comments": 10,
+          "author": "Known-Ad1275",
+          "created_utc": 1768188414,
+          "url": "https://reddit.com/r/rokid_official/comments/1qak1o9"
+        },
+        {
+          "post_id": "1re9oe6",
+          "subreddit": "rokid_official",
+          "title": "Giving Rokid Glasses a new \"Brain\": I found a repo that connects Rokid CXR to OpenClaw for a full POV-to-Action loop 👓🦾",
+          "score": 15,
+          "num_comments": 2,
+          "author": "Disastrous-Gene-6757",
+          "created_utc": 1772015323,
+          "url": "https://reddit.com/r/rokid_official/comments/1re9oe6"
+        },
+        {
+          "post_id": "1q8y86q",
+          "subreddit": "rokid_official",
+          "title": "New Rokid AI Glasses update 1.12.009 available now.",
+          "score": 14,
+          "num_comments": 22,
+          "author": "Neither-Nebula5000",
+          "created_utc": 1768031339,
+          "url": "https://reddit.com/r/rokid_official/comments/1q8y86q"
+        },
+        {
+          "post_id": "1rfpp8m",
+          "subreddit": "rokid_official",
+          "title": "Gemini is onboard now!",
+          "score": 14,
+          "num_comments": 13,
+          "author": "Present_Flounder_127",
+          "created_utc": 1772147441,
+          "url": "https://reddit.com/r/rokid_official/comments/1rfpp8m"
+        },
+        {
+          "post_id": "1qv0r51",
+          "subreddit": "rokid_official",
+          "title": "I turned Rokid Glasses into a real-world speedrun HUD",
+          "score": 14,
+          "num_comments": 6,
+          "author": "tash_2s",
+          "created_utc": 1770145055,
+          "url": "https://reddit.com/r/rokid_official/comments/1qv0r51"
+        },
+        {
+          "post_id": "1rdf9tj",
+          "subreddit": "rokid_official",
+          "title": "As an American this is wild",
+          "score": 13,
+          "num_comments": 13,
+          "author": "MindlessNecessary502",
+          "created_utc": 1771937116,
+          "url": "https://reddit.com/r/rokid_official/comments/1rdf9tj"
+        },
+        {
+          "post_id": "1r0u5ik",
+          "subreddit": "rokid_official",
+          "title": "AI Shortcuts with Rokid Glasses",
+          "score": 13,
+          "num_comments": 12,
+          "author": "Disastrous-Gene-6757",
+          "created_utc": 1770707607,
+          "url": "https://reddit.com/r/rokid_official/comments/1r0u5ik"
+        },
+        {
+          "post_id": "1r4mo31",
+          "subreddit": "rokid_official",
+          "title": "WiFi sideloading tool &amp; app store for Rokid devs (open source)",
+          "score": 13,
+          "num_comments": 8,
+          "author": "whateversinteresting",
+          "created_utc": 1771081019,
+          "url": "https://reddit.com/r/rokid_official/comments/1r4mo31"
+        },
+        {
+          "post_id": "1qad6yd",
+          "subreddit": "rokid_official",
+          "title": "​My Rokid AI Glass Mods",
+          "score": 12,
+          "num_comments": 15,
+          "author": "Emotional-Language-3",
+          "created_utc": 1768170569,
+          "url": "https://reddit.com/r/rokid_official/comments/1qad6yd"
+        },
+        {
+          "post_id": "1qsputt",
+          "subreddit": "rokid_official",
+          "title": "My thoughts on the Rokid glasses",
+          "score": 12,
+          "num_comments": 10,
+          "author": "Emotional-Language-3",
+          "created_utc": 1769924135,
+          "url": "https://reddit.com/r/rokid_official/comments/1qsputt"
+        },
+        {
+          "post_id": "1qak5no",
+          "subreddit": "rokid_official",
+          "title": "Hi Rokid app update that fixes display position now here! (G1.0.0.0108)",
+          "score": 12,
+          "num_comments": 8,
+          "author": "Neither-Nebula5000",
+          "created_utc": 1768188727,
+          "url": "https://reddit.com/r/rokid_official/comments/1qak5no"
+        },
+        {
+          "post_id": "1qaqpqf",
+          "subreddit": "rokid_official",
+          "title": "Wearing Rokid glasses is like...",
+          "score": 12,
+          "num_comments": 7,
+          "author": "wandafulworld",
+          "created_utc": 1768211008,
+          "url": "https://reddit.com/r/rokid_official/comments/1qaqpqf"
+        }
+      ]
+    },
+    "meta": {
+      "post_count": 847,
+      "excluded_irrelevant_posts_in_window": 0,
+      "comment_count": 3407,
+      "unique_post_authors": 679,
+      "comment_fetch_coverage_ratio": 0.323,
+      "source_summary": {
+        "official_subreddit_posts": 847,
+        "search_posts": 0
+      },
+      "top_complaints": [
+        [
+          "connectivity",
+          126
+        ],
+        [
+          "customer_service",
+          70
+        ],
+        [
+          "privacy",
+          59
+        ],
+        [
+          "battery",
+          51
+        ],
+        [
+          "camera",
+          40
+        ],
+        [
+          "software",
+          36
+        ],
+        [
+          "ai",
+          32
+        ],
+        [
+          "price",
+          28
+        ],
+        [
+          "prescription_lenses",
+          22
+        ],
+        [
+          "comfort",
+          19
+        ]
+      ],
+      "top_complaints_breakdown": {},
+      "top_liked_features": [
+        [
+          "camera",
+          85
+        ],
+        [
+          "ai",
+          54
+        ],
+        [
+          "audio",
+          53
+        ],
+        [
+          "software",
+          24
+        ],
+        [
+          "prescription_lenses",
+          21
+        ],
+        [
+          "display",
+          19
+        ],
+        [
+          "fashion",
+          11
+        ],
+        [
+          "design",
+          4
+        ],
+        [
+          "navigation",
+          4
+        ],
+        [
+          "customer_service",
+          4
+        ]
+      ],
+      "top_liked_features_breakdown": {},
+      "frequently_asked_questions": [
+        [
+          "prescription_lenses",
+          75
+        ],
+        [
+          "connectivity",
+          75
+        ],
+        [
+          "battery_life",
+          57
+        ],
+        [
+          "after_sales",
+          49
+        ],
+        [
+          "audio",
+          45
+        ],
+        [
+          "ai",
+          33
+        ],
+        [
+          "privacy",
+          29
+        ],
+        [
+          "display",
+          19
+        ],
+        [
+          "development_related",
+          8
+        ],
+        [
+          "translation",
+          4
+        ],
+        [
+          "navigation",
+          4
+        ]
+      ],
+      "persona_signals": [
+        [
+          "productivity",
+          317
+        ],
+        [
+          "fashion_lifestyle",
+          209
+        ],
+        [
+          "creator",
+          94
+        ],
+        [
+          "traveler",
+          66
+        ],
+        [
+          "developer",
+          30
+        ],
+        [
+          "tech_enthusiast",
+          28
+        ]
+      ],
+      "module_totals": {
+        "top_complaints": 496,
+        "top_liked_features": 285,
+        "frequently_asked_questions": 398,
+        "persona_signals": 744,
+        "repeat_share_authors_posts": 679
+      },
+      "sentiment_units": {
+        "positive_signal_units": 219,
+        "negative_signal_units": 374
+      },
+      "sentiment_threads": {
+        "positive_signal_threads": 124,
+        "negative_signal_threads": 191
+      },
+      "repeat_post_authors": {
+        "one_time": 585,
+        "repeat_2_3": 84,
+        "repeat_4_plus": 10
+      },
+      "top_terms": [
+        [
+          "you",
+          2200
+        ],
+        [
+          "but",
+          1133
+        ],
+        [
+          "not",
+          990
+        ],
+        [
+          "can",
+          917
+        ],
+        [
+          "are",
+          888
+        ],
+        [
+          "gen",
+          703
+        ],
+        [
+          "was",
+          661
+        ],
+        [
+          "get",
+          556
+        ],
+        [
+          "like",
+          554
+        ],
+        [
+          "out",
+          527
+        ],
+        [
+          "don",
+          468
+        ],
+        [
+          "use",
+          461
+        ],
+        [
+          "all",
+          445
+        ],
+        [
+          "lenses",
+          440
+        ],
+        [
+          "people",
+          411
+        ],
+        [
+          "how",
+          405
+        ],
+        [
+          "these",
+          402
+        ],
+        [
+          "will",
+          396
+        ],
+        [
+          "one",
+          379
+        ],
+        [
+          "phone",
+          372
+        ]
+      ],
+      "representative_pain_posts": {
+        "camera": {
+          "post_id": "1rlqpwu",
+          "title": "Poor video quality when uploading status on WhatsApp!",
+          "subreddit": "RaybanMeta",
+          "score": 0,
+          "num_comments": 2,
+          "author": "famebitz",
+          "created_utc": 1772738086,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rlqpwu"
+        },
+        "connectivity": {
+          "post_id": "1rkoyms",
+          "title": "Error while importing images and videos",
+          "subreddit": "RaybanMeta",
+          "score": 1,
+          "num_comments": 0,
+          "author": "johnnybreathe",
+          "created_utc": 1772639413,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rkoyms"
+        },
+        "customer_service": {
+          "post_id": "1rkoyms",
+          "title": "Error while importing images and videos",
+          "subreddit": "RaybanMeta",
+          "score": 1,
+          "num_comments": 0,
+          "author": "johnnybreathe",
+          "created_utc": 1772639413,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rkoyms"
+        },
+        "ai": {
+          "post_id": "1rix52o",
+          "title": "How do I stop conversation mode?",
+          "subreddit": "RaybanMeta",
+          "score": 1,
+          "num_comments": 2,
+          "author": "Royal_Promise3628",
+          "created_utc": 1772468205,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rix52o"
+        },
+        "software": {
+          "post_id": "1rin1f5",
+          "title": "What do these even do for me?",
+          "subreddit": "RaybanMeta",
+          "score": 0,
+          "num_comments": 22,
+          "author": "SeaworthinessIll3750",
+          "created_utc": 1772438763,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rin1f5"
+        },
+        "battery": {
+          "post_id": "1ricz1w",
+          "title": "Question about Case",
+          "subreddit": "RaybanMeta",
+          "score": 3,
+          "num_comments": 0,
+          "author": "SickAsFuq",
+          "created_utc": 1772408472,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1ricz1w"
+        },
+        "privacy": {
+          "post_id": "1rh1c9z",
+          "title": "My 2CENTS READ",
+          "subreddit": "RaybanMeta",
+          "score": 0,
+          "num_comments": 18,
+          "author": "cervage",
+          "created_utc": 1772281470,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rh1c9z"
+        },
+        "price": {
+          "post_id": "1rgdmxy",
+          "title": "Meta glasses (Gen 1) not turning on even after I Force restart and is stuck on green light any Help??? Or tips Pls I am not trying to buy another pair they are expensive",
+          "subreddit": "RaybanMeta",
+          "score": 2,
+          "num_comments": 3,
+          "author": "keywee23",
+          "created_utc": 1772214560,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rgdmxy"
+        },
+        "comfort": {
+          "post_id": "1rfgg7o",
+          "title": "Is it safe to constantly switch around the lenses of my glasses?",
+          "subreddit": "RaybanMeta",
+          "score": 3,
+          "num_comments": 12,
+          "author": "akr_13",
+          "created_utc": 1772126894,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rfgg7o"
+        },
+        "prescription_lenses": {
+          "post_id": "1reinai",
+          "title": "Lens question",
+          "subreddit": "RaybanMeta",
+          "score": 2,
+          "num_comments": 0,
+          "author": "wheres-waldork",
+          "created_utc": 1772038373,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1reinai"
+        },
+        "display": {
+          "post_id": "1rd22id",
+          "title": "Anyone else annoyed of this?",
+          "subreddit": "RaybanMeta",
+          "score": 0,
+          "num_comments": 29,
+          "author": "Ok_Combination_7467",
+          "created_utc": 1771899371,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rd22id"
+        }
+      },
+      "representative_like_posts": {
+        "display": {
+          "post_id": "1rlilk6",
+          "title": "Meta Display Glasses &amp; Best Buy's Fit Gimmicks",
+          "subreddit": "RaybanMeta",
+          "score": 0,
+          "num_comments": 18,
+          "author": "LowOnBucks",
+          "created_utc": 1772719832,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rlilk6"
+        },
+        "design": {
+          "post_id": "1rlfh49",
+          "title": "Bought a charging stand mainly for the looks… anyone else done this?",
+          "subreddit": "RaybanMeta",
+          "score": 19,
+          "num_comments": 16,
+          "author": "Croyon",
+          "created_utc": 1772710992,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rlfh49"
+        },
+        "camera": {
+          "post_id": "1rkps9x",
+          "title": "Meta Glasses Review After a Few Weeks",
+          "subreddit": "RaybanMeta",
+          "score": 28,
+          "num_comments": 11,
+          "author": "haaris_ahmad16",
+          "created_utc": 1772641233,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rkps9x"
+        },
+        "audio": {
+          "post_id": "1rkps9x",
+          "title": "Meta Glasses Review After a Few Weeks",
+          "subreddit": "RaybanMeta",
+          "score": 28,
+          "num_comments": 11,
+          "author": "haaris_ahmad16",
+          "created_utc": 1772641233,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rkps9x"
+        },
+        "ai": {
+          "post_id": "1rkps9x",
+          "title": "Meta Glasses Review After a Few Weeks",
+          "subreddit": "RaybanMeta",
+          "score": 28,
+          "num_comments": 11,
+          "author": "haaris_ahmad16",
+          "created_utc": 1772641233,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rkps9x"
+        },
+        "prescription_lenses": {
+          "post_id": "1rfydc5",
+          "title": "where to look for best prices on these Ray-Ban Meta smart glasses these days",
+          "subreddit": "RaybanMeta",
+          "score": 11,
+          "num_comments": 23,
+          "author": "Hudlicky-Ekaterina",
+          "created_utc": 1772171166,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rfydc5"
+        },
+        "software": {
+          "post_id": "1repm6v",
+          "title": "Ray-Ban Meta glasses suddenly much quieter (same issue on 2 pairs) + iPhone (2026 Feb)",
+          "subreddit": "RaybanMeta",
+          "score": 3,
+          "num_comments": 9,
+          "author": "Interesting_View_772",
+          "created_utc": 1772052994,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1repm6v"
+        },
+        "navigation": {
+          "post_id": "1rdts3h",
+          "title": "Worth Buying for Family Videos?",
+          "subreddit": "RaybanMeta",
+          "score": 6,
+          "num_comments": 37,
+          "author": "LandShark_BB",
+          "created_utc": 1771969468,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rdts3h"
+        },
+        "customer_service": {
+          "post_id": "1rcwz96",
+          "title": "Yet again they failed",
+          "subreddit": "RaybanMeta",
+          "score": 0,
+          "num_comments": 4,
+          "author": "2016paulc",
+          "created_utc": 1771887607,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rcwz96"
+        },
+        "translation": {
+          "post_id": "1rbhnmw",
+          "title": "Update v22 in the UK (at last)",
+          "subreddit": "RaybanMeta",
+          "score": 8,
+          "num_comments": 15,
+          "author": "djrichardb",
+          "created_utc": 1771752980,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rbhnmw"
+        },
+        "fashion": {
+          "post_id": "1raw2qp",
+          "title": "Loving these Amber Transision Lenses",
+          "subreddit": "RaybanMeta",
+          "score": 77,
+          "num_comments": 17,
+          "author": "Additional-Neck6303",
+          "created_utc": 1771692827,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1raw2qp"
+        },
+        "developer": {
+          "post_id": "1qu14zu",
+          "title": "I built a way to live stream from Ray-Ban Meta glasses to YouTube &amp; Twitch",
+          "subreddit": "RaybanMeta",
+          "score": 64,
+          "num_comments": 87,
+          "author": "Zestyclose_Ad_4837",
+          "created_utc": 1770052597,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1qu14zu"
+        }
+      },
+      "representative_faq_posts": {
+        "ai": {
+          "post_id": "1rlpm67",
+          "title": "Customer Support",
+          "subreddit": "RaybanMeta",
+          "score": 2,
+          "num_comments": 5,
+          "author": "fermentedyogo",
+          "created_utc": 1772735762,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rlpm67"
+        },
+        "after_sales": {
+          "post_id": "1rlpm67",
+          "title": "Customer Support",
+          "subreddit": "RaybanMeta",
+          "score": 2,
+          "num_comments": 5,
+          "author": "fermentedyogo",
+          "created_utc": 1772735762,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rlpm67"
+        },
+        "prescription_lenses": {
+          "post_id": "1rlnif9",
+          "title": "Left arm issue",
+          "subreddit": "RaybanMeta",
+          "score": 1,
+          "num_comments": 2,
+          "author": "Connect_Positive_396",
+          "created_utc": 1772731323,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rlnif9"
+        },
+        "connectivity": {
+          "post_id": "1rlnif9",
+          "title": "Left arm issue",
+          "subreddit": "RaybanMeta",
+          "score": 1,
+          "num_comments": 2,
+          "author": "Connect_Positive_396",
+          "created_utc": 1772731323,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rlnif9"
+        },
+        "battery_life": {
+          "post_id": "1rlfh49",
+          "title": "Bought a charging stand mainly for the looks… anyone else done this?",
+          "subreddit": "RaybanMeta",
+          "score": 19,
+          "num_comments": 16,
+          "author": "Croyon",
+          "created_utc": 1772710992,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rlfh49"
+        },
+        "audio": {
+          "post_id": "1rl8y7n",
+          "title": "CarPlay problem - no not that one",
+          "subreddit": "RaybanMeta",
+          "score": 1,
+          "num_comments": 0,
+          "author": "StaleWaterIsYummy",
+          "created_utc": 1772687908,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rl8y7n"
+        },
+        "privacy": {
+          "post_id": "1rim3h2",
+          "title": "Can someone explain video storage",
+          "subreddit": "RaybanMeta",
+          "score": 1,
+          "num_comments": 8,
+          "author": "Salty-Passenger-4801",
+          "created_utc": 1772435278,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rim3h2"
+        },
+        "development_related": {
+          "post_id": "1ri9clf",
+          "title": "Wearables Developer Center SDK",
+          "subreddit": "RaybanMeta",
+          "score": 4,
+          "num_comments": 3,
+          "author": "Somethingw3R1d",
+          "created_utc": 1772399747,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1ri9clf"
+        },
+        "display": {
+          "post_id": "1rfm4ez",
+          "title": "I wish I never bought RayBan Meta",
+          "subreddit": "RaybanMeta",
+          "score": 17,
+          "num_comments": 34,
+          "author": "pizzaamore",
+          "created_utc": 1772139314,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rfm4ez"
+        },
+        "translation": {
+          "post_id": "1rek5pr",
+          "title": "thinking about buying the glasses",
+          "subreddit": "RaybanMeta",
+          "score": 0,
+          "num_comments": 5,
+          "author": "tacticalnukecoming",
+          "created_utc": 1772041472,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1rek5pr"
+        },
+        "navigation": {
+          "post_id": "1r6fwwq",
+          "title": "Any way to do turn by turn navigation?",
+          "subreddit": "RaybanMeta",
+          "score": 2,
+          "num_comments": 4,
+          "author": "fearfair",
+          "created_utc": 1771262908,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1r6fwwq"
+        }
+      },
+      "weekly_post_counts": [
+        [
+          "2026-01",
+          131
+        ],
+        [
+          "2026-02",
+          96
+        ],
+        [
+          "2026-03",
+          92
+        ],
+        [
+          "2026-04",
+          95
+        ],
+        [
+          "2026-05",
+          98
+        ],
+        [
+          "2026-06",
+          75
+        ],
+        [
+          "2026-07",
+          105
+        ],
+        [
+          "2026-08",
+          98
+        ],
+        [
+          "2026-09",
+          57
+        ]
+      ],
+      "weekly_snapshot": {
+        "post_count": 92,
+        "comment_count": 136,
+        "top_complaints": [
+          [
+            "connectivity",
+            9
+          ],
+          [
+            "software",
+            6
+          ],
+          [
+            "customer_service",
+            4
+          ],
+          [
+            "ai",
+            3
+          ],
+          [
+            "battery",
+            3
+          ],
+          [
+            "privacy",
+            2
+          ],
+          [
+            "camera",
+            1
+          ],
+          [
+            "price",
+            1
+          ]
+        ],
+        "top_complaints_breakdown": {},
+        "top_liked_features": [
+          [
+            "camera",
+            7
+          ],
+          [
+            "audio",
+            6
+          ],
+          [
+            "ai",
+            4
+          ],
+          [
+            "design",
+            2
+          ],
+          [
+            "display",
+            1
+          ],
+          [
+            "prescription_lenses",
+            1
+          ],
+          [
+            "software",
+            1
+          ]
+        ],
+        "top_liked_features_breakdown": {},
+        "frequently_asked_questions": [
+          [
+            "prescription_lenses",
+            8
+          ],
+          [
+            "after_sales",
+            7
+          ],
+          [
+            "battery_life",
+            5
+          ],
+          [
+            "audio",
+            5
+          ],
+          [
+            "ai",
+            4
+          ],
+          [
+            "connectivity",
+            4
+          ],
+          [
+            "privacy",
+            1
+          ],
+          [
+            "development_related",
+            1
+          ]
+        ],
+        "persona_signals": [
+          [
+            "productivity",
+            22
+          ],
+          [
+            "creator",
+            7
+          ],
+          [
+            "fashion_lifestyle",
+            7
+          ],
+          [
+            "developer",
+            2
+          ],
+          [
+            "tech_enthusiast",
+            2
+          ],
+          [
+            "traveler",
+            1
+          ]
+        ],
+        "module_totals": {
+          "top_complaints": 29,
+          "top_liked_features": 22,
+          "frequently_asked_questions": 36,
+          "persona_signals": 41
+        },
+        "sentiment_units": {
+          "positive_signal_units": 17,
+          "negative_signal_units": 22
+        },
+        "top_posts": []
+      },
+      "top_posts": [
+        {
+          "post_id": "1r0oiaw",
+          "subreddit": "RaybanMeta",
+          "title": "Super Bowl LX drive!",
+          "score": 1225,
+          "num_comments": 88,
+          "author": "Bran415",
+          "created_utc": 1770690558,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1r0oiaw"
+        },
+        {
+          "post_id": "1r503wr",
+          "subreddit": "RaybanMeta",
+          "title": "Heard you wanted to see the hulk in first person",
+          "score": 477,
+          "num_comments": 55,
+          "author": "brick_status",
+          "created_utc": 1771114069,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1r503wr"
+        },
+        {
+          "post_id": "1r9438g",
+          "subreddit": "RaybanMeta",
+          "title": "Stepped into a walk-in freezer for a few minutes",
+          "score": 293,
+          "num_comments": 42,
+          "author": "-9u6",
+          "created_utc": 1771519219,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1r9438g"
+        },
+        {
+          "post_id": "1q5111x",
+          "subreddit": "RaybanMeta",
+          "title": "Girlfriend left me because I have the Ray-Ban Metas",
+          "score": 265,
+          "num_comments": 465,
+          "author": "omarjenkinscomedy",
+          "created_utc": 1767653811,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1q5111x"
+        },
+        {
+          "post_id": "1q4iw5u",
+          "subreddit": "RaybanMeta",
+          "title": "My wife gave me Meta Ray-Ban glasses for my birthday — I spent the next two days adding custom AI tools to them",
+          "score": 208,
+          "num_comments": 106,
+          "author": "Kirmark",
+          "created_utc": 1767611140,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1q4iw5u"
+        },
+        {
+          "post_id": "1q7uukw",
+          "subreddit": "RaybanMeta",
+          "title": "Shoutout to whoever said you can upgrade your meta ray bans at Best Buy",
+          "score": 187,
+          "num_comments": 88,
+          "author": "itskampov",
+          "created_utc": 1767922724,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1q7uukw"
+        },
+        {
+          "post_id": "1qo24i5",
+          "subreddit": "RaybanMeta",
+          "title": "Was denied entry at the Grand Canyon Skywalk with my Meta",
+          "score": 174,
+          "num_comments": 191,
+          "author": "pantherara",
+          "created_utc": 1769483516,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1qo24i5"
+        },
+        {
+          "post_id": "1qw9x3y",
+          "subreddit": "RaybanMeta",
+          "title": "You guys weren't lying",
+          "score": 172,
+          "num_comments": 27,
+          "author": "gdlocke",
+          "created_utc": 1770261265,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1qw9x3y"
+        },
+        {
+          "post_id": "1r5r4dm",
+          "subreddit": "RaybanMeta",
+          "title": "Love my Ray Bans for recording all my roller coaster adventures.",
+          "score": 167,
+          "num_comments": 19,
+          "author": "Brahkk",
+          "created_utc": 1771192108,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1r5r4dm"
+        },
+        {
+          "post_id": "1qu1qcx",
+          "subreddit": "RaybanMeta",
+          "title": "So...has anyone gotten a sock and rock instead of glasses in their Meta Ray-Ban package?",
+          "score": 144,
+          "num_comments": 79,
+          "author": "gdlocke",
+          "created_utc": 1770053848,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1qu1qcx"
+        },
+        {
+          "post_id": "1r1u3bc",
+          "subreddit": "RaybanMeta",
+          "title": "I Bought My 73-Year-Old Dad Ray-Ban Meta Glasses",
+          "score": 137,
+          "num_comments": 17,
+          "author": "Extension-Celery5527",
+          "created_utc": 1770806553,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1r1u3bc"
+        },
+        {
+          "post_id": "1qq0x1r",
+          "subreddit": "RaybanMeta",
+          "title": "Ray-Ban meta – Battery replacement info",
+          "score": 134,
+          "num_comments": 85,
+          "author": "jrproler",
+          "created_utc": 1769667807,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1qq0x1r"
+        },
+        {
+          "post_id": "1qbuzte",
+          "subreddit": "RaybanMeta",
+          "title": "Meta will significantly increase production ⚡️👀",
+          "score": 123,
+          "num_comments": 122,
+          "author": "Matcorp456",
+          "created_utc": 1768319717,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1qbuzte"
+        },
+        {
+          "post_id": "1qa2y07",
+          "subreddit": "RaybanMeta",
+          "title": "Gen 1 vs Gen 2: Concert video comparison",
+          "score": 104,
+          "num_comments": 28,
+          "author": "espressonut420",
+          "created_utc": 1768147239,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1qa2y07"
+        },
+        {
+          "post_id": "1r9klbo",
+          "subreddit": "RaybanMeta",
+          "title": "People think it is AI but this is raw india captured with my ray ban meta glasses",
+          "score": 97,
+          "num_comments": 48,
+          "author": "jatintechtalks",
+          "created_utc": 1771558485,
+          "url": "https://reddit.com/r/RaybanMeta/comments/1r9klbo"
+        }
+      ]
+    },
+    "even": {
+      "post_count": 665,
+      "excluded_irrelevant_posts_in_window": 0,
+      "comment_count": 3100,
+      "unique_post_authors": 408,
+      "comment_fetch_coverage_ratio": 0.542,
+      "source_summary": {
+        "official_subreddit_posts": 665,
+        "search_posts": 0
+      },
+      "top_complaints": [
+        [
+          "software",
+          126
+        ],
+        [
+          "connectivity",
+          111
+        ],
+        [
+          "customer_service",
+          75
+        ],
+        [
+          "ai",
+          45
+        ],
+        [
+          "display",
+          44
+        ],
+        [
+          "battery",
+          32
+        ],
+        [
+          "comfort",
+          28
+        ],
+        [
+          "price",
+          24
+        ],
+        [
+          "prescription_lenses",
+          16
+        ],
+        [
+          "camera",
+          12
+        ]
+      ],
+      "top_complaints_breakdown": {},
+      "top_liked_features": [
+        [
+          "ai",
+          102
+        ],
+        [
+          "software",
+          90
+        ],
+        [
+          "display",
+          58
+        ],
+        [
+          "translation",
+          29
+        ],
+        [
+          "developer",
+          20
+        ],
+        [
+          "fashion",
+          19
+        ],
+        [
+          "prescription_lenses",
+          19
+        ],
+        [
+          "navigation",
+          18
+        ],
+        [
+          "audio",
+          17
+        ],
+        [
+          "design",
+          16
+        ]
+      ],
+      "top_liked_features_breakdown": {},
+      "frequently_asked_questions": [
+        [
+          "prescription_lenses",
+          101
+        ],
+        [
+          "connectivity",
+          66
+        ],
+        [
+          "display",
+          52
+        ],
+        [
+          "ai",
+          41
+        ],
+        [
+          "after_sales",
+          36
+        ],
+        [
+          "translation",
+          20
+        ],
+        [
+          "battery_life",
+          17
+        ],
+        [
+          "audio",
+          17
+        ],
+        [
+          "navigation",
+          12
+        ],
+        [
+          "development_related",
+          11
+        ],
+        [
+          "privacy",
+          3
+        ]
+      ],
+      "persona_signals": [
+        [
+          "productivity",
+          394
+        ],
+        [
+          "fashion_lifestyle",
+          177
+        ],
+        [
+          "developer",
+          107
+        ],
+        [
+          "traveler",
+          104
+        ],
+        [
+          "tech_enthusiast",
+          39
+        ],
+        [
+          "creator",
+          38
+        ]
+      ],
+      "module_totals": {
+        "top_complaints": 517,
+        "top_liked_features": 396,
+        "frequently_asked_questions": 376,
+        "persona_signals": 859,
+        "repeat_share_authors_posts": 408
+      },
+      "sentiment_units": {
+        "positive_signal_units": 271,
+        "negative_signal_units": 381
+      },
+      "sentiment_threads": {
+        "positive_signal_threads": 139,
+        "negative_signal_threads": 174
+      },
+      "repeat_post_authors": {
+        "one_time": 311,
+        "repeat_2_3": 72,
+        "repeat_4_plus": 25
+      },
+      "top_terms": [
+        [
+          "you",
+          2327
+        ],
+        [
+          "but",
+          1386
+        ],
+        [
+          "not",
+          1087
+        ],
+        [
+          "are",
+          1011
+        ],
+        [
+          "can",
+          914
+        ],
+        [
+          "was",
+          716
+        ],
+        [
+          "like",
+          679
+        ],
+        [
+          "ring",
+          640
+        ],
+        [
+          "will",
+          606
+        ],
+        [
+          "all",
+          482
+        ],
+        [
+          "get",
+          468
+        ],
+        [
+          "code",
+          464
+        ],
+        [
+          "app",
+          461
+        ],
+        [
+          "use",
+          448
+        ],
+        [
+          "more",
+          402
+        ],
+        [
+          "out",
+          394
+        ],
+        [
+          "don",
+          370
+        ],
+        [
+          "now",
+          366
+        ],
+        [
+          "has",
+          360
+        ],
+        [
+          "also",
+          359
+        ]
+      ],
+      "representative_pain_posts": {
+        "customer_service": {
+          "post_id": "1rm097g",
+          "title": "Finally got my G2 about to unbox it ordered it February 2nd. Got it March 5th and they deliver it to the wrong address. I had to call the shipping company and they told me it was around the corner from my house. Had to bang on these people door and threaten to call the cops for them to give me back",
+          "subreddit": "EvenRealities",
+          "score": 1,
+          "num_comments": 0,
+          "author": "mrkillz_29",
+          "created_utc": 1772760422,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rm097g"
+        },
+        "display": {
+          "post_id": "1rkq4qp",
+          "title": "Slightly brown and blurry line in the field of view at the bottom of the screen.",
+          "subreddit": "EvenRealities",
+          "score": 5,
+          "num_comments": 11,
+          "author": "0Tezorus0",
+          "created_utc": 1772642004,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rkq4qp"
+        },
+        "battery": {
+          "post_id": "1rknvey",
+          "title": "position Always on on G2A",
+          "subreddit": "EvenRealities",
+          "score": 3,
+          "num_comments": 1,
+          "author": "edobughi",
+          "created_utc": 1772636913,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rknvey"
+        },
+        "connectivity": {
+          "post_id": "1rknvey",
+          "title": "position Always on on G2A",
+          "subreddit": "EvenRealities",
+          "score": 3,
+          "num_comments": 1,
+          "author": "edobughi",
+          "created_utc": 1772636913,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rknvey"
+        },
+        "software": {
+          "post_id": "1rh9i37",
+          "title": "G2 glasses + R1 ring won't stay connected to iPhone 16 Pro Max — tried everything",
+          "subreddit": "EvenRealities",
+          "score": 5,
+          "num_comments": 13,
+          "author": "Miserable_Control_24",
+          "created_utc": 1772302096,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rh9i37"
+        },
+        "ai": {
+          "post_id": "1rh9i37",
+          "title": "G2 glasses + R1 ring won't stay connected to iPhone 16 Pro Max — tried everything",
+          "subreddit": "EvenRealities",
+          "score": 5,
+          "num_comments": 13,
+          "author": "Miserable_Control_24",
+          "created_utc": 1772302096,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rh9i37"
+        },
+        "comfort": {
+          "post_id": "1rfalzi",
+          "title": "Introducing Sensemaker: Context-enhanced memory and action, from your ramblings [G2 beta app]",
+          "subreddit": "EvenRealities",
+          "score": 29,
+          "num_comments": 12,
+          "author": "outragedenfieldian",
+          "created_utc": 1772113682,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rfalzi"
+        },
+        "price": {
+          "post_id": "1ren5lm",
+          "title": "Even AI feels more like a “recorder” for the moment than a real persistent AI, huge potential, but missing long-term memory",
+          "subreddit": "EvenRealities",
+          "score": 14,
+          "num_comments": 26,
+          "author": "Feeling_Part_1323",
+          "created_utc": 1772047628,
+          "url": "https://reddit.com/r/EvenRealities/comments/1ren5lm"
+        },
+        "privacy": {
+          "post_id": "1re2sec",
+          "title": "Selling G2A grey, Ring size 8 and shades",
+          "subreddit": "EvenRealities",
+          "score": 1,
+          "num_comments": 12,
+          "author": "Noduty6638",
+          "created_utc": 1771992063,
+          "url": "https://reddit.com/r/EvenRealities/comments/1re2sec"
+        },
+        "prescription_lenses": {
+          "post_id": "1r4mho1",
+          "title": "Entered wrong prescription",
+          "subreddit": "EvenRealities",
+          "score": 1,
+          "num_comments": 2,
+          "author": "cwatts197865",
+          "created_utc": 1771080563,
+          "url": "https://reddit.com/r/EvenRealities/comments/1r4mho1"
+        },
+        "camera": {
+          "post_id": "1r24xct",
+          "title": "Even Realities G2 vs. Meta Ray-Ban Display: The 1-Month Verdict",
+          "subreddit": "EvenRealities",
+          "score": 17,
+          "num_comments": 15,
+          "author": "PresenceStock7548",
+          "created_utc": 1770833632,
+          "url": "https://reddit.com/r/EvenRealities/comments/1r24xct"
+        }
+      },
+      "representative_like_posts": {
+        "software": {
+          "post_id": "1rkviyl",
+          "title": "Sensemaker (v0.3.x) now with web recording (for those without beta Hub / G2 access yet)",
+          "subreddit": "EvenRealities",
+          "score": 3,
+          "num_comments": 0,
+          "author": "outragedenfieldian",
+          "created_utc": 1772653749,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rkviyl"
+        },
+        "display": {
+          "post_id": "1rkq4qp",
+          "title": "Slightly brown and blurry line in the field of view at the bottom of the screen.",
+          "subreddit": "EvenRealities",
+          "score": 5,
+          "num_comments": 11,
+          "author": "0Tezorus0",
+          "created_utc": 1772642004,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rkq4qp"
+        },
+        "translation": {
+          "post_id": "1rkmr21",
+          "title": "One week with G2, office translation review (goodbye translation pen lol)",
+          "subreddit": "EvenRealities",
+          "score": 16,
+          "num_comments": 8,
+          "author": "Expensive_Minute9349",
+          "created_utc": 1772634278,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rkmr21"
+        },
+        "ai": {
+          "post_id": "1rivavw",
+          "title": "Selling my G1B's",
+          "subreddit": "EvenRealities",
+          "score": 0,
+          "num_comments": 1,
+          "author": "bujin92",
+          "created_utc": 1772464116,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rivavw"
+        },
+        "developer": {
+          "post_id": "1rhiv5p",
+          "title": "Could you use the G2 Glasses to display stylus-written lecture notes? + More questions.",
+          "subreddit": "EvenRealities",
+          "score": 1,
+          "num_comments": 1,
+          "author": "Current_Chemistry_87",
+          "created_utc": 1772325073,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rhiv5p"
+        },
+        "audio": {
+          "post_id": "1rh8ff8",
+          "title": "Teleprompt needs real stage controls on the R1 ring: hide display, pause, skip sections, re sync AI, lock UI",
+          "subreddit": "EvenRealities",
+          "score": 25,
+          "num_comments": 4,
+          "author": "Proof-Passenger-1963",
+          "created_utc": 1772299603,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rh8ff8"
+        },
+        "fashion": {
+          "post_id": "1ren5lm",
+          "title": "Even AI feels more like a “recorder” for the moment than a real persistent AI, huge potential, but missing long-term memory",
+          "subreddit": "EvenRealities",
+          "score": 14,
+          "num_comments": 26,
+          "author": "Feeling_Part_1323",
+          "created_utc": 1772047628,
+          "url": "https://reddit.com/r/EvenRealities/comments/1ren5lm"
+        },
+        "design": {
+          "post_id": "1ren5lm",
+          "title": "Even AI feels more like a “recorder” for the moment than a real persistent AI, huge potential, but missing long-term memory",
+          "subreddit": "EvenRealities",
+          "score": 14,
+          "num_comments": 26,
+          "author": "Feeling_Part_1323",
+          "created_utc": 1772047628,
+          "url": "https://reddit.com/r/EvenRealities/comments/1ren5lm"
+        },
+        "prescription_lenses": {
+          "post_id": "1rdh5k6",
+          "title": "Use and purchase in mainland China?",
+          "subreddit": "EvenRealities",
+          "score": 3,
+          "num_comments": 1,
+          "author": "hookedonstupid",
+          "created_utc": 1771942006,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rdh5k6"
+        },
+        "customer_service": {
+          "post_id": "1rcwzm2",
+          "title": "G2 and R1 purchase",
+          "subreddit": "EvenRealities",
+          "score": 16,
+          "num_comments": 44,
+          "author": "No-Sun-4086",
+          "created_utc": 1771887629,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rcwzm2"
+        },
+        "navigation": {
+          "post_id": "1rc87sz",
+          "title": "Best G1 Teleprompter Remote (via Bluetooth)",
+          "subreddit": "EvenRealities",
+          "score": 21,
+          "num_comments": 9,
+          "author": "rytess20",
+          "created_utc": 1771822342,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rc87sz"
+        }
+      },
+      "representative_faq_posts": {
+        "after_sales": {
+          "post_id": "1rlsys6",
+          "title": "Ordered the G2s",
+          "subreddit": "EvenRealities",
+          "score": 5,
+          "num_comments": 5,
+          "author": "Ok-Lawfulness3932",
+          "created_utc": 1772743093,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rlsys6"
+        },
+        "ai": {
+          "post_id": "1rlnszo",
+          "title": "What I was expecting from Conversate and Even AI when I bought those glasses :",
+          "subreddit": "EvenRealities",
+          "score": 1,
+          "num_comments": 6,
+          "author": "Feeling_Part_1323",
+          "created_utc": 1772731950,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rlnszo"
+        },
+        "translation": {
+          "post_id": "1rl3h8g",
+          "title": "G2 Experience with Live Translation in Virtual Meetings",
+          "subreddit": "EvenRealities",
+          "score": 2,
+          "num_comments": 6,
+          "author": "jonathansayshi",
+          "created_utc": 1772672509,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rl3h8g"
+        },
+        "connectivity": {
+          "post_id": "1rknvey",
+          "title": "position Always on on G2A",
+          "subreddit": "EvenRealities",
+          "score": 3,
+          "num_comments": 1,
+          "author": "edobughi",
+          "created_utc": 1772636913,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rknvey"
+        },
+        "display": {
+          "post_id": "1rjwjkw",
+          "title": "Display issue",
+          "subreddit": "EvenRealities",
+          "score": 2,
+          "num_comments": 4,
+          "author": "wheres-my-pizza",
+          "created_utc": 1772561118,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rjwjkw"
+        },
+        "prescription_lenses": {
+          "post_id": "1rice75",
+          "title": "Reading glasses",
+          "subreddit": "EvenRealities",
+          "score": 9,
+          "num_comments": 8,
+          "author": "Business_Cow7286",
+          "created_utc": 1772407008,
+          "url": "https://reddit.com/r/EvenRealities/comments/1rice75"
+        },
+        "development_related": {
+          "post_id": "1ren5lm",
+          "title": "Even AI feels more like a “recorder” for the moment than a real persistent AI, huge potential, but missing long-term memory",
+          "subreddit": "EvenRealities",
+          "score": 14,
+          "num_comments": 26,
+          "author": "Feeling_Part_1323",
+          "created_utc": 1772047628,
+          "url": "https://reddit.com/r/EvenRealities/comments/1ren5lm"
+        },
+        "navigation": {
+          "post_id": "1re8avz",
+          "title": "G2 + R1 rx user review",
+          "subreddit": "EvenRealities",
+          "score": 38,
+          "num_comments": 7,
+          "author": "Hyper_Duper",
+          "created_utc": 1772010325,
+          "url": "https://reddit.com/r/EvenRealities/comments/1re8avz"
+        },
+        "battery_life": {
+          "post_id": "1re2sec",
+          "title": "Selling G2A grey, Ring size 8 and shades",
+          "subreddit": "EvenRealities",
+          "score": 1,
+          "num_comments": 12,
+          "author": "Noduty6638",
+          "created_utc": 1771992063,
+          "url": "https://reddit.com/r/EvenRealities/comments/1re2sec"
+        },
+        "audio": {
+          "post_id": "1r7knfu",
+          "title": "EVEN G2 and Voice input",
+          "subreddit": "EvenRealities",
+          "score": 2,
+          "num_comments": 8,
+          "author": "SuspiciousWorld6951",
+          "created_utc": 1771366603,
+          "url": "https://reddit.com/r/EvenRealities/comments/1r7knfu"
+        },
+        "privacy": {
+          "post_id": "1quvdg4",
+          "title": "Honest Review - G2B + R1",
+          "subreddit": "EvenRealities",
+          "score": 22,
+          "num_comments": 7,
+          "author": "RussianSpy00",
+          "created_utc": 1770133498,
+          "url": "https://reddit.com/r/EvenRealities/comments/1quvdg4"
+        }
+      },
+      "weekly_post_counts": [
+        [
+          "2026-01",
+          93
+        ],
+        [
+          "2026-02",
+          59
+        ],
+        [
+          "2026-03",
+          75
+        ],
+        [
+          "2026-04",
+          90
+        ],
+        [
+          "2026-05",
+          86
+        ],
+        [
+          "2026-06",
+          95
+        ],
+        [
+          "2026-07",
+          74
+        ],
+        [
+          "2026-08",
+          51
+        ],
+        [
+          "2026-09",
+          42
+        ]
+      ],
+      "weekly_snapshot": {
+        "post_count": 57,
+        "comment_count": 125,
+        "top_complaints": [
+          [
+            "connectivity",
+            8
+          ],
+          [
+            "customer_service",
+            4
+          ],
+          [
+            "software",
+            3
+          ],
+          [
+            "comfort",
+            3
+          ],
+          [
+            "display",
+            2
+          ],
+          [
+            "battery",
+            1
+          ],
+          [
+            "ai",
+            1
+          ],
+          [
+            "privacy",
+            1
+          ]
+        ],
+        "top_complaints_breakdown": {},
+        "top_liked_features": [
+          [
+            "software",
+            6
+          ],
+          [
+            "display",
+            6
+          ],
+          [
+            "ai",
+            3
+          ],
+          [
+            "audio",
+            3
+          ],
+          [
+            "translation",
+            2
+          ],
+          [
+            "developer",
+            2
+          ]
+        ],
+        "top_liked_features_breakdown": {},
+        "frequently_asked_questions": [
+          [
+            "connectivity",
+            6
+          ],
+          [
+            "ai",
+            4
+          ],
+          [
+            "display",
+            3
+          ],
+          [
+            "translation",
+            2
+          ],
+          [
+            "after_sales",
+            1
+          ],
+          [
+            "prescription_lenses",
+            1
+          ],
+          [
+            "battery_life",
+            1
+          ],
+          [
+            "development_related",
+            1
+          ]
+        ],
+        "persona_signals": [
+          [
+            "productivity",
+            25
+          ],
+          [
+            "fashion_lifestyle",
+            11
+          ],
+          [
+            "developer",
+            10
+          ],
+          [
+            "traveler",
+            5
+          ],
+          [
+            "creator",
+            4
+          ],
+          [
+            "tech_enthusiast",
+            3
+          ]
+        ],
+        "module_totals": {
+          "top_complaints": 23,
+          "top_liked_features": 22,
+          "frequently_asked_questions": 20,
+          "persona_signals": 58
+        },
+        "sentiment_units": {
+          "positive_signal_units": 15,
+          "negative_signal_units": 19
+        },
+        "top_posts": []
+      },
+      "top_posts": [
+        {
+          "post_id": "1r69j5y",
+          "subreddit": "EvenRealities",
+          "title": "Tesla app for Even G2",
+          "score": 116,
+          "num_comments": 22,
+          "author": "ChefAccomplished845",
+          "created_utc": 1771248279,
+          "url": "https://reddit.com/r/EvenRealities/comments/1r69j5y"
+        },
+        {
+          "post_id": "1qmiqk6",
+          "subreddit": "EvenRealities",
+          "title": "SSH client on my G1s",
+          "score": 88,
+          "num_comments": 23,
+          "author": "Paraknight",
+          "created_utc": 1769346675,
+          "url": "https://reddit.com/r/EvenRealities/comments/1qmiqk6"
+        },
+        {
+          "post_id": "1qzkztu",
+          "subreddit": "EvenRealities",
+          "title": "I just got my G2's. Here's what all the Reviewers left out.",
+          "score": 86,
+          "num_comments": 26,
+          "author": "Dapper_Strength_5986",
+          "created_utc": 1770585106,
+          "url": "https://reddit.com/r/EvenRealities/comments/1qzkztu"
+        },
+        {
+          "post_id": "1qn9616",
+          "subreddit": "EvenRealities",
+          "title": "Even Realities G2A + R1 Review (After 3 Days)",
+          "score": 66,
+          "num_comments": 28,
+          "author": "jayyble",
+          "created_utc": 1769411416,
+          "url": "https://reddit.com/r/EvenRealities/comments/1qn9616"
+        },
+        {
+          "post_id": "1qttsig",
+          "subreddit": "EvenRealities",
+          "title": "Real-world experience after using it on work calls: good ideas, but immature software",
+          "score": 65,
+          "num_comments": 24,
+          "author": "QDG_John",
+          "created_utc": 1770035516,
+          "url": "https://reddit.com/r/EvenRealities/comments/1qttsig"
+        },
+        {
+          "post_id": "1q6hfzc",
+          "subreddit": "EvenRealities",
+          "title": "Got my prescription G2",
+          "score": 62,
+          "num_comments": 47,
+          "author": "Gabe6903",
+          "created_utc": 1767797683,
+          "url": "https://reddit.com/r/EvenRealities/comments/1q6hfzc"
+        },
+        {
+          "post_id": "1qhp5dg",
+          "subreddit": "EvenRealities",
+          "title": "G2B green recieved !",
+          "score": 59,
+          "num_comments": 31,
+          "author": "mrmorningstar6969",
+          "created_utc": 1768877466,
+          "url": "https://reddit.com/r/EvenRealities/comments/1qhp5dg"
+        },
+        {
+          "post_id": "1qxrjrd",
+          "subreddit": "EvenRealities",
+          "title": "We listened to your feedback... today we're launching Captions 2.0 for Even G1 on MentraOS!",
+          "score": 55,
+          "num_comments": 28,
+          "author": "hackalackolot",
+          "created_utc": 1770406596,
+          "url": "https://reddit.com/r/EvenRealities/comments/1qxrjrd"
+        },
+        {
+          "post_id": "1r7c4dw",
+          "subreddit": "EvenRealities",
+          "title": "G2B Browns with Brown clips",
+          "score": 52,
+          "num_comments": 33,
+          "author": "outragedenfieldian",
+          "created_utc": 1771348369,
+          "url": "https://reddit.com/r/EvenRealities/comments/1r7c4dw"
+        },
+        {
+          "post_id": "1r21n7o",
+          "subreddit": "EvenRealities",
+          "title": "Even Hub Update V0.0.7 -  OpenClaw Integration, &amp; Pilot Expansion",
+          "score": 52,
+          "num_comments": 10,
+          "author": "Punchyberri",
+          "created_utc": 1770826580,
+          "url": "https://reddit.com/r/EvenRealities/comments/1r21n7o"
+        },
+        {
+          "post_id": "1q7tlxz",
+          "subreddit": "EvenRealities",
+          "title": "Obligatory unit received post",
+          "score": 51,
+          "num_comments": 65,
+          "author": "LordDocSaturn",
+          "created_utc": 1767919512,
+          "url": "https://reddit.com/r/EvenRealities/comments/1q7tlxz"
+        },
+        {
+          "post_id": "1qsnsvm",
+          "subreddit": "EvenRealities",
+          "title": "Just received my even g2s today!",
+          "score": 51,
+          "num_comments": 24,
+          "author": "Anav_Patel",
+          "created_utc": 1769918019,
+          "url": "https://reddit.com/r/EvenRealities/comments/1qsnsvm"
+        },
+        {
+          "post_id": "1qwxnu0",
+          "subreddit": "EvenRealities",
+          "title": "READ  BEFORE BUYING Why is no one being honest about the Even Realities G2s? My honest review after 2 days.",
+          "score": 49,
+          "num_comments": 99,
+          "author": "Direct_Assistant_578",
+          "created_utc": 1770325616,
+          "url": "https://reddit.com/r/EvenRealities/comments/1qwxnu0"
+        },
+        {
+          "post_id": "1r9zxla",
+          "subreddit": "EvenRealities",
+          "title": "Pong in Even G2",
+          "score": 46,
+          "num_comments": 27,
+          "author": "ChefAccomplished845",
+          "created_utc": 1771604768,
+          "url": "https://reddit.com/r/EvenRealities/comments/1r9zxla"
+        },
+        {
+          "post_id": "1r8gtpy",
+          "subreddit": "EvenRealities",
+          "title": "FINALLY HERE",
+          "score": 44,
+          "num_comments": 16,
+          "author": "Competitive_Dealer16",
+          "created_utc": 1771452171,
+          "url": "https://reddit.com/r/EvenRealities/comments/1r8gtpy"
+        }
+      ]
+    }
+  },
+  "latest_sync_summary": {
+    "run_id": 558,
+    "mode": "hourly_sync",
+    "requests_used": 39,
+    "request_budget": 40,
+    "subreddits": {
+      "rokid": {
+        "rokid_official": {
+          "pages": 4,
+          "new_posts": 0,
+          "filtered_out": 26,
+          "skipped_target_met": false
+        }
+      },
+      "meta": {
+        "raybanmeta": {
+          "pages": 5,
+          "new_posts": 0,
+          "filtered_out": 0,
+          "skipped_target_met": false
+        }
+      },
+      "even": {
+        "evenrealities": {
+          "pages": 4,
+          "new_posts": 1,
+          "filtered_out": 0,
+          "skipped_target_met": false
+        }
+      }
+    },
+    "comments": {
+      "posts_checked": 27,
+      "posts_fetched": 26,
+      "errors": 0
+    },
+    "stats": {
+      "posts_new": 1,
+      "posts_upserted": 1016,
+      "comments_new": 0,
+      "comments_upserted": 331,
+      "search_requests": 13,
+      "comment_requests": 26
+    },
+    "post_counts": {
+      "rokid": 245,
+      "meta": 1116,
+      "even": 759
+    }
+  },
+  "run_history": [
+    {
+      "run_id": 559,
+      "started_utc": 1772761388,
+      "ended_utc": null,
+      "mode": "hourly_sync",
+      "status": "running",
+      "request_budget": 40,
+      "requests_used": 0,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 558,
+      "started_utc": 1772760825,
+      "ended_utc": 1772761086,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 1,
+      "comments_new": 0
+    },
+    {
+      "run_id": 557,
+      "started_utc": 1772760260,
+      "ended_utc": 1772760522,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 556,
+      "started_utc": 1772759702,
+      "ended_utc": 1772759957,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 555,
+      "started_utc": 1772759136,
+      "ended_utc": 1772759399,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 554,
+      "started_utc": 1772758572,
+      "ended_utc": 1772758834,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 1,
+      "comments_new": 0
+    },
+    {
+      "run_id": 553,
+      "started_utc": 1772758012,
+      "ended_utc": 1772758269,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 552,
+      "started_utc": 1772757447,
+      "ended_utc": 1772757710,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 1
+    },
+    {
+      "run_id": 551,
+      "started_utc": 1772756883,
+      "ended_utc": 1772757145,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 550,
+      "started_utc": 1772756325,
+      "ended_utc": 1772756581,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 549,
+      "started_utc": 1772755761,
+      "ended_utc": 1772756023,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 1,
+      "comments_new": 1
+    },
+    {
+      "run_id": 548,
+      "started_utc": 1772755191,
+      "ended_utc": 1772755458,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 547,
+      "started_utc": 1772754632,
+      "ended_utc": 1772754889,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 546,
+      "started_utc": 1772754065,
+      "ended_utc": 1772754329,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 545,
+      "started_utc": 1772753500,
+      "ended_utc": 1772753762,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 544,
+      "started_utc": 1772752939,
+      "ended_utc": 1772753197,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 543,
+      "started_utc": 1772752368,
+      "ended_utc": 1772752636,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 542,
+      "started_utc": 1772751797,
+      "ended_utc": 1772752066,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 541,
+      "started_utc": 1772751239,
+      "ended_utc": 1772751494,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 2,
+      "comments_new": 0
+    },
+    {
+      "run_id": 540,
+      "started_utc": 1772750671,
+      "ended_utc": 1772750936,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 1,
+      "comments_new": 0
+    },
+    {
+      "run_id": 539,
+      "started_utc": 1772750101,
+      "ended_utc": 1772750369,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 538,
+      "started_utc": 1772749540,
+      "ended_utc": 1772749798,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    },
+    {
+      "run_id": 537,
+      "started_utc": 1772748971,
+      "ended_utc": 1772749238,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 1
+    },
+    {
+      "run_id": 536,
+      "started_utc": 1772748404,
+      "ended_utc": 1772748669,
+      "mode": "hourly_sync",
+      "status": "ok",
+      "request_budget": 40,
+      "requests_used": 39,
+      "posts_new": 0,
+      "comments_new": 0
+    }
+  ]
+}

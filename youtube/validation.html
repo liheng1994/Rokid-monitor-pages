@@ -1,0 +1,1026 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>YouTube Validation</title>
+<style>
+:root { --bg:#f4f7fb; --panel:#ffffff; --border:#dbe4f3; --text:#0f172a; --muted:#64748b; --chip:#eff6ff; --chipborder:#bfdbfe; }
+body { margin:0; background:linear-gradient(180deg,#f8fbff,#eef4fb); color:var(--text); font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif; }
+.wrap { max-width:1440px; margin:0 auto; padding:24px; }
+.panel { background:rgba(255,255,255,.92); border:1px solid var(--border); border-radius:18px; padding:16px; box-shadow:0 10px 30px rgba(15,23,42,.06); margin-top:16px; }
+.head { display:flex; justify-content:space-between; align-items:center; gap:16px; }
+.sub { color:var(--muted); font-size:13px; }
+.table-wrap { overflow:auto; margin-top:12px; }
+.filter-bar { display:flex; gap:12px; flex-wrap:wrap; margin-top:12px; }
+select { border:1px solid var(--border); border-radius:10px; padding:8px 10px; background:#fff; font-size:13px; }
+table { width:100%; border-collapse:collapse; font-size:13px; min-width:1200px; }
+th,td { text-align:left; padding:10px 12px; border-bottom:1px solid #e5ecf6; vertical-align:top; }
+.chip { display:inline-block; margin:2px 6px 2px 0; padding:4px 8px; border-radius:999px; background:var(--chip); border:1px solid var(--chipborder); color:#1d4ed8; font-size:12px; }
+.chip.muted { color:var(--muted); border-color:#e2e8f0; background:#fff; }
+a { color:#2563eb; text-decoration:none; }
+</style>
+</head>
+<body>
+<div class='wrap'>
+  <section class='panel'>
+    <h1 style='margin:0 0 8px;'>YouTube Validation</h1>
+    <div class='sub'>Manual QA view for feature attribution, sentiment, product doubts, and persona tagging.</div>
+    <div class='sub' style='margin-top:6px;'><a href='dashboard.html'>Back to dashboard</a></div>
+    <div class='filter-bar'>
+      <label>Brand
+        <select id='brand-filter'>
+          <option value='all'>All brands</option>
+          <option value='rokid'>Rokid</option>
+          <option value='meta'>Meta Ray-Ban</option>
+          <option value='meta_display'>Meta Ray-Ban Display</option>
+          <option value='even'>Even</option>
+        </select>
+      </label>
+      <label>Feature
+        <select id='feature-filter'>
+          <option value='all'>All features</option>
+          <option value='ai'>Ai</option><option value='battery'>Battery</option><option value='battery_life'>Battery life</option><option value='camera'>Camera</option><option value='compatibility'>Compatibility</option><option value='connectivity'>Connectivity</option><option value='design'>Design</option><option value='display'>Display</option><option value='navigation'>Navigation</option><option value='price'>Price</option><option value='privacy'>Privacy</option><option value='sound'>Sound</option><option value='translation'>Translation</option><option value='usefulness'>Usefulness</option>
+        </select>
+      </label>
+    </div>
+  </section>
+  
+            <section class='panel'>
+              <div class='head'><h2>Rokid</h2><div class='sub'>Recent relevant comment samples for manual QA</div></div>
+              <div class='table-wrap'>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Video</th>
+                      <th>Comment</th>
+                      <th>Positive Features</th>
+                      <th>Negative Features</th>
+                      <th>Doubts</th>
+                      <th>Persona</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                <tr data-brand="rokid" data-features="sound translation">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>Which is best for live translation by voice/sound. Without having to use your phone, or only translate by text</td>
+                  <td><span class='chip'>Sound (1)</span><span class='chip'>Translation (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Traveler</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="sound">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>smart glasses with nothing more than speakers and buttons are dumb, you can literally do the same thing with any modern earbuds or headphones for the same price or less with way better audio</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip'>Sound (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>I need information about the OhO Sunshine Edge Pro 4K. How many hours can these glasses record video continuously?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>I would like to see a review on drones, the price and the features as well as if they a need specia
+ Permissions in different countries? Hope is not too much and maybe you did it already? Let me k ow so I can whath it. I like the ones that are small . , can stand winds and follow you …</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="camera">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>In case this is useful for your new lead generation: Found you from Google search "best eyeglasses camera" -> click your YouTube video (this) -> like and subscribe before watching the review haha</td>
+                  <td><span class='chip'>Camera (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="ai">
+                  <td><a href="https://www.youtube.com/watch?v=rI5YuE5mIS4" target="_blank" rel="noreferrer">能在眼前翻譯的AI眼鏡！還能拍照、錄影、導航、聽音樂！Rokid Glasses樂奇智慧眼鏡開箱！【Joeman】</a></td>
+                  <td>the AI assistant sounds super helpful</td>
+                  <td><span class='chip'>Ai (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>oho sunglasses look neat, may try that</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="price">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>The price breakdown made me realize I’m judging smart glasses like AI search too. I use AICarma to see what ChatGPT says about brands, same idea.</td>
+                  <td><span class='chip'>Price (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>Instead of just calling them Smart glasses. Can we call them smart Camera glasses, smart AR  glasses and or Smart AR Camera Glasses. All I want is Smart AR  (Augmented Reality) Glasses.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="usefulness">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>Are their any options for someone blind in one eye and needs prescription lense on the other,.. or am I frucked and doomed to live in the real world forever?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip'>Usefulness (1)</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>can we please stop  referring to glasses as "smart" glases, just because they have a camera, bluetooth headphoones and maybe a microphone to use your phones "AI" assistant. imho "smart" glasses should at least have a screen</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>Im ngl, no recording light is concerning</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="price">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>Cheap frames with good lenses is my goal. Most good glasses frames are over 100 so my aim is $150 or knowing what brands to buy 2nd hand for dirt cheap 😊</td>
+                  <td><span class='chip'>Price (2)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="design">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>Other than the Rokid. You look like a robot on the more premium glasses...</td>
+                  <td><span class='chip'>Design (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=_0pg2_yBVtM" target="_blank" rel="noreferrer">Probé el Futuro de las Gafas | ROKID Glasses</a></td>
+                  <td>Haz probado las principales gafas que me interesan , como lo son las Rayban Display, even realities G1 y G2, las Rokid ,  cual de ellas crees que serían la mejor opción ?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>I dont want ai or camra glasses i just want some that can link to my phone as a screen that doesnt need a cord :/</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>but you need to compare tuem all, not just list price. and do it in the same video. make lasting videos, not cheap videos.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>Hell nah I need these to have a recording light</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="privacy">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>It's so creepy that a lot of these don't have a recording light, why do you advertice this as a plus?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip'>Privacy (1)</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="sound">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>Which Smart glasses with the ability for corrective lenses  have the best sounding audio for music in your opinion.</td>
+                  <td><span class='chip'>Sound (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="privacy">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>Are there any good privacy ones? Meta and Amazon are notoriously bad about customer data and I want to trust I can have the product without being the product.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip'>Privacy (1)</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="battery">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>I'm really looking at getting some AR glasses it's really between the X3 pros and the AIR 3 and I'm slightly leaning more towards the X3 because of the form factor but that battery life is atrocious and the air 3 is a little too much in the bulky side and I like the possibilities you can do with that one but I also wanted to be more of an actual AR experience without just being a Android phone slap to my face</td>
+                  <td><span class='chip'>Battery (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>Hey, thanks for the video! One of my main needs when reading books or magazines is to translate individual words that I’m pointing at. Which device do you think would work best for this purpose?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="rokid" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=PVs0pwPTLRs" target="_blank" rel="noreferrer">Best Smart Glasses For Everyone At Every Price Point</a></td>
+                  <td>Fu*k Meta and their no horizontal recording, so stupid. Rokid all the way!</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                </tbody>
+                </table>
+              </div>
+            </section>
+            
+            <section class='panel'>
+              <div class='head'><h2>Meta Ray-Ban</h2><div class='sub'>Recent relevant comment samples for manual QA</div></div>
+              <div class='table-wrap'>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Video</th>
+                      <th>Comment</th>
+                      <th>Positive Features</th>
+                      <th>Negative Features</th>
+                      <th>Doubts</th>
+                      <th>Persona</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                <tr data-brand="meta" data-features="design">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>It’s the quality and the design that makes it look like normal glasses</td>
+                  <td><span class='chip'>Design (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="sound">
+                  <td><a href="https://www.youtube.com/watch?v=jSWY3zVL1Lw" target="_blank" rel="noreferrer">MKBHD: Meta Ray-Ban Displays Are the Future of Glasses? #mkbhd #MetaRayBan #SmartGlasses</a></td>
+                  <td>I have them and they work perfectly I am getting about 5hours stand by the case can bump up the charge messages flow in smoothly I can answer by voice or text make calls answer calls and listen to music Apple Music Spotify seamless smooth much better than other smart glasses period</td>
+                  <td><span class='chip'>Sound (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>blind ppl do want the assistant and telling whats in front of them</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>….what? “Thats a good thing”… bruh what? People recording people without consent is NOT a good thing.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>My teacher got a pair</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>It’s also not prank videos that’s why they’re trying to remove the light that shows that it’s recording it’s nothing but creepers</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>Apple wont be able to make it about AI we still waiting on apple intelligence which is now gemini😂</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>Let’s all make fun of people wearing meta glasses so we don’t end up in a future where everyone is recording everything all the time</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>You'll buy an apple design knowing how often they fumble. You got too much money.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>In my opinion thats partly true but I think some people want to get the glasses for the shuire fact that its a step up from recording with a camera to recording with a pair of glasses, but obviously the menace's out there will use it for pranks unfortunately</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>I think meta glassses are stupid. Just buy a camera</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>I don't want a HUD, I want to see Information at a glance. Got a text message, I can just glance to the side to see who sent it and or read the message. Have the time available at a glance. I have ADHD to a todo list that would help me stay on track and having it in peripheral vision will make sure I don't forget. Weather info. Breaking news updates. I work in a custom service. People ask the time, talk about the weather, or recent breaking news. I don't want a camera or a mic or a speaker. I just want a HUD.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>i dont want ai or camera glasses, i want ar glasses with a little map hud for dirtbikinf</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>Remember that time when a specific camera model could see through people's clothes and that particular model sold out immediately?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>I think the biggest reason to buy ai meta glasses is the video recording feature, you can record your pov videos while driving, shopping, make prank videos, and also call within meta apps from the glass which makes them a good feature to try like you can show something to someone from your pov in whatsapp and other apps</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>Literally just creepy tech Bros want to film people without them knowing that's it. That's all</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>Btw it is not illegal for people to film you with the glasses w/o consent…
+
+Let that sink in 🚰🚪</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>I just want a decent screen that's connected to my phone/computer. I could gaf less about the camera.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>People: I dont want companies listening to me in secret and know my location
+
+Also people:: Lemme buy glasses with a build in camera and speaker that knows exactly what i am looking at and can hear all my conversations!</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>Japan has a mandatory shutter click sound when any camera takes a picture. We could take a page out of their book</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="camera">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>the issue with camera glasses becoming popular is that it makes the lives of creeps easier</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip'>Camera (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>YouTube while I'm at work discreetly would be neat... But they'd have to remove the camera and everything that makes them visually "smart" glasses</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>I just want to listen to music and answer the phone without boomers thinking I can’t hear them with my headphones in.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta" data-features="camera">
+                  <td><a href="https://www.youtube.com/watch?v=tLqqXezMwos" target="_blank" rel="noreferrer">Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a></td>
+                  <td>Snapchat just out here like "we had a camera in our glasses years ago"</td>
+                  <td><span class='chip'>Camera (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                </tbody>
+                </table>
+              </div>
+            </section>
+            
+            <section class='panel'>
+              <div class='head'><h2>Meta Ray-Ban Display</h2><div class='sub'>Recent relevant comment samples for manual QA</div></div>
+              <div class='table-wrap'>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Video</th>
+                      <th>Comment</th>
+                      <th>Positive Features</th>
+                      <th>Negative Features</th>
+                      <th>Doubts</th>
+                      <th>Persona</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                <tr data-brand="meta_display" data-features="battery_life camera">
+                  <td><a href="https://www.youtube.com/watch?v=L1d_U2wVH9E" target="_blank" rel="noreferrer">I Survived 24 Hours in the Meta Smart Glasses</a></td>
+                  <td>I have these glasses and I appreciate the video but it seemed like you were over exaggerating the hand gestures. 90% of the time people can't tell I'm using my hand to do anything lol. Edit also I'm not giving any excuses to Meta but you were on a subway for I dunno an hour with the navigation running and watching Instagram reels on a battery that's the size of your thumb? Maybe half that size lol. Just gotta set real world expectations for the device. For me they work great as an accessory replying to messages taking photos answering calls etc. Hopefully other companies can replicate and improve battery size for the future</td>
+                  <td><span class='chip'>Camera (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip'>Battery life (1)</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=L1d_U2wVH9E" target="_blank" rel="noreferrer">I Survived 24 Hours in the Meta Smart Glasses</a></td>
+                  <td>Meta Ray-Band Display Glasses (Discount Code: SHERVINSHARES) https://www.meta.com/affiliates/7NXqxmhve
+** Watch More Videos **
+How to Prep for Marathon Long-Runs (Fuel, Gear & Mindset): https://youtu.be/9WgeEnceaic
+I Traveled to Hawaii with My Apple Watch (Maui): https://youtu.be/2ffw8VbqehE
+2026 Beginner Guide to Running (19 Mile Long Run): https://youtu.be/8Eeu3qI8QuIss</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="battery">
+                  <td><a href="https://www.youtube.com/watch?v=ZLhSHXvGUgA" target="_blank" rel="noreferrer">RayNeo X3 Pro vs Ray-Ban Meta — $500 Upgrade or Overpriced?</a></td>
+                  <td>Thank you for a great and honest review of both products. I have them both as I am a super Techie. To be honest I feel the Meta Displays are as you said polished. Rayneo terrible battery life and as you said no voice control at all. I also feel the sound is clearer and more polished on the Meta Glasses. I am truly disappointed that the case for the Rayneo glasses doesn't charge the glasses. I bought a neck battery to compensate for the poor battery it adds about 2 hours but for 1300 dollars you would think they could have given something to compensate. I wear my Meta Displays all day they last unless I get a crazy bunch of messages. For 799 vs 1299 Meta is the better deal. I would like to add you can control the Rayneo glasses with a Apple smart watch the gestures are similar to the Nero band but not as polished.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip'>Battery (2)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="price">
+                  <td><a href="https://www.youtube.com/watch?v=oZ6ONDZXuV4" target="_blank" rel="noreferrer">Meta Ray-Ban Display vs Gen 2: Is the Screen Worth $400 More? #metarayban #smartglasses</a></td>
+                  <td>a bit over price</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip'>Price (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="design">
+                  <td><a href="https://www.youtube.com/watch?v=oBZ8toFKZls" target="_blank" rel="noreferrer">Unboxing Meta Ray-Ban Display Glasses</a></td>
+                  <td>These are going to look like bulky tech in 10 years, contact lenses are next</td>
+                  <td><span class='chip'>Design (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=ZLhSHXvGUgA" target="_blank" rel="noreferrer">RayNeo X3 Pro vs Ray-Ban Meta — $500 Upgrade or Overpriced?</a></td>
+                  <td>Wore both for a week. That $500 gap set my expectations really high.
+So is Power (RayNeo X3 Pro) worth the premium — or does Polish (Meta Ray-Ban Display) still win?
+
+Drop your vote: Team RayNeo 🚀 or Team Meta 🕶</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=oBZ8toFKZls" target="_blank" rel="noreferrer">Unboxing Meta Ray-Ban Display Glasses</a></td>
+                  <td>Why not have a bracelet charging spot inside the glasses case as well?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=7gtc1DW2Tgo" target="_blank" rel="noreferrer">Wait... Smart Glasses are Suddenly Good?</a></td>
+                  <td>Not giving fb my contacts 😂 so deal breaker to use their call tech. Hoping Apple comes out with this soon. Lost hope about snap. The OG for these camera glasses.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=bJ7EZ1imsc0" target="_blank" rel="noreferrer">📦 Unboxing Meta Ray-Ban Display</a></td>
+                  <td>Kanadi charge panra dapa epdi charge pannveenga</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=7gtc1DW2Tgo" target="_blank" rel="noreferrer">Wait... Smart Glasses are Suddenly Good?</a></td>
+                  <td>I want AI VR Glasses vr is Great but headsets are heavy and I don't like em</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=7gtc1DW2Tgo" target="_blank" rel="noreferrer">Wait... Smart Glasses are Suddenly Good?</a></td>
+                  <td>im quite confident they will make a contact lens version in a matter of time</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=7gtc1DW2Tgo" target="_blank" rel="noreferrer">Wait... Smart Glasses are Suddenly Good?</a></td>
+                  <td>Can these make video calls on HUD</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=7gtc1DW2Tgo" target="_blank" rel="noreferrer">Wait... Smart Glasses are Suddenly Good?</a></td>
+                  <td>I am a karaoke, singer and performer. I would like to use these glasses in order to watch the YouTube video for karaoke songs at the same time the glasses be paired Bluetooth speaker to play the songs out of a speaker but be able to walk around the crowd and sing to them as I see the words on the YouTube video for karaoke. Is that possible on these? If it isn’t, what glasses are offered out there that would allow me to do such a thing.?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=7gtc1DW2Tgo" target="_blank" rel="noreferrer">Wait... Smart Glasses are Suddenly Good?</a></td>
+                  <td>That wrist band needs a watch option so it looks less weird</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="navigation">
+                  <td><a href="https://www.youtube.com/watch?v=7gtc1DW2Tgo" target="_blank" rel="noreferrer">Wait... Smart Glasses are Suddenly Good?</a></td>
+                  <td>I'd love these glasses with Live view in Google maps</td>
+                  <td><span class='chip'>Navigation (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="design">
+                  <td><a href="https://www.youtube.com/watch?v=gZ9IsB72nVk" target="_blank" rel="noreferrer">Meet the World's Most Advanced AI Glasses | Meta Ray-Ban Display @ Connect 2025</a></td>
+                  <td>why are they so thick ? lmao..he looks like he out to ski or snowboard..lmao..i thing ray ban gen 2 are thick but these are to much.stil no more languages and live ai only works in few countries..lmao</td>
+                  <td><span class='chip'>Design (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=7gtc1DW2Tgo" target="_blank" rel="noreferrer">Wait... Smart Glasses are Suddenly Good?</a></td>
+                  <td>I was thinking of getting a pair for riding my bike and listen to music with a map of the trail or path for directions.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=7bjJ6lKmIog" target="_blank" rel="noreferrer">Why’d it have to be Meta? - Meta Ray-Ban Display</a></td>
+                  <td>What if I need corrective lens?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=YPxDjVKxfBA" target="_blank" rel="noreferrer">XR? VR? 다 필요없고 이게 미래입니다. 메타에서 야심차게 발표한 스마트 안경 언빡싱</a></td>
+                  <td>gps 증폭기 있음 국내서도 사용가능할듯?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=7gtc1DW2Tgo" target="_blank" rel="noreferrer">Wait... Smart Glasses are Suddenly Good?</a></td>
+                  <td>There was something called privacy at some point in our previous lives!</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=5cVGKvl7Oek" target="_blank" rel="noreferrer">Meta Ray-Ban Display hands-on: best smart glasses I’ve ever tried</a></td>
+                  <td>Will be cool if the captions can translate languages</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=7bjJ6lKmIog" target="_blank" rel="noreferrer">Why’d it have to be Meta? - Meta Ray-Ban Display</a></td>
+                  <td>Leave the damn display up we want to see it - rather than you 99% of the time</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="usefulness">
+                  <td><a href="https://www.youtube.com/watch?v=7bjJ6lKmIog" target="_blank" rel="noreferrer">Why’d it have to be Meta? - Meta Ray-Ban Display</a></td>
+                  <td>if this feels like a waste of time on YouTube, imagine how useful it will feel in real life!</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip'>Usefulness (1)</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="meta_display" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=7bjJ6lKmIog" target="_blank" rel="noreferrer">Why’d it have to be Meta? - Meta Ray-Ban Display</a></td>
+                  <td>wow. looks very, um...yeah. wow.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                </tbody>
+                </table>
+              </div>
+            </section>
+            
+            <section class='panel'>
+              <div class='head'><h2>Even</h2><div class='sub'>Recent relevant comment samples for manual QA</div></div>
+              <div class='table-wrap'>
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Video</th>
+                      <th>Comment</th>
+                      <th>Positive Features</th>
+                      <th>Negative Features</th>
+                      <th>Doubts</th>
+                      <th>Persona</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=ikyOQrNXXnE" target="_blank" rel="noreferrer">The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2</a></td>
+                  <td>Send me a pair</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=EBoVJwmDU-8" target="_blank" rel="noreferrer">The Everyday Display Smart Glasses</a></td>
+                  <td>Should have addressed battery life in greater detail.  This is a major issues for users of smart glasses.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="translation">
+                  <td><a href="https://www.youtube.com/watch?v=EBoVJwmDU-8" target="_blank" rel="noreferrer">The Everyday Display Smart Glasses</a></td>
+                  <td>The subtitles for people speaking would be good for deaf people</td>
+                  <td><span class='chip'>Translation (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=buDkt8zDzDI" target="_blank" rel="noreferrer">The most ADVANCED glasses ever made 😭 #EvenRealities #EvenG2 #EvenRealitiesPartner</a></td>
+                  <td>An older kid was recording me and my friends w some of those at school</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=sXRC55ksuEA" target="_blank" rel="noreferrer">HO PROVATO GLI OCCHIALI SMART DEL FUTURO: EVEN REALITIES G2</a></td>
+                  <td>Ciao, in rete si legge di tanti problemi riguardo i tempi di spedizione, l'assistenza ed il software ancora acerbo ma soprattutto riguardo la connessione Bluetooth estremamente instabile. Dato il prezzo elevato potresti dirmi qualcosa a riguardo? Grazie ed un saluto da...Bari!</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=sXRC55ksuEA" target="_blank" rel="noreferrer">HO PROVATO GLI OCCHIALI SMART DEL FUTURO: EVEN REALITIES G2</a></td>
+                  <td>Finalmente un design accattivante! Ti stanno benissimo, sembri Anche più giovane di 24 ore!</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=sXRC55ksuEA" target="_blank" rel="noreferrer">HO PROVATO GLI OCCHIALI SMART DEL FUTURO: EVEN REALITIES G2</a></td>
+                  <td>Peccato manchino gli speaker, sarebbe stato veramente meglio. La fotocamera se ci fosse la si userebbe poco magari con un oblò per coprirla. Se aggiungono come gadget da prendere a parte un localizzatore GPS e gli occhiali di detective Conan diventano realtà. Veramente belli, li prenderò in futuro per me e mio padre, forse un po' costosi sia gli occhiali che l'aggancio per lenti da sole. La cosa bella che il software è open source e quindi personalizzabile e programmabile da tutti gli smanettoni.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Tech enthusiast</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="connectivity">
+                  <td><a href="https://www.youtube.com/watch?v=pkP28wcvTAg" target="_blank" rel="noreferrer">The Future of Glasses: Even Realities G2 Unboxing</a></td>
+                  <td>Nah mate, the perfect glasses for me allow me to see and experience the real world - to be a human amongst other humans. Injecting chatprompts, the ability to record without people knowing, and just putting a “ur too stupid to not have information constantly injected directly into your eyeballs” pair of glasses into a marketing campaign like this is a sign of a hell to come. Gonna be a bunch of mentally deficient people running around having literally lost the ability to interact with the world in real time without this. Shame on all of you</td>
+                  <td><span class='chip'>Connectivity (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=ikyOQrNXXnE" target="_blank" rel="noreferrer">The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2</a></td>
+                  <td>Idc how much they cost , if you can’t commit to a relationship don’t be in it .</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=0cgQkzoZMWc" target="_blank" rel="noreferrer">Even G2 and R1</a></td>
+                  <td>Bro about how much does it cost</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="navigation">
+                  <td><a href="https://www.youtube.com/watch?v=BYAOd4exbVo" target="_blank" rel="noreferrer">The Future of Smart Glasses is Here: Meta Ray-Ban Display vs Even G2</a></td>
+                  <td>G2 is my hands-down winner, no questions asked! 
+It has usability and practicality that Meta does not offer unless you have one eye. 
+As an ESL instructor, I use the teleprompter and language translation features in and out of the classroom. 
+
+Conversant is another feature that separates G2 from Meta. I also enjoy using the ring as a convenient and non-obtrusive navigation tool. 
+Thank you, Will and G2! 
+The future is now.</td>
+                  <td><span class='chip'>Navigation (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Traveler</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="display">
+                  <td><a href="https://www.youtube.com/watch?v=BYAOd4exbVo" target="_blank" rel="noreferrer">The Future of Smart Glasses is Here: Meta Ray-Ban Display vs Even G2</a></td>
+                  <td>I own the Meta gen 1 and definitely could live without the camera, but I love listening to music, so speakers are a must for me, I’ll wait until tech gets better so I can have a screen and audio in a smaller frame, ditch the camera because people really feels like being watched when you talk to them.</td>
+                  <td><span class='chip'>Display (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=ikyOQrNXXnE" target="_blank" rel="noreferrer">The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2</a></td>
+                  <td>Understands language o' women glasses 🤓</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=ykvb8FvSMmo" target="_blank" rel="noreferrer">The Future of Smart Glasses - Even G2</a></td>
+                  <td>How do I make the display on 2 sides? Right now it only displays on the right side</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=ikyOQrNXXnE" target="_blank" rel="noreferrer">The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2</a></td>
+                  <td>Subtitle in rl 😅</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=pkP28wcvTAg" target="_blank" rel="noreferrer">The Future of Glasses: Even Realities G2 Unboxing</a></td>
+                  <td>Your presentation was eye-opening 👍! Seriously, you introduced me to Will and Even G2s. I teach ESL to corporate employees at Google, Apple, and Agilent Technologies, and I am convinced that the addition of smart glasses from Even G2 will make me a better mentor for my students. The teleprompter and language translation features, plus the handsomely designed ring, are game changers. I've immersed myself in understanding Smart Glasses with AI/AR capabilities and how well I can use them to help my students learn to love learning English! 
+
+Will Even Realities G2 be designed to accept over-the-air (OTA) software updates direct to the eyeglasses?!</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Traveler</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="design">
+                  <td><a href="https://www.youtube.com/watch?v=EBoVJwmDU-8" target="_blank" rel="noreferrer">The Everyday Display Smart Glasses</a></td>
+                  <td>I like everything about this, but I've been  looking for something that looks exactly like this but with just a text editor like Vim, so I can just use my keyboard to write just about anywhere.</td>
+                  <td><span class='chip'>Design (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=0cgQkzoZMWc" target="_blank" rel="noreferrer">Even G2 and R1</a></td>
+                  <td>Does the Even G2 used internet connection or can it be connected to phone?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=EBoVJwmDU-8" target="_blank" rel="noreferrer">The Everyday Display Smart Glasses</a></td>
+                  <td>Can audio be sent to ear buds or a more discreet hearing peice?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="compatibility">
+                  <td><a href="https://www.youtube.com/watch?v=EBoVJwmDU-8" target="_blank" rel="noreferrer">The Everyday Display Smart Glasses</a></td>
+                  <td>Which iPhone is that?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip'>Compatibility (1)</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=pkP28wcvTAg" target="_blank" rel="noreferrer">The Future of Glasses: Even Realities G2 Unboxing</a></td>
+                  <td>Amazing PRODUCT I'm not interested in cameras or video recording. Translation, direction and summary are JUST beyond average, audio "Bone Conducting" could be the G3 or any other disruptional products.</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>Creator</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=ykvb8FvSMmo" target="_blank" rel="noreferrer">The Future of Smart Glasses - Even G2</a></td>
+                  <td>The price is very reasonable, and the look is appealing, but it needs a really killer app.  What could make the G2 _necessary?_</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="">
+                  <td><a href="https://www.youtube.com/watch?v=ykvb8FvSMmo" target="_blank" rel="noreferrer">The Future of Smart Glasses - Even G2</a></td>
+                  <td>Do they work off WiFi or Bluetooth. What about cost of replacement lenses?</td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                
+                <tr data-brand="even" data-features="ai connectivity">
+                  <td><a href="https://www.youtube.com/watch?v=UbIqhPqJuK0" target="_blank" rel="noreferrer">let's build a coffee-powered PC with Even G2</a></td>
+                  <td>U made the pair of glasses like a true assistant</td>
+                  <td><span class='chip'>Connectivity (1)</span><span class='chip'>Ai (1)</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td><span class='chip muted'>None</span></td>
+                  <td>-</td>
+                </tr>
+                </tbody>
+                </table>
+              </div>
+            </section>
+            
+</div>
+<script>
+const brandFilter = document.getElementById('brand-filter');
+const featureFilter = document.getElementById('feature-filter');
+function applyValidationFilters() {
+  const brand = brandFilter.value;
+  const feature = featureFilter.value;
+  document.querySelectorAll('tbody tr[data-brand]').forEach((row) => {
+    const brandMatch = brand === 'all' || row.dataset.brand === brand;
+    const featureMatch = feature === 'all' || (row.dataset.features || '').split(' ').includes(feature);
+    row.style.display = brandMatch && featureMatch ? '' : 'none';
+  });
+}
+brandFilter.addEventListener('change', applyValidationFilters);
+featureFilter.addEventListener('change', applyValidationFilters);
+</script>
+</body>
+</html>

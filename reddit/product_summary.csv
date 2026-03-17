@@ -1,0 +1,4 @@
+product_tag,post_count,comment_count,unique_post_authors,comment_fetch_coverage_ratio,positive_signal_units,negative_signal_units,positive_signal_threads,negative_signal_threads,repeat_one_time,repeat_2_3,repeat_4_plus
+rokid,222,1639,135,0.9743,187,199,103,101,104,20,11
+meta,846,3444,676,0.3268,339,455,140,212,582,84,10
+even,664,3129,412,0.5507,380,484,177,204,316,72,24

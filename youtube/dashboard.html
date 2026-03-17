@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>YouTube Smart Glasses Monitor</title>
+<style>
+:root { --bg:#f4f7fb; --panel:#ffffff; --border:#dbe4f3; --text:#0f172a; --muted:#64748b; --accent:#2563eb; --fill:#7dd3fc; }
+body { margin:0; background:radial-gradient(circle at top left,#ecfeff,transparent 30%),linear-gradient(180deg,#f8fbff,#eef4fb); color:var(--text); font-family: ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif; }
+.wrap { max-width:1280px; margin:0 auto; padding:24px; }
+header { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; }
+.panel,.card { background:rgba(255,255,255,.88); border:1px solid var(--border); border-radius:18px; padding:16px; box-shadow:0 10px 30px rgba(15,23,42,.06); backdrop-filter: blur(8px); }
+.card { margin-top:16px; }
+.card-head { display:flex; justify-content:space-between; align-items:center; margin-bottom:8px; }
+.chip { border:1px solid #bfdbfe; background:#eff6ff; color:#1d4ed8; border-radius:999px; padding:6px 10px; font-size:12px; font-weight:600; }
+.sub { color:var(--muted); font-size:13px; }
+.stats,.grid2 { display:grid; gap:12px; }
+.stats { grid-template-columns:repeat(4,minmax(0,1fr)); margin:12px 0; }
+.stats > div { border:1px solid #edf2ff; border-radius:14px; padding:12px; background:#fff; }
+.stats strong { display:block; font-size:24px; }
+.stats span { color:var(--muted); font-size:12px; }
+.grid2 { grid-template-columns:1fr 1fr; }
+.section-spacer { margin-top:18px; }
+.tab-row { display:flex; gap:8px; flex-wrap:wrap; margin:10px 0 12px; }
+.tab-button { border:1px solid #bfdbfe; background:#eff6ff; color:#1d4ed8; border-radius:999px; padding:8px 12px; font-size:12px; font-weight:600; cursor:pointer; }
+.tab-button.active { background:#2563eb; color:#fff; border-color:#2563eb; }
+.tab-panel { display:none; }
+.tab-panel.active { display:block; }
+.bar-row { display:grid; grid-template-columns:130px 1fr 90px; gap:10px; align-items:center; margin:8px 0; }
+.bar-label,.bar-value { font-size:12px; }
+.bar-track { background:#eef2ff; border-radius:999px; height:10px; overflow:hidden; }
+.bar-fill { height:100%; background:linear-gradient(90deg,#38bdf8,#2563eb); border-radius:999px; }
+.tag-list { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+.tag-list span { background:#fff; border:1px solid #e2e8f0; border-radius:999px; padding:6px 10px; font-size:12px; }
+.top-posts { margin:0; padding-left:18px; }
+.top-posts li { margin:8px 0; }
+.meta { color:var(--muted); font-size:12px; }
+table { width:100%; border-collapse:collapse; font-size:13px; }
+th,td { text-align:left; padding:10px 12px; border-bottom:1px solid #e5ecf6; vertical-align:top; }
+.run-scroll { max-height:148px; overflow:auto; }
+@media (max-width:900px) { .stats,.grid2 { grid-template-columns:1fr; } .bar-row { grid-template-columns:110px 1fr 84px; } header { flex-direction:column; } }
+</style>
+</head>
+<body>
+<div class='wrap'>
+  <header>
+    <div>
+      <h1>YouTube Smart Glasses Monitor</h1>
+      <div class='sub'>Comments-first dashboard | Window = 6 months | Positive and negative are counted independently per comment | Separate from Reddit</div>
+    </div>
+    <div class='panel'>
+      <div><strong>Last generated:</strong> 2026-02-27 11:51 AM PT</div>
+      <div class='sub' style='margin-top:6px;'>Quota today: 0 / 8,000 units</div>
+      <div class='sub'>Per run: up to 500 units</div>
+      <div class='sub'>Auto-pauses at daily cap. Next reset: 2026-02-28 12:00 AM PT</div>
+      <div class='sub' style='margin-top:6px;'><a href='validation.html'>Open validation</a></div>
+    </div>
+  </header>
+  <section class='panel' style='margin-top:16px;'>
+    <h2 style='margin:0 0 8px;font-size:18px;'>Recent YouTube Runs</h2>
+    <table><colgroup><col style='width:10%'><col style='width:12%'><col style='width:12%'><col style='width:12%'><col style='width:12%'><col style='width:42%'></colgroup><thead><tr><th>Run</th><th>Status</th><th>Units</th><th>New Videos</th><th>New Comments</th><th>Note</th></tr></thead></table>
+    <div class='run-scroll'><table><colgroup><col style='width:10%'><col style='width:12%'><col style='width:12%'><col style='width:12%'><col style='width:12%'><col style='width:42%'></colgroup><tbody><tr><td>22</td><td>ok</td><td>218</td><td>4</td><td>492</td><td>Quota before: 3033 | rokid video exhausted:4IXLFUiTcdw | meta display video exhausted:ZLhSHXvGUgA | even video exhausted:0cgQkzoZMWc | Search: Rokid | Query: Rokid Glasses | rokid short search:1 | Rokid videos: 16 | rokid video exhausted: 0pg2 yBVtM | rokid video exhausted:TaUSsP GeE8 | rokid video exhausted:PVs0pwPTLRs | rokid video exhausted:7xPpH5h iTA | Quota after: 3251 | Errors: Rokid 400 (error)</td></tr><tr><td>21</td><td>ok</td><td>118</td><td>12</td><td>427</td><td>Quota before: 2915 | rokid video exhausted:m5sLBp1m3H4 | meta video exhausted:cunXkHBVCeQ | meta display video exhausted:L1d U2wVH9E | even video exhausted:BYAOd4exbVo | Search: Even | Query: Even Realities G2 | Even videos: 25 | even video exhausted:tAIhp9hia90 | even video exhausted:E Hrbj4h9Sw | even video exhausted:ykvb8FvSMmo | even video exhausted:UbIqhPqJuK0 | Quota after: 3033 | Errors: Even 400 (error)</td></tr><tr><td>20</td><td>ok</td><td>129</td><td>0</td><td>2396</td><td>Quota before: 2786 | meta video exhausted:zCb3wMIyiHg | Search: Meta Ray-Ban Display | Query: Meta Ray-Ban Display | Meta Ray-Ban Display videos: 9 | meta display video exhausted:bJ7EZ1imsc0 | meta display video exhausted:gZ9IsB72nVk | Quota after: 2915</td></tr><tr><td>19</td><td>ok</td><td>127</td><td>0</td><td>1267</td><td>Quota before: 2659 | rokid video exhausted:sg7Gp-gFh-E | meta video exhausted:lBwwp6Bnsn0 | even video exhausted:EBoVJwmDU-8 | Search: Meta Ray-Ban | Query: Ray-Ban Meta | Meta Ray-Ban videos: 6 | meta video exhausted:azBPIuNNbPA | meta video exhausted:jSWY3zVL1Lw | meta video exhausted:xEZ9rDRueO0 | meta video exhausted:Ul F-2rC7Oc | Quota after: 2786</td></tr><tr><td>18</td><td>ok</td><td>122</td><td>0</td><td>960</td><td>Quota before: 2537 | meta video exhausted:q2eo5FO62Tw | even video exhausted:S-GQvElmXAo | Search: Rokid | Query: Rokid Glasses | Rokid videos: 12 | rokid video exhausted: 0pg2 yBVtM | rokid video exhausted:TaUSsP GeE8 | rokid video exhausted:PVs0pwPTLRs | rokid video exhausted:rI5YuE5mIS4 | rokid video exhausted:7xPpH5h iTA | Quota after: 2659</td></tr><tr><td>17</td><td>ok</td><td>119</td><td>0</td><td>875</td><td>Quota before: 2418 | rokid video exhausted:T LSamQUOlM | meta video exhausted:Jt1qaYlhHqs | meta display video exhausted:oZ6ONDZXuV4 | even video exhausted:pkP28wcvTAg | Search: Even | Query: Even Realities G2 | Even videos: 12 | even video exhausted:tAIhp9hia90 | even video exhausted:E Hrbj4h9Sw | even video exhausted:ykvb8FvSMmo | even video exhausted:yZrcgiKFOD0 | even video exhausted:ikyOQrNXXnE | Quota after: 2537</td></tr><tr><td>16</td><td>ok</td><td>221</td><td>1</td><td>1500</td><td>Quota before: 2197 | rokid video exhausted:O-OBWaNDheA | meta video exhausted:8U0e7Sz2CJA | meta display video exhausted:zTxJKjTwE6M | even video exhausted:YN9XJuWxLqA | Search: Meta Ray-Ban Display | Query: Meta Ray-Ban Display | meta display short search:1 | Meta Ray-Ban Display videos: 10 | meta display video exhausted:bJ7EZ1imsc0 | Quota after: 2418</td></tr><tr><td>15</td><td>ok</td><td>123</td><td>0</td><td>1021</td><td>Quota before: 2074 | rokid video exhausted:64ylkhs3QE0 | meta video exhausted:rwau9utMKe4 | meta display video exhausted:7YuA7u pqAg | even video exhausted:KGGZMj7stPQ | Search: Meta Ray-Ban | Query: Ray-Ban Meta | Meta Ray-Ban videos: 6 | meta video exhausted:azBPIuNNbPA | meta video exhausted:xEZ9rDRueO0 | meta video exhausted:Ul F-2rC7Oc | Quota after: 2197</td></tr><tr><td>14</td><td>ok</td><td>119</td><td>0</td><td>743</td><td>Quota before: 1955 | rokid video exhausted:1t4LmYCDBWg | meta display video exhausted:v5mECzUb8Ls | even video exhausted:wJa-3XYgJNk | Search: Rokid | Query: Rokid Glasses | Rokid videos: 12 | rokid video exhausted: 0pg2 yBVtM | rokid video exhausted:TaUSsP GeE8 | rokid video exhausted:PVs0pwPTLRs | rokid video exhausted:rI5YuE5mIS4 | rokid video exhausted:7xPpH5h iTA | Quota after: 2074</td></tr><tr><td>13</td><td>ok</td><td>119</td><td>0</td><td>1249</td><td>Quota before: 1836 | rokid video exhausted:6OdgS8IMGY4 | meta video exhausted:rkLetBCOBSc | meta display video exhausted:ZLhSHXvGUgA | even video exhausted:sXRC55ksuEA | Search: Even | Query: Even Realities G2 | Even videos: 12 | even video exhausted:tAIhp9hia90 | even video exhausted:E Hrbj4h9Sw | even video exhausted:ykvb8FvSMmo | Quota after: 1955</td></tr><tr><td>12</td><td>ok</td><td>123</td><td>0</td><td>1762</td><td>Quota before: 1713 | rokid video exhausted:oBYCm-3nXPE | meta display video exhausted:L1d U2wVH9E | even video exhausted:b uEGLKxkWs | Search: Meta Ray-Ban Display | Query: Meta Ray-Ban Display | Meta Ray-Ban Display videos: 9 | meta display video exhausted:bJ7EZ1imsc0 | Quota after: 1836</td></tr><tr><td>11</td><td>ok</td><td>111</td><td>0</td><td>806</td><td>Quota before: 1602 | Search: Meta Ray-Ban | Query: Ray-Ban Meta | Meta Ray-Ban videos: 6 | Quota after: 1713</td></tr><tr><td>10</td><td>ok</td><td>111</td><td>0</td><td>767</td><td>Quota before: 1491 | Search: Rokid | Query: Rokid Glasses | Rokid videos: 12 | Quota after: 1602</td></tr><tr><td>9</td><td>ok</td><td>111</td><td>0</td><td>80</td><td>Quota before: 1380 | Search: Even | Query: Even Realities G2 | Even videos: 12 | Quota after: 1491</td></tr><tr><td>8</td><td>ok</td><td>111</td><td>9</td><td>164</td><td>Quota before: 1269 | Search: Meta Ray-Ban Display | Query: Meta Ray-Ban Display | Meta Ray-Ban Display videos: 9 | Quota after: 1380</td></tr><tr><td>7</td><td>ok</td><td>111</td><td>13</td><td>160</td><td>Quota before: 1158 | Search: Meta Ray-Ban | Query: Ray-Ban Meta | Meta Ray-Ban videos: 13 | Quota after: 1269</td></tr><tr><td>6</td><td>ok</td><td>111</td><td>3</td><td>40</td><td>Quota before: 1047 | Search: Rokid | Query: Rokid Glasses | Rokid videos: 12 | Quota after: 1158</td></tr><tr><td>5</td><td>ok</td><td>111</td><td>12</td><td>140</td><td>Quota before: 936 | Search: Even | Query: Even Realities G2 | Even videos: 12 | Quota after: 1047</td></tr><tr><td>4</td><td>error</td><td>0</td><td>0</td><td>0</td><td>manual stale cleanup | kickstart interrupted</td></tr><tr><td>3</td><td>error</td><td>0</td><td>0</td><td>0</td><td>manual stale cleanup | kickstart interrupted</td></tr></tbody></table></div>
+  </section>
+  <section class='section-spacer'>
+    <div class='panel'><h2 style='margin:0 0 6px;font-size:18px;'>Last 30 Days Comment Snapshot</h2><div class='sub'>Short-horizon comment view by brand. Same attribution logic as the main dashboard, but only recent 30-day comments.</div></div>
+    
+            <section class='card'>
+              <div class='card-head'><h2>Rokid</h2><div class='chip'>Last 30 days</div></div>
+              <div class='stats' style='grid-template-columns:repeat(4,minmax(0,1fr));'>
+                <div><strong>133</strong><span>Comments</span></div>
+                <div><strong>24</strong><span>Relevant comments</span></div>
+                <div><strong>6.0%</strong><span>Positive rate of total comments</span></div>
+                <div><strong>0.8%</strong><span>Negative rate of total comments</span></div>
+              </div>
+              <div class='grid2'>
+                <div><h3>Praised Features</h3><div class='bar-row'><div class='bar-label'>Price</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>3 (37.5%)</div></div><div class='bar-row'><div class='bar-label'>Sound</div><div class='bar-track'><div class='bar-fill' style='width:66%'></div></div><div class='bar-value'>2 (25.0%)</div></div><div class='bar-row'><div class='bar-label'>Translation</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>1 (12.5%)</div></div><div class='bar-row'><div class='bar-label'>Camera</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>1 (12.5%)</div></div><div class='bar-row'><div class='bar-label'>Ai</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>1 (12.5%)</div></div><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>1 (12.5%)</div></div><div class='bar-row'><div class='bar-label'>Battery</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>1 (12.5%)</div></div></div>
+                <div><h3>Complained Features</h3><div class='bar-row'><div class='bar-label'>Sound</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>1 (100.0%)</div></div></div>
+                <div><h3>Product Doubts</h3><div class='bar-row'><div class='bar-label'>Privacy</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>2 (8.3%)</div></div><div class='bar-row'><div class='bar-label'>Usefulness</div><div class='bar-track'><div class='bar-fill' style='width:50%'></div></div><div class='bar-value'>1 (4.2%)</div></div></div>
+                <div><h3>Persona Signals</h3><div class='sub'>% of persona-signal comments (6)</div><div class='bar-row'><div class='bar-label'>Creator</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>5 (83.3%)</div></div><div class='bar-row'><div class='bar-label'>Traveler</div><div class='bar-track'><div class='bar-fill' style='width:20%'></div></div><div class='bar-value'>1 (16.7%)</div></div></div>
+              </div>
+            </section>
+            
+            <section class='card'>
+              <div class='card-head'><h2>Meta Ray-Ban</h2><div class='chip'>Last 30 days</div></div>
+              <div class='stats' style='grid-template-columns:repeat(4,minmax(0,1fr));'>
+                <div><strong>659</strong><span>Comments</span></div>
+                <div><strong>104</strong><span>Relevant comments</span></div>
+                <div><strong>2.9%</strong><span>Positive rate of total comments</span></div>
+                <div><strong>0.8%</strong><span>Negative rate of total comments</span></div>
+              </div>
+              <div class='grid2'>
+                <div><h3>Praised Features</h3><div class='bar-row'><div class='bar-label'>Camera</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>8 (42.1%)</div></div><div class='bar-row'><div class='bar-label'>Ai</div><div class='bar-track'><div class='bar-fill' style='width:50%'></div></div><div class='bar-value'>4 (21.1%)</div></div><div class='bar-row'><div class='bar-label'>Sound</div><div class='bar-track'><div class='bar-fill' style='width:37%'></div></div><div class='bar-value'>3 (15.8%)</div></div><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:25%'></div></div><div class='bar-value'>2 (10.5%)</div></div><div class='bar-row'><div class='bar-label'>Privacy</div><div class='bar-track'><div class='bar-fill' style='width:25%'></div></div><div class='bar-value'>2 (10.5%)</div></div><div class='bar-row'><div class='bar-label'>Price</div><div class='bar-track'><div class='bar-fill' style='width:12%'></div></div><div class='bar-value'>1 (5.3%)</div></div></div>
+                <div><h3>Complained Features</h3><div class='bar-row'><div class='bar-label'>Camera</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>5 (100.0%)</div></div></div>
+                <div><h3>Product Doubts</h3><div class='bar-row'><div class='bar-label'>Compatibility</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>1 (1.0%)</div></div></div>
+                <div><h3>Persona Signals</h3><div class='sub'>% of persona-signal comments (9)</div><div class='bar-row'><div class='bar-label'>Creator</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>9 (100.0%)</div></div></div>
+              </div>
+            </section>
+            
+            <section class='card'>
+              <div class='card-head'><h2>Meta Ray-Ban Display</h2><div class='chip'>Last 30 days</div></div>
+              <div class='stats' style='grid-template-columns:repeat(4,minmax(0,1fr));'>
+                <div><strong>244</strong><span>Comments</span></div>
+                <div><strong>31</strong><span>Relevant comments</span></div>
+                <div><strong>2.1%</strong><span>Positive rate of total comments</span></div>
+                <div><strong>0.8%</strong><span>Negative rate of total comments</span></div>
+              </div>
+              <div class='grid2'>
+                <div><h3>Praised Features</h3><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>3 (60.0%)</div></div><div class='bar-row'><div class='bar-label'>Camera</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>1 (20.0%)</div></div><div class='bar-row'><div class='bar-label'>Navigation</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>1 (20.0%)</div></div></div>
+                <div><h3>Complained Features</h3><div class='bar-row'><div class='bar-label'>Battery</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>2 (100.0%)</div></div><div class='bar-row'><div class='bar-label'>Price</div><div class='bar-track'><div class='bar-fill' style='width:50%'></div></div><div class='bar-value'>1 (50.0%)</div></div></div>
+                <div><h3>Product Doubts</h3><div class='bar-row'><div class='bar-label'>Battery life</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>1 (3.2%)</div></div><div class='bar-row'><div class='bar-label'>Usefulness</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>1 (3.2%)</div></div></div>
+                <div><h3>Persona Signals</h3><div class='sub'>% of persona-signal comments (3)</div><div class='bar-row'><div class='bar-label'>Creator</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>2 (66.7%)</div></div><div class='bar-row'><div class='bar-label'>Traveler</div><div class='bar-track'><div class='bar-fill' style='width:50%'></div></div><div class='bar-value'>1 (33.3%)</div></div></div>
+              </div>
+            </section>
+            
+            <section class='card'>
+              <div class='card-head'><h2>Even</h2><div class='chip'>Last 30 days</div></div>
+              <div class='stats' style='grid-template-columns:repeat(4,minmax(0,1fr));'>
+                <div><strong>575</strong><span>Comments</span></div>
+                <div><strong>73</strong><span>Relevant comments</span></div>
+                <div><strong>3.1%</strong><span>Positive rate of total comments</span></div>
+                <div><strong>0.5%</strong><span>Negative rate of total comments</span></div>
+              </div>
+              <div class='grid2'>
+                <div><h3>Praised Features</h3><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>9 (50.0%)</div></div><div class='bar-row'><div class='bar-label'>Translation</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>3 (16.7%)</div></div><div class='bar-row'><div class='bar-label'>Connectivity</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>3 (16.7%)</div></div><div class='bar-row'><div class='bar-label'>Display</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>3 (16.7%)</div></div><div class='bar-row'><div class='bar-label'>Navigation</div><div class='bar-track'><div class='bar-fill' style='width:22%'></div></div><div class='bar-value'>2 (11.1%)</div></div><div class='bar-row'><div class='bar-label'>Ai</div><div class='bar-track'><div class='bar-fill' style='width:11%'></div></div><div class='bar-value'>1 (5.6%)</div></div><div class='bar-row'><div class='bar-label'>Price</div><div class='bar-track'><div class='bar-fill' style='width:11%'></div></div><div class='bar-value'>1 (5.6%)</div></div></div>
+                <div><h3>Complained Features</h3><div class='bar-row'><div class='bar-label'>Price</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>3 (100.0%)</div></div></div>
+                <div><h3>Product Doubts</h3><div class='bar-row'><div class='bar-label'>Compatibility</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>2 (2.7%)</div></div><div class='bar-row'><div class='bar-label'>Usefulness</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>2 (2.7%)</div></div></div>
+                <div><h3>Persona Signals</h3><div class='sub'>% of persona-signal comments (7)</div><div class='bar-row'><div class='bar-label'>Traveler</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>4 (57.1%)</div></div><div class='bar-row'><div class='bar-label'>Creator</div><div class='bar-track'><div class='bar-fill' style='width:50%'></div></div><div class='bar-value'>2 (28.6%)</div></div><div class='bar-row'><div class='bar-label'>Tech enthusiast</div><div class='bar-track'><div class='bar-fill' style='width:25%'></div></div><div class='bar-value'>1 (14.3%)</div></div></div>
+              </div>
+            </section>
+            
+  </section>
+  <section class='section-spacer'>
+    <div class='panel'><h2 style='margin:0 0 6px;font-size:18px;'>Brand Comments</h2><div class='sub'>Signals from each brand&apos;s own video ecosystem.</div></div>
+    
+            <section class='card'>
+              <div class='card-head'><h2>Rokid</h2><div class='chip'>21 videos</div></div>
+              <div class='stats'>
+                <div><strong>21</strong><span>Videos (25.3% of all brands)</span></div>
+                <div><strong>252</strong><span>Relevant comments analyzed</span></div>
+                <div><strong>10.6%</strong><span>Relevant comment rate</span></div>
+                <div><strong>2.7%</strong><span>Positive signal rate of total comments</span></div>
+              </div>
+              <div class='stats'>
+                <div><strong>0.8%</strong><span>Negative signal rate of total comments</span></div>
+                <div><strong>68.2%</strong><span>Neutral-only rate of relevant comments</span></div>
+                <div><strong>2375</strong><span>Total stored comments</span></div>
+                <div><strong>64</strong><span>Positive-signal comments</span></div>
+                <div><strong>18</strong><span>Negative-signal comments</span></div>
+              </div>
+              <div class='grid2'>
+                <div><h3>Top Praised Features</h3><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>28 (43.8%)</div></div><div class='bar-row'><div class='bar-label'>Sound</div><div class='bar-track'><div class='bar-fill' style='width:32%'></div></div><div class='bar-value'>9 (14.1%)</div></div><div class='bar-row'><div class='bar-label'>Display</div><div class='bar-track'><div class='bar-fill' style='width:28%'></div></div><div class='bar-value'>8 (12.5%)</div></div><div class='bar-row'><div class='bar-label'>Camera</div><div class='bar-track'><div class='bar-fill' style='width:25%'></div></div><div class='bar-value'>7 (10.9%)</div></div><div class='bar-row'><div class='bar-label'>Battery</div><div class='bar-track'><div class='bar-fill' style='width:25%'></div></div><div class='bar-value'>7 (10.9%)</div></div><div class='bar-row'><div class='bar-label'>Translation</div><div class='bar-track'><div class='bar-fill' style='width:17%'></div></div><div class='bar-value'>5 (7.8%)</div></div><div class='bar-row'><div class='bar-label'>Connectivity</div><div class='bar-track'><div class='bar-fill' style='width:17%'></div></div><div class='bar-value'>5 (7.8%)</div></div><div class='bar-row'><div class='bar-label'>Ai</div><div class='bar-track'><div class='bar-fill' style='width:10%'></div></div><div class='bar-value'>3 (4.7%)</div></div></div>
+                <div><h3>Top Complained Features</h3><div class='bar-row'><div class='bar-label'>Price</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>4 (22.2%)</div></div><div class='bar-row'><div class='bar-label'>Battery</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>4 (22.2%)</div></div><div class='bar-row'><div class='bar-label'>Sound</div><div class='bar-track'><div class='bar-fill' style='width:50%'></div></div><div class='bar-value'>2 (11.1%)</div></div><div class='bar-row'><div class='bar-label'>Comfort</div><div class='bar-track'><div class='bar-fill' style='width:50%'></div></div><div class='bar-value'>2 (11.1%)</div></div><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:50%'></div></div><div class='bar-value'>2 (11.1%)</div></div><div class='bar-row'><div class='bar-label'>Camera</div><div class='bar-track'><div class='bar-fill' style='width:50%'></div></div><div class='bar-value'>2 (11.1%)</div></div><div class='bar-row'><div class='bar-label'>Privacy</div><div class='bar-track'><div class='bar-fill' style='width:50%'></div></div><div class='bar-value'>2 (11.1%)</div></div><div class='bar-row'><div class='bar-label'>Connectivity</div><div class='bar-track'><div class='bar-fill' style='width:25%'></div></div><div class='bar-value'>1 (5.6%)</div></div></div>
+                <div><h3>Top Product Doubts</h3><div class='bar-row'><div class='bar-label'>Compatibility</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>8 (3.2%)</div></div><div class='bar-row'><div class='bar-label'>Privacy</div><div class='bar-track'><div class='bar-fill' style='width:62%'></div></div><div class='bar-value'>5 (2.0%)</div></div><div class='bar-row'><div class='bar-label'>Battery life</div><div class='bar-track'><div class='bar-fill' style='width:37%'></div></div><div class='bar-value'>3 (1.2%)</div></div><div class='bar-row'><div class='bar-label'>Usefulness</div><div class='bar-track'><div class='bar-fill' style='width:12%'></div></div><div class='bar-value'>1 (0.4%)</div></div><div class='bar-row'><div class='bar-label'>Camera quality</div><div class='bar-track'><div class='bar-fill' style='width:12%'></div></div><div class='bar-value'>1 (0.4%)</div></div></div>
+                <div><h3>Persona Signals</h3><div class='sub'>% of persona-signal comments (56)</div><div class='bar-row'><div class='bar-label'>Traveler</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>24 (42.9%)</div></div><div class='bar-row'><div class='bar-label'>Creator</div><div class='bar-track'><div class='bar-fill' style='width:95%'></div></div><div class='bar-value'>23 (41.1%)</div></div><div class='bar-row'><div class='bar-label'>Tech enthusiast</div><div class='bar-track'><div class='bar-fill' style='width:25%'></div></div><div class='bar-value'>6 (10.7%)</div></div><div class='bar-row'><div class='bar-label'>Casual consumer</div><div class='bar-track'><div class='bar-fill' style='width:12%'></div></div><div class='bar-value'>3 (5.4%)</div></div></div>
+              </div>
+              <details>
+                <summary>Top terms</summary>
+                <div class='tag-list'><span>you (193)</span><span>are (126)</span><span>can (121)</span><span>but (108)</span><span>que (102)</span><span>like (99)</span><span>these (93)</span><span>not (81)</span><span>smart (77)</span><span>will (59)</span><span>good (53)</span><span>get (49)</span><span>was (49)</span><span>more (48)</span><span>all (48)</span><span>las (48)</span><span>one (47)</span><span>display (47)</span><span>want (46)</span><span>out (45)</span></div>
+              </details>
+              <h3>Top Videos</h3>
+              <ul class='top-posts'><li><a href='https://www.youtube.com/watch?v=_0pg2_yBVtM' target='_blank' rel='noreferrer'>Probé el Futuro de las Gafas | ROKID Glasses</a> <span class='meta'>Domingo Gomes · 780,142 views · 223 comments</span></li><li><a href='https://www.youtube.com/watch?v=TaUSsP_GeE8' target='_blank' rel='noreferrer'>The Coolest Tech Unveiled at CES 2026!</a> <span class='meta'>UrAvgConsumer · 495,857 views · 52 comments</span></li><li><a href='https://www.youtube.com/watch?v=tupoyyJwo8M' target='_blank' rel='noreferrer'>「邦尼評測」扯！內建「螢幕」AI 眼鏡！Micro LED 螢幕？Rokid Glasses 開箱評測（GPT-5 , AI眼鏡優缺點、即時翻譯、智慧眼鏡推薦 AI提詞機、AI眼鏡值不值得買？</a> <span class='meta'>邦尼幫你 3C 科技 - 開箱評測 · 432,440 views · 1,493 comments</span></li><li><a href='https://www.youtube.com/watch?v=PVs0pwPTLRs' target='_blank' rel='noreferrer'>Best Smart Glasses For Everyone At Every Price Point</a> <span class='meta'>Steven Sullivan · 381,656 views · 284 comments</span></li><li><a href='https://www.youtube.com/watch?v=rI5YuE5mIS4' target='_blank' rel='noreferrer'>能在眼前翻譯的AI眼鏡！還能拍照、錄影、導航、聽音樂！Rokid Glasses樂奇智慧眼鏡開箱！【Joeman】</a> <span class='meta'>Joeman · 374,430 views · 527 comments</span></li><li><a href='https://www.youtube.com/watch?v=7xPpH5h_iTA' target='_blank' rel='noreferrer'>These Glasses are Next-Level - Rokid Smart Glasses!</a> <span class='meta'>iJustine · 349,521 views · 130 comments</span></li><li><a href='https://www.youtube.com/watch?v=1u8qNhSJdFg' target='_blank' rel='noreferrer'>The Best of Both Worlds… - Rokid Glasses</a> <span class='meta'>ShortCircuit · 315,315 views · 709 comments</span></li><li><a href='https://www.youtube.com/watch?v=sg7Gp-gFh-E' target='_blank' rel='noreferrer'>MKBHD vs Meta Ray-Ban Display Glasses😱🔥</a> <span class='meta'>Singular Podcast · 273,608 views · 76 comments</span></li><li><a href='https://www.youtube.com/watch?v=m5sLBp1m3H4' target='_blank' rel='noreferrer'>不用拿手機了！開箱Rokid AI 智慧眼鏡：繁中導航＋即時翻譯＋錄影拍照全都有！</a> <span class='meta'>3cTim哥生活日常 · 179,634 views · 77 comments</span></li><li><a href='https://www.youtube.com/watch?v=nL7JUDYxmnU' target='_blank' rel='noreferrer'>開箱試用 智能電話配搭智能眼鏡 將成趨勢？ ｜入手注意事項｜AI支援廣東話｜只重49g #RokidGlasses #karenly #4k</a> <span class='meta'>Karenly · 174,848 views · 497 comments</span></li><li><a href='https://www.youtube.com/watch?v=4IXLFUiTcdw' target='_blank' rel='noreferrer'>I Tried Rokid AI Glasses at CES 2026 Las Vegas - POV Everywhere</a> <span class='meta'>The Q · 148,271 views · 4 comments</span></li><li><a href='https://www.youtube.com/watch?v=P4salmcNMU0' target='_blank' rel='noreferrer'>Ironman 真身降臨？Second Device 的新時代！Rokid Glasses 實測：AI 廣東話助理 + 提詞器｜去旅行面對面即時翻譯！#cc字幕 #廣東話</a> <span class='meta'>奇積Kjack · 142,450 views · 544 comments</span></li></ul>
+            </section>
+            
+            <section class='card'>
+              <div class='card-head'><h2>Meta Ray-Ban</h2><div class='chip'>18 videos</div></div>
+              <div class='stats'>
+                <div><strong>18</strong><span>Videos (21.7% of all brands)</span></div>
+                <div><strong>618</strong><span>Relevant comments analyzed</span></div>
+                <div><strong>15.5%</strong><span>Relevant comment rate</span></div>
+                <div><strong>2.8%</strong><span>Positive signal rate of total comments</span></div>
+              </div>
+              <div class='stats'>
+                <div><strong>0.9%</strong><span>Negative signal rate of total comments</span></div>
+                <div><strong>77.2%</strong><span>Neutral-only rate of relevant comments</span></div>
+                <div><strong>3996</strong><span>Total stored comments</span></div>
+                <div><strong>113</strong><span>Positive-signal comments</span></div>
+                <div><strong>36</strong><span>Negative-signal comments</span></div>
+              </div>
+              <div class='grid2'>
+                <div><h3>Top Praised Features</h3><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>57 (50.4%)</div></div><div class='bar-row'><div class='bar-label'>Camera</div><div class='bar-track'><div class='bar-fill' style='width:22%'></div></div><div class='bar-value'>13 (11.5%)</div></div><div class='bar-row'><div class='bar-label'>Sound</div><div class='bar-track'><div class='bar-fill' style='width:19%'></div></div><div class='bar-value'>11 (9.7%)</div></div><div class='bar-row'><div class='bar-label'>Price</div><div class='bar-track'><div class='bar-fill' style='width:15%'></div></div><div class='bar-value'>9 (8.0%)</div></div><div class='bar-row'><div class='bar-label'>Battery</div><div class='bar-track'><div class='bar-fill' style='width:14%'></div></div><div class='bar-value'>8 (7.1%)</div></div><div class='bar-row'><div class='bar-label'>Connectivity</div><div class='bar-track'><div class='bar-fill' style='width:12%'></div></div><div class='bar-value'>7 (6.2%)</div></div><div class='bar-row'><div class='bar-label'>Privacy</div><div class='bar-track'><div class='bar-fill' style='width:10%'></div></div><div class='bar-value'>6 (5.3%)</div></div><div class='bar-row'><div class='bar-label'>Ai</div><div class='bar-track'><div class='bar-fill' style='width:8%'></div></div><div class='bar-value'>5 (4.4%)</div></div></div>
+                <div><h3>Top Complained Features</h3><div class='bar-row'><div class='bar-label'>Price</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>13 (36.1%)</div></div><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:53%'></div></div><div class='bar-value'>7 (19.4%)</div></div><div class='bar-row'><div class='bar-label'>Camera</div><div class='bar-track'><div class='bar-fill' style='width:46%'></div></div><div class='bar-value'>6 (16.7%)</div></div><div class='bar-row'><div class='bar-label'>Battery</div><div class='bar-track'><div class='bar-fill' style='width:30%'></div></div><div class='bar-value'>4 (11.1%)</div></div><div class='bar-row'><div class='bar-label'>Ai</div><div class='bar-track'><div class='bar-fill' style='width:15%'></div></div><div class='bar-value'>2 (5.6%)</div></div><div class='bar-row'><div class='bar-label'>Comfort</div><div class='bar-track'><div class='bar-fill' style='width:7%'></div></div><div class='bar-value'>1 (2.8%)</div></div><div class='bar-row'><div class='bar-label'>Privacy</div><div class='bar-track'><div class='bar-fill' style='width:7%'></div></div><div class='bar-value'>1 (2.8%)</div></div><div class='bar-row'><div class='bar-label'>Navigation</div><div class='bar-track'><div class='bar-fill' style='width:7%'></div></div><div class='bar-value'>1 (2.8%)</div></div></div>
+                <div><h3>Top Product Doubts</h3><div class='bar-row'><div class='bar-label'>Battery life</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>15 (2.4%)</div></div><div class='bar-row'><div class='bar-label'>Compatibility</div><div class='bar-track'><div class='bar-fill' style='width:40%'></div></div><div class='bar-value'>6 (1.0%)</div></div><div class='bar-row'><div class='bar-label'>Privacy</div><div class='bar-track'><div class='bar-fill' style='width:40%'></div></div><div class='bar-value'>6 (1.0%)</div></div><div class='bar-row'><div class='bar-label'>Comfort</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>5 (0.8%)</div></div><div class='bar-row'><div class='bar-label'>Camera quality</div><div class='bar-track'><div class='bar-fill' style='width:6%'></div></div><div class='bar-value'>1 (0.2%)</div></div><div class='bar-row'><div class='bar-label'>Usefulness</div><div class='bar-track'><div class='bar-fill' style='width:6%'></div></div><div class='bar-value'>1 (0.2%)</div></div></div>
+                <div><h3>Persona Signals</h3><div class='sub'>% of persona-signal comments (47)</div><div class='bar-row'><div class='bar-label'>Creator</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>33 (70.2%)</div></div><div class='bar-row'><div class='bar-label'>Traveler</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>11 (23.4%)</div></div><div class='bar-row'><div class='bar-label'>Tech enthusiast</div><div class='bar-track'><div class='bar-fill' style='width:6%'></div></div><div class='bar-value'>1 (2.1%)</div></div><div class='bar-row'><div class='bar-label'>Casual consumer</div><div class='bar-track'><div class='bar-fill' style='width:6%'></div></div><div class='bar-value'>1 (2.1%)</div></div><div class='bar-row'><div class='bar-label'>Productivity</div><div class='bar-track'><div class='bar-fill' style='width:6%'></div></div><div class='bar-value'>1 (2.1%)</div></div></div>
+              </div>
+              <details>
+                <summary>Top terms</summary>
+                <div class='tag-list'><span>you (663)</span><span>can (413)</span><span>like (326)</span><span>are (288)</span><span>bro (240)</span><span>not (227)</span><span>people (216)</span><span>but (212)</span><span>these (193)</span><span>was (191)</span><span>will (178)</span><span>want (160)</span><span>que (159)</span><span>out (148)</span><span>all (145)</span><span>get (140)</span><span>how (138)</span><span>now (128)</span><span>use (120)</span><span>see (118)</span></div>
+              </details>
+              <h3>Top Videos</h3>
+              <ul class='top-posts'><li><a href='https://www.youtube.com/watch?v=tz_tXT6g01M' target='_blank' rel='noreferrer'>Explosive Confrontation 🤯💥 Fentinald Attempts Robbery (Caught on Ray-Ban Meta)</a> <span class='meta'>Lee Napaaqtuq · 12,202,271 views · 17,682 comments</span></li><li><a href='https://www.youtube.com/watch?v=azBPIuNNbPA' target='_blank' rel='noreferrer'>My Biggest Issue With The Meta Raybans #Shorts</a> <span class='meta'>Phone Repair Guru · 6,725,999 views · 518 comments</span></li><li><a href='https://www.youtube.com/watch?v=jSWY3zVL1Lw' target='_blank' rel='noreferrer'>MKBHD: Meta Ray-Ban Displays Are the Future of Glasses? #mkbhd #MetaRayBan #SmartGlasses</a> <span class='meta'>NextGen Tech Bits · 6,108,551 views · 1,042 comments</span></li><li><a href='https://www.youtube.com/watch?v=NTKC-LExZlI' target='_blank' rel='noreferrer'>I Tested Meta's Ray-Ban Display Glasses</a> <span class='meta'>Mrwhosetheboss · 5,171,107 views · 4,515 comments</span></li><li><a href='https://www.youtube.com/watch?v=xEZ9rDRueO0' target='_blank' rel='noreferrer'>Convertir Ray-Ban Meta en unas gafas espia 🔥 Quitar luz de grabación ✅</a> <span class='meta'>Jesus Terreros · 2,274,016 views · 422 comments</span></li><li><a href='https://www.youtube.com/watch?v=Ul_F-2rC7Oc' target='_blank' rel='noreferrer'>RAY-BAN META'YI NASIL BULDUNUZ?</a> <span class='meta'>Merdan Kocaoğlu · 2,051,423 views · 432 comments</span></li><li><a href='https://www.youtube.com/watch?v=zCb3wMIyiHg' target='_blank' rel='noreferrer'>Meta வின் மந்திர கண்ணாடி 😎 | Meta Ray Ban Glass  #a2d #a2darmy #meta</a> <span class='meta'>A2D Channel · 1,381,439 views · 300 comments</span></li><li><a href='https://www.youtube.com/watch?v=cunXkHBVCeQ' target='_blank' rel='noreferrer'>New year cooking with the Ray-Ban Meta AI Glasses ✨Making Korean-style Tteok Mandu Guk!</a> <span class='meta'>Rina Takagi · 1,329,451 views · 199 comments</span></li><li><a href='https://www.youtube.com/watch?v=tLqqXezMwos' target='_blank' rel='noreferrer'>Tech companies don’t understand why the Meta Ray Bans are popular.. #carterpcs #tech #meta</a> <span class='meta'>CarterPCs · 1,328,643 views · 920 comments</span></li><li><a href='https://www.youtube.com/watch?v=doCpCw9695w' target='_blank' rel='noreferrer'>அசிங்கப்பட்ட  Mark மாமா 🤡 - Meta Glasses GEN 2👓 #a2darmy #meta #smartglasses</a> <span class='meta'>A2D Channel · 1,062,350 views · 381 comments</span></li><li><a href='https://www.youtube.com/watch?v=erH6m6JLgtQ' target='_blank' rel='noreferrer'>I tried the new Meta Ray Ban Displays.. (Glasses with screen inside) #carterpcs #tech #meta</a> <span class='meta'>CarterPCs · 1,053,682 views · 1,063 comments</span></li><li><a href='https://www.youtube.com/watch?v=rkLetBCOBSc' target='_blank' rel='noreferrer'>The New Meta Ray-Ban Feature IS INSANE 😳🕶️</a> <span class='meta'>TechNovashow · 1,008,287 views · 161 comments</span></li></ul>
+            </section>
+            
+            <section class='card'>
+              <div class='card-head'><h2>Meta Ray-Ban Display</h2><div class='chip'>16 videos</div></div>
+              <div class='stats'>
+                <div><strong>16</strong><span>Videos (19.3% of all brands)</span></div>
+                <div><strong>1052</strong><span>Relevant comments analyzed</span></div>
+                <div><strong>19.4%</strong><span>Relevant comment rate</span></div>
+                <div><strong>3.9%</strong><span>Positive signal rate of total comments</span></div>
+              </div>
+              <div class='stats'>
+                <div><strong>1.2%</strong><span>Negative signal rate of total comments</span></div>
+                <div><strong>75.0%</strong><span>Neutral-only rate of relevant comments</span></div>
+                <div><strong>5409</strong><span>Total stored comments</span></div>
+                <div><strong>210</strong><span>Positive-signal comments</span></div>
+                <div><strong>66</strong><span>Negative-signal comments</span></div>
+              </div>
+              <div class='grid2'>
+                <div><h3>Top Praised Features</h3><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>140 (66.7%)</div></div><div class='bar-row'><div class='bar-label'>Display</div><div class='bar-track'><div class='bar-fill' style='width:17%'></div></div><div class='bar-value'>24 (11.4%)</div></div><div class='bar-row'><div class='bar-label'>Privacy</div><div class='bar-track'><div class='bar-fill' style='width:12%'></div></div><div class='bar-value'>17 (8.1%)</div></div><div class='bar-row'><div class='bar-label'>Camera</div><div class='bar-track'><div class='bar-fill' style='width:7%'></div></div><div class='bar-value'>11 (5.2%)</div></div><div class='bar-row'><div class='bar-label'>Navigation</div><div class='bar-track'><div class='bar-fill' style='width:7%'></div></div><div class='bar-value'>11 (5.2%)</div></div><div class='bar-row'><div class='bar-label'>Battery</div><div class='bar-track'><div class='bar-fill' style='width:6%'></div></div><div class='bar-value'>9 (4.3%)</div></div><div class='bar-row'><div class='bar-label'>Price</div><div class='bar-track'><div class='bar-fill' style='width:6%'></div></div><div class='bar-value'>8 (3.8%)</div></div><div class='bar-row'><div class='bar-label'>Sound</div><div class='bar-track'><div class='bar-fill' style='width:6%'></div></div><div class='bar-value'>7 (3.3%)</div></div></div>
+                <div><h3>Top Complained Features</h3><div class='bar-row'><div class='bar-label'>Price</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>19 (28.8%)</div></div><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:73%'></div></div><div class='bar-value'>14 (21.2%)</div></div><div class='bar-row'><div class='bar-label'>Privacy</div><div class='bar-track'><div class='bar-fill' style='width:57%'></div></div><div class='bar-value'>11 (16.7%)</div></div><div class='bar-row'><div class='bar-label'>Display</div><div class='bar-track'><div class='bar-fill' style='width:47%'></div></div><div class='bar-value'>9 (13.6%)</div></div><div class='bar-row'><div class='bar-label'>Battery</div><div class='bar-track'><div class='bar-fill' style='width:42%'></div></div><div class='bar-value'>8 (12.1%)</div></div><div class='bar-row'><div class='bar-label'>Connectivity</div><div class='bar-track'><div class='bar-fill' style='width:31%'></div></div><div class='bar-value'>6 (9.1%)</div></div><div class='bar-row'><div class='bar-label'>Camera</div><div class='bar-track'><div class='bar-fill' style='width:31%'></div></div><div class='bar-value'>6 (9.1%)</div></div><div class='bar-row'><div class='bar-label'>Comfort</div><div class='bar-track'><div class='bar-fill' style='width:6%'></div></div><div class='bar-value'>1 (1.5%)</div></div></div>
+                <div><h3>Top Product Doubts</h3><div class='bar-row'><div class='bar-label'>Battery life</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>27 (2.6%)</div></div><div class='bar-row'><div class='bar-label'>Privacy</div><div class='bar-track'><div class='bar-fill' style='width:92%'></div></div><div class='bar-value'>25 (2.4%)</div></div><div class='bar-row'><div class='bar-label'>Compatibility</div><div class='bar-track'><div class='bar-fill' style='width:37%'></div></div><div class='bar-value'>10 (1.0%)</div></div><div class='bar-row'><div class='bar-label'>Usefulness</div><div class='bar-track'><div class='bar-fill' style='width:29%'></div></div><div class='bar-value'>8 (0.8%)</div></div><div class='bar-row'><div class='bar-label'>Comfort</div><div class='bar-track'><div class='bar-fill' style='width:29%'></div></div><div class='bar-value'>8 (0.8%)</div></div></div>
+                <div><h3>Persona Signals</h3><div class='sub'>% of persona-signal comments (112)</div><div class='bar-row'><div class='bar-label'>Creator</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>64 (57.1%)</div></div><div class='bar-row'><div class='bar-label'>Traveler</div><div class='bar-track'><div class='bar-fill' style='width:64%'></div></div><div class='bar-value'>41 (36.6%)</div></div><div class='bar-row'><div class='bar-label'>Tech enthusiast</div><div class='bar-track'><div class='bar-fill' style='width:7%'></div></div><div class='bar-value'>5 (4.5%)</div></div><div class='bar-row'><div class='bar-label'>Casual consumer</div><div class='bar-track'><div class='bar-fill' style='width:6%'></div></div><div class='bar-value'>2 (1.8%)</div></div></div>
+              </div>
+              <details>
+                <summary>Top terms</summary>
+                <div class='tag-list'><span>you (763)</span><span>can (672)</span><span>like (518)</span><span>these (508)</span><span>but (420)</span><span>are (408)</span><span>will (379)</span><span>not (345)</span><span>people (280)</span><span>que (247)</span><span>how (220)</span><span>one (220)</span><span>get (213)</span><span>see (208)</span><span>now (199)</span><span>need (198)</span><span>tech (198)</span><span>all (194)</span><span>want (193)</span><span>use (192)</span></div>
+              </details>
+              <h3>Top Videos</h3>
+              <ul class='top-posts'><li><a href='https://www.youtube.com/watch?v=7gtc1DW2Tgo' target='_blank' rel='noreferrer'>Wait... Smart Glasses are Suddenly Good?</a> <span class='meta'>Marques Brownlee · 7,808,386 views · 8,600 comments</span></li><li><a href='https://www.youtube.com/watch?v=YPxDjVKxfBA' target='_blank' rel='noreferrer'>XR? VR? 다 필요없고 이게 미래입니다. 메타에서 야심차게 발표한 스마트 안경 언빡싱</a> <span class='meta'>ITSub잇섭 · 1,820,993 views · 2,025 comments</span></li><li><a href='https://www.youtube.com/watch?v=bJ7EZ1imsc0' target='_blank' rel='noreferrer'>📦 Unboxing Meta Ray-Ban Display</a> <span class='meta'>Hobby Explorer · 1,797,384 views · 94 comments</span></li><li><a href='https://www.youtube.com/watch?v=oBZ8toFKZls' target='_blank' rel='noreferrer'>Unboxing Meta Ray-Ban Display Glasses</a> <span class='meta'>Unbox Therapy · 1,641,345 views · 1,604 comments</span></li><li><a href='https://www.youtube.com/watch?v=gZ9IsB72nVk' target='_blank' rel='noreferrer'>Meet the World's Most Advanced AI Glasses | Meta Ray-Ban Display @ Connect 2025</a> <span class='meta'>Ray-Ban | Meta · 1,510,296 views · 1,348 comments</span></li><li><a href='https://www.youtube.com/watch?v=7bjJ6lKmIog' target='_blank' rel='noreferrer'>Why’d it have to be Meta? - Meta Ray-Ban Display</a> <span class='meta'>ShortCircuit · 979,184 views · 2,107 comments</span></li><li><a href='https://www.youtube.com/watch?v=scu6_n8ozqE' target='_blank' rel='noreferrer'>Meta Ray-Ban Display Unboxing & First Look - The Future Of Smartglasses!🔥🔥🔥</a> <span class='meta'>Technical Guruji · 872,714 views · 1,184 comments</span></li><li><a href='https://www.youtube.com/watch?v=5cVGKvl7Oek' target='_blank' rel='noreferrer'>Meta Ray-Ban Display hands-on: best smart glasses I’ve ever tried</a> <span class='meta'>The Verge · 869,727 views · 1,165 comments</span></li><li><a href='https://www.youtube.com/watch?v=b5rhECafQ14' target='_blank' rel='noreferrer'>Probé las Ray-Ban del FUTURO: ahora con PANTALLA - Ray-Ban Meta Display</a> <span class='meta'>Nate Gentile · 860,582 views · 746 comments</span></li><li><a href='https://www.youtube.com/watch?v=oZ6ONDZXuV4' target='_blank' rel='noreferrer'>Meta Ray-Ban Display vs Gen 2: Is the Screen Worth $400 More? #metarayban #smartglasses</a> <span class='meta'>X ZONE · 36,739 views · 4 comments</span></li><li><a href='https://www.youtube.com/watch?v=L1d_U2wVH9E' target='_blank' rel='noreferrer'>I Survived 24 Hours in the Meta Smart Glasses</a> <span class='meta'>Shervin Shares · 3,522 views · 26 comments</span></li><li><a href='https://www.youtube.com/watch?v=ZLhSHXvGUgA' target='_blank' rel='noreferrer'>RayNeo X3 Pro vs Ray-Ban Meta — $500 Upgrade or Overpriced?</a> <span class='meta'>Non-Tech Tech Guy  · 333 views · 7 comments</span></li></ul>
+            </section>
+            
+            <section class='card'>
+              <div class='card-head'><h2>Even</h2><div class='chip'>28 videos</div></div>
+              <div class='stats'>
+                <div><strong>28</strong><span>Videos (33.7% of all brands)</span></div>
+                <div><strong>731</strong><span>Relevant comments analyzed</span></div>
+                <div><strong>22.4%</strong><span>Relevant comment rate</span></div>
+                <div><strong>6.1%</strong><span>Positive signal rate of total comments</span></div>
+              </div>
+              <div class='stats'>
+                <div><strong>1.8%</strong><span>Negative signal rate of total comments</span></div>
+                <div><strong>67.2%</strong><span>Neutral-only rate of relevant comments</span></div>
+                <div><strong>3269</strong><span>Total stored comments</span></div>
+                <div><strong>199</strong><span>Positive-signal comments</span></div>
+                <div><strong>59</strong><span>Negative-signal comments</span></div>
+              </div>
+              <div class='grid2'>
+                <div><h3>Top Praised Features</h3><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>119 (59.8%)</div></div><div class='bar-row'><div class='bar-label'>Display</div><div class='bar-track'><div class='bar-fill' style='width:30%'></div></div><div class='bar-value'>36 (18.1%)</div></div><div class='bar-row'><div class='bar-label'>Connectivity</div><div class='bar-track'><div class='bar-fill' style='width:15%'></div></div><div class='bar-value'>19 (9.5%)</div></div><div class='bar-row'><div class='bar-label'>Translation</div><div class='bar-track'><div class='bar-fill' style='width:15%'></div></div><div class='bar-value'>18 (9.0%)</div></div><div class='bar-row'><div class='bar-label'>Navigation</div><div class='bar-track'><div class='bar-fill' style='width:8%'></div></div><div class='bar-value'>10 (5.0%)</div></div><div class='bar-row'><div class='bar-label'>Price</div><div class='bar-track'><div class='bar-fill' style='width:7%'></div></div><div class='bar-value'>9 (4.5%)</div></div><div class='bar-row'><div class='bar-label'>Ai</div><div class='bar-track'><div class='bar-fill' style='width:6%'></div></div><div class='bar-value'>6 (3.0%)</div></div><div class='bar-row'><div class='bar-label'>Battery</div><div class='bar-track'><div class='bar-fill' style='width:6%'></div></div><div class='bar-value'>6 (3.0%)</div></div></div>
+                <div><h3>Top Complained Features</h3><div class='bar-row'><div class='bar-label'>Price</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>29 (49.2%)</div></div><div class='bar-row'><div class='bar-label'>Privacy</div><div class='bar-track'><div class='bar-fill' style='width:17%'></div></div><div class='bar-value'>5 (8.5%)</div></div><div class='bar-row'><div class='bar-label'>Camera</div><div class='bar-track'><div class='bar-fill' style='width:17%'></div></div><div class='bar-value'>5 (8.5%)</div></div><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:17%'></div></div><div class='bar-value'>5 (8.5%)</div></div><div class='bar-row'><div class='bar-label'>Translation</div><div class='bar-track'><div class='bar-fill' style='width:17%'></div></div><div class='bar-value'>5 (8.5%)</div></div><div class='bar-row'><div class='bar-label'>Sound</div><div class='bar-track'><div class='bar-fill' style='width:13%'></div></div><div class='bar-value'>4 (6.8%)</div></div><div class='bar-row'><div class='bar-label'>Display</div><div class='bar-track'><div class='bar-fill' style='width:10%'></div></div><div class='bar-value'>3 (5.1%)</div></div><div class='bar-row'><div class='bar-label'>Navigation</div><div class='bar-track'><div class='bar-fill' style='width:10%'></div></div><div class='bar-value'>3 (5.1%)</div></div></div>
+                <div><h3>Top Product Doubts</h3><div class='bar-row'><div class='bar-label'>Compatibility</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>12 (1.6%)</div></div><div class='bar-row'><div class='bar-label'>Battery life</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>12 (1.6%)</div></div><div class='bar-row'><div class='bar-label'>Usefulness</div><div class='bar-track'><div class='bar-fill' style='width:33%'></div></div><div class='bar-value'>4 (0.5%)</div></div><div class='bar-row'><div class='bar-label'>Comfort</div><div class='bar-track'><div class='bar-fill' style='width:25%'></div></div><div class='bar-value'>3 (0.4%)</div></div><div class='bar-row'><div class='bar-label'>Privacy</div><div class='bar-track'><div class='bar-fill' style='width:8%'></div></div><div class='bar-value'>1 (0.1%)</div></div></div>
+                <div><h3>Persona Signals</h3><div class='sub'>% of persona-signal comments (74)</div><div class='bar-row'><div class='bar-label'>Traveler</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>40 (54.1%)</div></div><div class='bar-row'><div class='bar-label'>Creator</div><div class='bar-track'><div class='bar-fill' style='width:30%'></div></div><div class='bar-value'>12 (16.2%)</div></div><div class='bar-row'><div class='bar-label'>Casual consumer</div><div class='bar-track'><div class='bar-fill' style='width:22%'></div></div><div class='bar-value'>9 (12.2%)</div></div><div class='bar-row'><div class='bar-label'>Productivity</div><div class='bar-track'><div class='bar-fill' style='width:17%'></div></div><div class='bar-value'>7 (9.5%)</div></div><div class='bar-row'><div class='bar-label'>Tech enthusiast</div><div class='bar-track'><div class='bar-fill' style='width:15%'></div></div><div class='bar-value'>6 (8.1%)</div></div></div>
+              </div>
+              <details>
+                <summary>Top terms</summary>
+                <div class='tag-list'><span>you (729)</span><span>can (437)</span><span>like (381)</span><span>are (366)</span><span>but (356)</span><span>not (281)</span><span>these (272)</span><span>need (186)</span><span>how (180)</span><span>will (173)</span><span>get (171)</span><span>use (160)</span><span>was (157)</span><span>more (141)</span><span>see (141)</span><span>don (134)</span><span>one (132)</span><span>now (129)</span><span>ring (128)</span><span>all (127)</span></div>
+              </details>
+              <h3>Top Videos</h3>
+              <ul class='top-posts'><li><a href='https://www.youtube.com/watch?v=tAIhp9hia90' target='_blank' rel='noreferrer'>Introducing Even G2 and R1. Get Ready to Wear the Future</a> <span class='meta'>Even Realities · 67,133,895 views · 160 comments</span></li><li><a href='https://www.youtube.com/watch?v=buDkt8zDzDI' target='_blank' rel='noreferrer'>The most ADVANCED glasses ever made 😭 #EvenRealities #EvenG2 #EvenRealitiesPartner</a> <span class='meta'>John Casterline · 38,564,779 views · 4,240 comments</span></li><li><a href='https://www.youtube.com/watch?v=E_Hrbj4h9Sw' target='_blank' rel='noreferrer'>REAL Tony Stark Smart Glasses - Even Realities G2</a> <span class='meta'>Nathan Espinoza · 24,419,003 views · 254 comments</span></li><li><a href='https://www.youtube.com/watch?v=ykvb8FvSMmo' target='_blank' rel='noreferrer'>The Future of Smart Glasses - Even G2</a> <span class='meta'>Tyriel Wood - VR Tech · 7,410,884 views · 201 comments</span></li><li><a href='https://www.youtube.com/watch?v=UbIqhPqJuK0' target='_blank' rel='noreferrer'>let's build a coffee-powered PC with Even G2</a> <span class='meta'>mryeester · 7,189,220 views · 240 comments</span></li><li><a href='https://www.youtube.com/watch?v=yZrcgiKFOD0' target='_blank' rel='noreferrer'>Even G2 and R1. A New Quietly Extraordinary Power for Your Everyday Life</a> <span class='meta'>Even Realities · 5,525,085 views · 712 comments</span></li><li><a href='https://www.youtube.com/watch?v=ikyOQrNXXnE' target='_blank' rel='noreferrer'>The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2</a> <span class='meta'>Austin Mollno · 4,328,254 views · 544 comments</span></li><li><a href='https://www.youtube.com/watch?v=pkP28wcvTAg' target='_blank' rel='noreferrer'>The Future of Glasses: Even Realities G2 Unboxing</a> <span class='meta'>The Spectacle Factory · 4,290,093 views · 402 comments</span></li><li><a href='https://www.youtube.com/watch?v=S-GQvElmXAo' target='_blank' rel='noreferrer'>EVEN G2 VS EVEN G1 - EVEN Better Smartglasses! 👓</a> <span class='meta'>Robot Review Tech · 2,466,906 views · 206 comments</span></li><li><a href='https://www.youtube.com/watch?v=EBoVJwmDU-8' target='_blank' rel='noreferrer'>The Everyday Display Smart Glasses</a> <span class='meta'>Unbox Therapy · 2,338,471 views · 363 comments</span></li><li><a href='https://www.youtube.com/watch?v=0cgQkzoZMWc' target='_blank' rel='noreferrer'>Even G2 and R1</a> <span class='meta'>Parker Burton · 1,448,073 views · 177 comments</span></li><li><a href='https://www.youtube.com/watch?v=Om-96ivMxzs' target='_blank' rel='noreferrer'>HUGE Smart Glasses Upgrade for 2026 @EvenRealities   #EvenRealities #EvenG2 #evenrealitiespartner</a> <span class='meta'>Alementary · 1,316,391 views · 39 comments</span></li></ul>
+            </section>
+            
+  </section>
+  <section class='section-spacer'>
+    <div class='panel'><h2 style='margin:0 0 6px;font-size:18px;'>Cross-Brand Mention Signals</h2><div class='sub'>Signals about a brand that appear under competitor videos. `Explicit comparison only` means the comment contains direct comparison language such as `vs`, `compare`, `better than`, `prefer`, or `instead of`.</div></div>
+    
+            <section class='card'>
+              <div class='card-head'><h2>Rokid</h2><div class='chip'>Cross-brand</div></div>
+              <div class='tab-row'>
+                <button class='tab-button active' data-target='rokid-all'>All competitor mentions</button>
+                <button class='tab-button' data-target='rokid-cmp'>Explicit comparison only</button>
+              </div>
+              <div id='rokid-all' class='tab-panel active'>
+                <div class='sub'>Mentions of this brand under competitor videos only (3 relevant comments)</div>
+                <div class='stats' style='grid-template-columns:repeat(2,minmax(0,1fr)); margin-top:10px;'>
+                  <div><strong>0</strong><span>Positive mentions</span></div>
+                  <div><strong>0</strong><span>Negative mentions</span></div>
+                </div>
+                <div class='sub'>Positive source split: No cross-brand mentions</div>
+                <div class='sub' style='margin-top:6px;'>Negative source split: No cross-brand mentions</div>
+                <div class='grid2' style='margin-top:12px;'>
+                  <div><h3>Praised Features</h3><div class='sub'>No data</div></div>
+                  <div><h3>Complained Features</h3><div class='sub'>No data</div></div>
+                </div>
+              </div>
+              <div id='rokid-cmp' class='tab-panel'>
+                <div class='sub'>Only comments with explicit comparison language (1 relevant comments)</div>
+                <div class='stats' style='grid-template-columns:repeat(2,minmax(0,1fr)); margin-top:10px;'>
+                  <div><strong>0</strong><span>Positive mentions</span></div>
+                  <div><strong>0</strong><span>Negative mentions</span></div>
+                </div>
+                <div class='sub'>Positive source split: No cross-brand mentions</div>
+                <div class='sub' style='margin-top:6px;'>Negative source split: No cross-brand mentions</div>
+                <div class='grid2' style='margin-top:12px;'>
+                  <div><h3>Praised Features</h3><div class='sub'>No data</div></div>
+                  <div><h3>Complained Features</h3><div class='sub'>No data</div></div>
+                </div>
+              </div>
+            </section>
+            
+            <section class='card'>
+              <div class='card-head'><h2>Meta Ray-Ban</h2><div class='chip'>Cross-brand</div></div>
+              <div class='tab-row'>
+                <button class='tab-button active' data-target='meta-all'>All competitor mentions</button>
+                <button class='tab-button' data-target='meta-cmp'>Explicit comparison only</button>
+              </div>
+              <div id='meta-all' class='tab-panel active'>
+                <div class='sub'>Mentions of this brand under competitor videos only (21 relevant comments)</div>
+                <div class='stats' style='grid-template-columns:repeat(2,minmax(0,1fr)); margin-top:10px;'>
+                  <div><strong>2</strong><span>Positive mentions</span></div>
+                  <div><strong>0</strong><span>Negative mentions</span></div>
+                </div>
+                <div class='sub'>Positive source split: Even: 2</div>
+                <div class='sub' style='margin-top:6px;'>Negative source split: No cross-brand mentions</div>
+                <div class='grid2' style='margin-top:12px;'>
+                  <div><h3>Praised Features</h3><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>2 (100.0%)</div></div></div>
+                  <div><h3>Complained Features</h3><div class='sub'>No data</div></div>
+                </div>
+              </div>
+              <div id='meta-cmp' class='tab-panel'>
+                <div class='sub'>Only comments with explicit comparison language (4 relevant comments)</div>
+                <div class='stats' style='grid-template-columns:repeat(2,minmax(0,1fr)); margin-top:10px;'>
+                  <div><strong>2</strong><span>Positive mentions</span></div>
+                  <div><strong>0</strong><span>Negative mentions</span></div>
+                </div>
+                <div class='sub'>Positive source split: Even: 2</div>
+                <div class='sub' style='margin-top:6px;'>Negative source split: No cross-brand mentions</div>
+                <div class='grid2' style='margin-top:12px;'>
+                  <div><h3>Praised Features</h3><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>2 (100.0%)</div></div></div>
+                  <div><h3>Complained Features</h3><div class='sub'>No data</div></div>
+                </div>
+              </div>
+            </section>
+            
+            <section class='card'>
+              <div class='card-head'><h2>Meta Ray-Ban Display</h2><div class='chip'>Cross-brand</div></div>
+              <div class='tab-row'>
+                <button class='tab-button active' data-target='meta_display-all'>All competitor mentions</button>
+                <button class='tab-button' data-target='meta_display-cmp'>Explicit comparison only</button>
+              </div>
+              <div id='meta_display-all' class='tab-panel active'>
+                <div class='sub'>Mentions of this brand under competitor videos only (23 relevant comments)</div>
+                <div class='stats' style='grid-template-columns:repeat(2,minmax(0,1fr)); margin-top:10px;'>
+                  <div><strong>6</strong><span>Positive mentions</span></div>
+                  <div><strong>1</strong><span>Negative mentions</span></div>
+                </div>
+                <div class='sub'>Positive source split: Even: 5 | Meta Ray-Ban: 1</div>
+                <div class='sub' style='margin-top:6px;'>Negative source split: Even: 1</div>
+                <div class='grid2' style='margin-top:12px;'>
+                  <div><h3>Praised Features</h3><div class='bar-row'><div class='bar-label'>Display</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>4 (66.7%)</div></div><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:50%'></div></div><div class='bar-value'>2 (33.3%)</div></div><div class='bar-row'><div class='bar-label'>Camera</div><div class='bar-track'><div class='bar-fill' style='width:25%'></div></div><div class='bar-value'>1 (16.7%)</div></div><div class='bar-row'><div class='bar-label'>Sound</div><div class='bar-track'><div class='bar-fill' style='width:25%'></div></div><div class='bar-value'>1 (16.7%)</div></div></div>
+                  <div><h3>Complained Features</h3><div class='bar-row'><div class='bar-label'>Battery</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>1 (100.0%)</div></div></div>
+                </div>
+              </div>
+              <div id='meta_display-cmp' class='tab-panel'>
+                <div class='sub'>Only comments with explicit comparison language (8 relevant comments)</div>
+                <div class='stats' style='grid-template-columns:repeat(2,minmax(0,1fr)); margin-top:10px;'>
+                  <div><strong>4</strong><span>Positive mentions</span></div>
+                  <div><strong>0</strong><span>Negative mentions</span></div>
+                </div>
+                <div class='sub'>Positive source split: Even: 4</div>
+                <div class='sub' style='margin-top:6px;'>Negative source split: No cross-brand mentions</div>
+                <div class='grid2' style='margin-top:12px;'>
+                  <div><h3>Praised Features</h3><div class='bar-row'><div class='bar-label'>Display</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>3 (75.0%)</div></div><div class='bar-row'><div class='bar-label'>Design</div><div class='bar-track'><div class='bar-fill' style='width:66%'></div></div><div class='bar-value'>2 (50.0%)</div></div></div>
+                  <div><h3>Complained Features</h3><div class='sub'>No data</div></div>
+                </div>
+              </div>
+            </section>
+            
+            <section class='card'>
+              <div class='card-head'><h2>Even</h2><div class='chip'>Cross-brand</div></div>
+              <div class='tab-row'>
+                <button class='tab-button active' data-target='even-all'>All competitor mentions</button>
+                <button class='tab-button' data-target='even-cmp'>Explicit comparison only</button>
+              </div>
+              <div id='even-all' class='tab-panel active'>
+                <div class='sub'>Mentions of this brand under competitor videos only (5 relevant comments)</div>
+                <div class='stats' style='grid-template-columns:repeat(2,minmax(0,1fr)); margin-top:10px;'>
+                  <div><strong>1</strong><span>Positive mentions</span></div>
+                  <div><strong>0</strong><span>Negative mentions</span></div>
+                </div>
+                <div class='sub'>Positive source split: Rokid: 1</div>
+                <div class='sub' style='margin-top:6px;'>Negative source split: No cross-brand mentions</div>
+                <div class='grid2' style='margin-top:12px;'>
+                  <div><h3>Praised Features</h3><div class='bar-row'><div class='bar-label'>Battery</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>1 (100.0%)</div></div><div class='bar-row'><div class='bar-label'>Display</div><div class='bar-track'><div class='bar-fill' style='width:100%'></div></div><div class='bar-value'>1 (100.0%)</div></div></div>
+                  <div><h3>Complained Features</h3><div class='sub'>No data</div></div>
+                </div>
+              </div>
+              <div id='even-cmp' class='tab-panel'>
+                <div class='sub'>Only comments with explicit comparison language (3 relevant comments)</div>
+                <div class='stats' style='grid-template-columns:repeat(2,minmax(0,1fr)); margin-top:10px;'>
+                  <div><strong>0</strong><span>Positive mentions</span></div>
+                  <div><strong>0</strong><span>Negative mentions</span></div>
+                </div>
+                <div class='sub'>Positive source split: No cross-brand mentions</div>
+                <div class='sub' style='margin-top:6px;'>Negative source split: No cross-brand mentions</div>
+                <div class='grid2' style='margin-top:12px;'>
+                  <div><h3>Praised Features</h3><div class='sub'>No data</div></div>
+                  <div><h3>Complained Features</h3><div class='sub'>No data</div></div>
+                </div>
+              </div>
+            </section>
+            
+  </section>
+</div>
+<script>
+document.querySelectorAll('.tab-button').forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const card = btn.closest('.card');
+    card.querySelectorAll('.tab-button').forEach((el) => el.classList.remove('active'));
+    card.querySelectorAll('.tab-panel').forEach((el) => el.classList.remove('active'));
+    btn.classList.add('active');
+    const target = card.querySelector('#' + btn.dataset.target);
+    if (target) target.classList.add('active');
+  });
+});
+</script>
+</body>
+</html>
