@@ -11,7 +11,7 @@ It only contains public, static artifacts:
 
 Recommended workflow:
 
-1. Keep running the data pipelines in the main project repo.
+1. Keep running the data pipelines against `/Users/liheng/pmo_monitor_workspace`.
 2. Run `./sync_public_site.sh` from the main project repo.
 3. Commit and push the contents of this directory to the separate deploy repo.
 4. Let Cloudflare Pages redeploy automatically from that repo.
