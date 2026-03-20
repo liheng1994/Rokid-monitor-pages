@@ -1,4 +1,4 @@
 product_tag,post_count,comment_count,unique_post_authors,comment_fetch_coverage_ratio,positive_signal_units,negative_signal_units,positive_signal_threads,negative_signal_threads,repeat_one_time,repeat_2_3,repeat_4_plus
-rokid,189,1423,121,0.9844,373,239,143,102,92,22,7
-meta,806,8116,635,0.9859,1943,1405,542,506,543,82,10
-even,644,2722,379,0.5293,863,672,325,278,282,74,23
+rokid,198,1438,122,0.9852,403,257,151,112,92,21,9
+meta,824,8078,650,0.9864,1952,1417,551,514,552,88,10
+even,635,2646,372,0.5304,840,665,323,279,273,77,22

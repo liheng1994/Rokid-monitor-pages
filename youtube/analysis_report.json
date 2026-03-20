@@ -1,38 +1,38 @@
 {
-  "generated_utc": 1773793645,
+  "generated_utc": 1773847041,
   "window_months": 6,
   "quota": {
     "daily_budget": 8000,
-    "daily_used": 4642,
-    "daily_remaining": 3358,
-    "next_reset_utc": 1773817200,
-    "next_reset_label": "2026-03-18 12:00 AM PT",
+    "daily_used": 7971,
+    "daily_remaining": 29,
+    "next_reset_utc": 1773903600,
+    "next_reset_label": "2026-03-19 12:00 AM PT",
     "per_run_budget": 500
   },
   "products": {
     "meta": {
       "video_count": 19,
-      "comment_count": 19302,
-      "relevant_comment_count": 1933,
+      "comment_count": 19236,
+      "relevant_comment_count": 1913,
       "sentiment_counts": {
-        "positive": 306,
+        "positive": 302,
         "negative": 327,
-        "neutral": 1357
+        "neutral": 1341
       },
-      "relevant_comment_rate": 0.1001,
+      "relevant_comment_rate": 0.0994,
       "sentiment_rates": {
-        "positive": 0.0159,
-        "negative": 0.0169,
-        "neutral": 0.702
+        "positive": 0.0157,
+        "negative": 0.017,
+        "neutral": 0.701
       },
       "top_praised_features": [
         [
           "design",
-          173
+          172
         ],
         [
           "camera",
-          41
+          39
         ],
         [
           "privacy",
@@ -118,11 +118,11 @@
       "persona_signals": [
         [
           "creator",
-          140
+          139
         ],
         [
           "traveler",
-          81
+          80
         ],
         [
           "productivity",
@@ -137,7 +137,7 @@
           1
         ]
       ],
-      "persona_signal_units": 229,
+      "persona_signal_units": 227,
       "top_terms": [
         [
           "she",
@@ -145,7 +145,7 @@
         ],
         [
           "you",
-          5172
+          5148
         ],
         [
           "her",
@@ -153,59 +153,59 @@
         ],
         [
           "are",
-          2314
+          2304
         ],
         [
           "can",
-          2034
+          2015
         ],
         [
           "people",
-          1885
+          1877
         ],
         [
           "not",
-          1648
+          1638
         ],
         [
           "all",
-          1582
+          1573
         ],
         [
           "like",
-          1561
+          1554
         ],
         [
           "get",
-          1560
+          1552
         ],
         [
           "was",
-          1374
+          1371
         ],
         [
           "these",
-          1353
+          1346
         ],
         [
           "why",
-          1136
-        ],
-        [
-          "but",
-          1119
+          1132
         ],
         [
           "how",
-          1117
+          1113
+        ],
+        [
+          "but",
+          1107
         ],
         [
           "black",
-          1100
+          1098
         ],
         [
           "don",
-          1031
+          1029
         ],
         [
           "stealing",
@@ -545,8 +545,8 @@
           "video_id": "tz_tXT6g01M",
           "title": "Explosive Confrontation 🤯💥 Fentinald Attempts Robbery (Caught on Ray-Ban Meta)",
           "channel_title": "Lee Napaaqtuq",
-          "view_count": 12205431,
-          "comment_count": 17670,
+          "view_count": 12205776,
+          "comment_count": 17666,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=tz_tXT6g01M"
         },
@@ -554,7 +554,7 @@
           "video_id": "azBPIuNNbPA",
           "title": "My Biggest Issue With The Meta Raybans #Shorts",
           "channel_title": "Phone Repair Guru",
-          "view_count": 6765637,
+          "view_count": 6766597,
           "comment_count": 518,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=azBPIuNNbPA"
@@ -563,7 +563,7 @@
           "video_id": "jSWY3zVL1Lw",
           "title": "MKBHD: Meta Ray-Ban Displays Are the Future of Glasses? #mkbhd #MetaRayBan #SmartGlasses",
           "channel_title": "NextGen Tech Bits",
-          "view_count": 6155146,
+          "view_count": 6156116,
           "comment_count": 1047,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=jSWY3zVL1Lw"
@@ -581,7 +581,7 @@
           "video_id": "xEZ9rDRueO0",
           "title": "Convertir Ray-Ban Meta en unas gafas espia 🔥 Quitar luz de grabación ✅",
           "channel_title": "Jesus Terreros",
-          "view_count": 2694846,
+          "view_count": 2701505,
           "comment_count": 478,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=xEZ9rDRueO0"
@@ -590,7 +590,7 @@
           "video_id": "rrnWRXcTtR4",
           "title": "Unboxing the Ray-Ban Meta Headliner (Gen 2) Glasses – Tech Tips from Best Buy",
           "channel_title": "Best Buy",
-          "view_count": 2001042,
+          "view_count": 2001047,
           "comment_count": 8,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=rrnWRXcTtR4"
@@ -599,8 +599,8 @@
           "video_id": "nCWkpjYMLbY",
           "title": "Entitled Airport Shoplifter Caught in 4K Stealing Ray-Ban Meta Glasses",
           "channel_title": "Police Release",
-          "view_count": 1971706,
-          "comment_count": 18898,
+          "view_count": 1972015,
+          "comment_count": 18894,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=nCWkpjYMLbY"
         },
@@ -608,8 +608,8 @@
           "video_id": "YPxDjVKxfBA",
           "title": "XR? VR? 다 필요없고 이게 미래입니다. 메타에서 야심차게 발표한 스마트 안경 언빡싱",
           "channel_title": "ITSub잇섭",
-          "view_count": 1904240,
-          "comment_count": 2054,
+          "view_count": 1908107,
+          "comment_count": 2057,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=YPxDjVKxfBA"
         },
@@ -651,23 +651,23 @@
         }
       ],
       "recent_month_comments": {
-        "comment_count": 1723,
-        "relevant_comment_count": 394,
+        "comment_count": 1715,
+        "relevant_comment_count": 391,
         "sentiment_counts": {
-          "positive": 77,
+          "positive": 76,
           "negative": 125,
-          "neutral": 212
+          "neutral": 210
         },
-        "relevant_comment_rate": 0.2287,
+        "relevant_comment_rate": 0.228,
         "sentiment_rates": {
-          "positive": 0.0447,
-          "negative": 0.0725,
-          "neutral": 0.5381
+          "positive": 0.0443,
+          "negative": 0.0729,
+          "neutral": 0.5371
         },
         "top_praised_features": [
           [
             "camera",
-            26
+            25
           ],
           [
             "privacy",
@@ -764,7 +764,7 @@
         "top_terms": [
           [
             "you",
-            413
+            407
           ],
           [
             "are",
@@ -772,7 +772,7 @@
           ],
           [
             "people",
-            235
+            234
           ],
           [
             "que",
@@ -784,7 +784,7 @@
           ],
           [
             "can",
-            174
+            172
           ],
           [
             "not",
@@ -820,7 +820,7 @@
           ],
           [
             "camera",
-            89
+            88
           ],
           [
             "para",
@@ -1030,7 +1030,7 @@
         ]
       },
       "cross_brand_mentions": {
-        "relevant_comment_count": 23,
+        "relevant_comment_count": 22,
         "positive_mentions": 3,
         "negative_mentions": 2,
         "top_praised_features": [
@@ -1096,23 +1096,23 @@
     },
     "meta_display": {
       "video_count": 12,
-      "comment_count": 4954,
-      "relevant_comment_count": 958,
+      "comment_count": 5049,
+      "relevant_comment_count": 917,
       "sentiment_counts": {
-        "positive": 219,
+        "positive": 209,
         "negative": 125,
-        "neutral": 641
+        "neutral": 610
       },
-      "relevant_comment_rate": 0.1934,
+      "relevant_comment_rate": 0.1816,
       "sentiment_rates": {
-        "positive": 0.0442,
-        "negative": 0.0252,
-        "neutral": 0.6691
+        "positive": 0.0414,
+        "negative": 0.0248,
+        "neutral": 0.6652
       },
       "top_praised_features": [
         [
           "design",
-          134
+          127
         ],
         [
           "display",
@@ -1120,7 +1120,7 @@
         ],
         [
           "privacy",
-          20
+          19
         ],
         [
           "camera",
@@ -1132,7 +1132,7 @@
         ],
         [
           "sound",
-          13
+          12
         ],
         [
           "battery",
@@ -1140,7 +1140,7 @@
         ],
         [
           "price",
-          9
+          8
         ]
       ],
       "top_complained_features": [
@@ -1150,7 +1150,7 @@
         ],
         [
           "design",
-          60
+          59
         ],
         [
           "price",
@@ -1179,34 +1179,34 @@
       ],
       "top_product_doubts": [
         [
-          "privacy",
-          23
+          "battery_life",
+          21
         ],
         [
-          "battery_life",
-          22
+          "privacy",
+          21
         ],
         [
           "usefulness",
           8
         ],
         [
-          "comfort",
+          "compatibility",
           8
         ],
         [
-          "compatibility",
+          "comfort",
           7
         ]
       ],
       "persona_signals": [
         [
           "creator",
-          64
+          62
         ],
         [
           "traveler",
-          37
+          31
         ],
         [
           "tech_enthusiast",
@@ -1217,87 +1217,87 @@
           2
         ]
       ],
-      "persona_signal_units": 108,
+      "persona_signal_units": 100,
       "top_terms": [
         [
           "you",
-          687
+          657
         ],
         [
           "can",
-          597
+          560
         ],
         [
           "like",
-          490
+          465
         ],
         [
           "these",
-          466
+          447
         ],
         [
           "but",
-          384
+          373
         ],
         [
           "are",
-          370
+          347
         ],
         [
           "will",
-          328
+          306
         ],
         [
           "not",
-          317
-        ],
-        [
-          "people",
-          251
+          304
         ],
         [
           "que",
           246
         ],
         [
-          "how",
-          198
+          "people",
+          235
         ],
         [
           "one",
-          195
-        ],
-        [
-          "get",
           186
         ],
         [
-          "see",
-          182
+          "how",
+          186
         ],
         [
-          "use",
-          181
-        ],
-        [
-          "need",
-          176
-        ],
-        [
-          "now",
+          "get",
           175
         ],
         [
+          "use",
+          175
+        ],
+        [
+          "see",
+          172
+        ],
+        [
+          "need",
+          169
+        ],
+        [
           "tech",
-          173
+          168
+        ],
+        [
+          "all",
+          167
         ],
         [
           "want",
-          173
+          167
         ],
         [
-          "more",
-          167
+          "now",
+          161
         ]
       ],
       "validation_samples": [
@@ -1592,8 +1592,8 @@
           "video_id": "7gtc1DW2Tgo",
           "title": "Wait... Smart Glasses are Suddenly Good?",
           "channel_title": "Marques Brownlee",
-          "view_count": 7879491,
-          "comment_count": 8631,
+          "view_count": 7881413,
+          "comment_count": 8632,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=7gtc1DW2Tgo"
         },
@@ -1601,7 +1601,7 @@
           "video_id": "bJ7EZ1imsc0",
           "title": "📦 Unboxing Meta Ray-Ban Display",
           "channel_title": "Hobby Explorer",
-          "view_count": 1843682,
+          "view_count": 1845507,
           "comment_count": 94,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=bJ7EZ1imsc0"
@@ -1610,7 +1610,7 @@
           "video_id": "oBZ8toFKZls",
           "title": "Unboxing Meta Ray-Ban Display Glasses",
           "channel_title": "Unbox Therapy",
-          "view_count": 1661635,
+          "view_count": 1662089,
           "comment_count": 1610,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=oBZ8toFKZls"
@@ -1619,8 +1619,8 @@
           "video_id": "7bjJ6lKmIog",
           "title": "Why’d it have to be Meta? - Meta Ray-Ban Display",
           "channel_title": "ShortCircuit",
-          "view_count": 990553,
-          "comment_count": 2109,
+          "view_count": 990751,
+          "comment_count": 2108,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=7bjJ6lKmIog"
         },
@@ -1628,8 +1628,8 @@
           "video_id": "scu6_n8ozqE",
           "title": "Meta Ray-Ban Display Unboxing & First Look - The Future Of Smartglasses!🔥🔥🔥",
           "channel_title": "Technical Guruji",
-          "view_count": 892044,
-          "comment_count": 1202,
+          "view_count": 892569,
+          "comment_count": 1201,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=scu6_n8ozqE"
         },
@@ -1637,7 +1637,7 @@
           "video_id": "b5rhECafQ14",
           "title": "Probé las Ray-Ban del FUTURO: ahora con PANTALLA - Ray-Ban Meta Display",
           "channel_title": "Nate Gentile",
-          "view_count": 879351,
+          "view_count": 879827,
           "comment_count": 759,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=b5rhECafQ14"
@@ -1698,17 +1698,17 @@
         }
       ],
       "recent_month_comments": {
-        "comment_count": 86,
+        "comment_count": 91,
         "relevant_comment_count": 17,
         "sentiment_counts": {
           "positive": 2,
           "negative": 4,
           "neutral": 12
         },
-        "relevant_comment_rate": 0.1977,
+        "relevant_comment_rate": 0.1868,
         "sentiment_rates": {
-          "positive": 0.0233,
-          "negative": 0.0465,
+          "positive": 0.022,
+          "negative": 0.044,
           "neutral": 0.7059
         },
         "top_praised_features": [
@@ -1751,7 +1751,7 @@
         "top_terms": [
           [
             "you",
-            20
+            17
           ],
           [
             "but",
@@ -1759,11 +1759,11 @@
           ],
           [
             "these",
-            12
+            10
           ],
           [
             "are",
-            12
+            10
           ],
           [
             "can",
@@ -1774,19 +1774,15 @@
             8
           ],
           [
-            "not",
-            7
-          ],
-          [
             "watch",
             7
           ],
           [
-            "like",
+            "not",
             6
           ],
           [
-            "get",
+            "like",
             6
           ],
           [
@@ -1814,7 +1810,7 @@
             5
           ],
           [
-            "tech",
+            "get",
             5
           ],
           [
@@ -1822,11 +1818,15 @@
             4
           ],
           [
+            "non",
+            4
+          ],
+          [
             "out",
             4
           ],
           [
-            "love",
+            "does",
             4
           ]
         ],
@@ -2546,11 +2546,11 @@
           "text": "U made the pair of glasses like a true assistant",
           "positive_features": [
             [
-              "ai",
+              "connectivity",
               1
             ],
             [
-              "connectivity",
+              "ai",
               1
             ]
           ],
@@ -2583,7 +2583,7 @@
           "video_id": "tAIhp9hia90",
           "title": "Introducing Even G2 and R1. Get Ready to Wear the Future",
           "channel_title": "Even Realities",
-          "view_count": 69934167,
+          "view_count": 69986827,
           "comment_count": 160,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=tAIhp9hia90"
@@ -2592,8 +2592,8 @@
           "video_id": "buDkt8zDzDI",
           "title": "The most ADVANCED glasses ever made 😭 #EvenRealities #EvenG2 #EvenRealitiesPartner",
           "channel_title": "John Casterline",
-          "view_count": 44647657,
-          "comment_count": 4253,
+          "view_count": 44760270,
+          "comment_count": 4254,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=buDkt8zDzDI"
         },
@@ -2601,7 +2601,7 @@
           "video_id": "E_Hrbj4h9Sw",
           "title": "REAL Tony Stark Smart Glasses - Even Realities G2",
           "channel_title": "Nathan Espinoza",
-          "view_count": 27140912,
+          "view_count": 27199892,
           "comment_count": 257,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=E_Hrbj4h9Sw"
@@ -2610,8 +2610,8 @@
           "video_id": "ikyOQrNXXnE",
           "title": "The smartest glasses in the world🤯 @EvenRealities #EvenRealities #EvenG2 #EvenR1 #MyEvenG2",
           "channel_title": "Austin Mollno",
-          "view_count": 8373800,
-          "comment_count": 665,
+          "view_count": 8558538,
+          "comment_count": 669,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=ikyOQrNXXnE"
         },
@@ -2619,7 +2619,7 @@
           "video_id": "ykvb8FvSMmo",
           "title": "The Future of Smart Glasses - Even G2",
           "channel_title": "Tyriel Wood - VR Tech",
-          "view_count": 8174801,
+          "view_count": 8199813,
           "comment_count": 204,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=ykvb8FvSMmo"
@@ -2637,7 +2637,7 @@
           "video_id": "yZrcgiKFOD0",
           "title": "Even G2 and R1. A New Quietly Extraordinary Power for Your Everyday Life",
           "channel_title": "Even Realities",
-          "view_count": 5529776,
+          "view_count": 5529910,
           "comment_count": 713,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=yZrcgiKFOD0"
@@ -2646,7 +2646,7 @@
           "video_id": "pkP28wcvTAg",
           "title": "The Future of Glasses: Even Realities G2 Unboxing",
           "channel_title": "The Spectacle Factory",
-          "view_count": 4458274,
+          "view_count": 4462111,
           "comment_count": 411,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=pkP28wcvTAg"
@@ -2655,7 +2655,7 @@
           "video_id": "EBoVJwmDU-8",
           "title": "The Everyday Display Smart Glasses",
           "channel_title": "Unbox Therapy",
-          "view_count": 3133359,
+          "view_count": 3152503,
           "comment_count": 385,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=EBoVJwmDU-8"
@@ -2689,18 +2689,18 @@
         }
       ],
       "recent_month_comments": {
-        "comment_count": 141,
-        "relevant_comment_count": 19,
+        "comment_count": 139,
+        "relevant_comment_count": 18,
         "sentiment_counts": {
           "positive": 5,
           "negative": 2,
-          "neutral": 13
+          "neutral": 12
         },
-        "relevant_comment_rate": 0.1348,
+        "relevant_comment_rate": 0.1295,
         "sentiment_rates": {
-          "positive": 0.0355,
-          "negative": 0.0142,
-          "neutral": 0.6842
+          "positive": 0.036,
+          "negative": 0.0144,
+          "neutral": 0.6667
         },
         "top_praised_features": [
           [
@@ -2734,12 +2734,7 @@
             1
           ]
         ],
-        "top_product_doubts": [
-          [
-            "compatibility",
-            1
-          ]
-        ],
+        "top_product_doubts": [],
         "persona_signals": [
           [
             "traveler",
@@ -2996,15 +2991,15 @@
         "negative_mentions": 0,
         "top_praised_features": [
           [
+            "display",
+            1
+          ],
+          [
             "comfort",
             1
           ],
           [
             "battery",
-            1
-          ],
-          [
-            "display",
             1
           ]
         ],
@@ -3029,16 +3024,16 @@
     },
     "rokid": {
       "video_count": 19,
-      "comment_count": 2150,
+      "comment_count": 2142,
       "relevant_comment_count": 291,
       "sentiment_counts": {
         "positive": 73,
         "negative": 30,
         "neutral": 196
       },
-      "relevant_comment_rate": 0.1353,
+      "relevant_comment_rate": 0.1359,
       "sentiment_rates": {
-        "positive": 0.034,
+        "positive": 0.0341,
         "negative": 0.014,
         "neutral": 0.6735
       },
@@ -3286,11 +3281,11 @@
           "text": "Which is best for live translation by voice/sound. Without having to use your phone, or only translate by text",
           "positive_features": [
             [
-              "sound",
+              "translation",
               1
             ],
             [
-              "translation",
+              "sound",
               1
             ]
           ],
@@ -3572,7 +3567,7 @@
           "video_id": "4H5ia5hGsQI",
           "title": "Rokid スマートAIグラス｜オフライン翻訳＆見て聞くだけで 字幕×音声 解説",
           "channel_title": " Rokid Japan",
-          "view_count": 1136070,
+          "view_count": 1136480,
           "comment_count": 7,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=4H5ia5hGsQI"
@@ -3581,8 +3576,8 @@
           "video_id": "IrhiNnZb2-U",
           "title": "I Tried EVERY Pair of Smart Glasses",
           "channel_title": "SarahGrace",
-          "view_count": 947759,
-          "comment_count": 1046,
+          "view_count": 949655,
+          "comment_count": 1048,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=IrhiNnZb2-U"
         },
@@ -3590,7 +3585,7 @@
           "video_id": "_0pg2_yBVtM",
           "title": "Probé el Futuro de las Gafas | ROKID Glasses",
           "channel_title": "Domingo Gomes",
-          "view_count": 782106,
+          "view_count": 782146,
           "comment_count": 225,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=_0pg2_yBVtM"
@@ -3608,8 +3603,8 @@
           "video_id": "PVs0pwPTLRs",
           "title": "Best Smart Glasses For Everyone At Every Price Point",
           "channel_title": "Steven Sullivan",
-          "view_count": 461367,
-          "comment_count": 329,
+          "view_count": 464088,
+          "comment_count": 331,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=PVs0pwPTLRs"
         },
@@ -3617,7 +3612,7 @@
           "video_id": "rI5YuE5mIS4",
           "title": "能在眼前翻譯的AI眼鏡！還能拍照、錄影、導航、聽音樂！Rokid Glasses樂奇智慧眼鏡開箱！【Joeman】",
           "channel_title": "Joeman",
-          "view_count": 379837,
+          "view_count": 380015,
           "comment_count": 527,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=rI5YuE5mIS4"
@@ -3626,8 +3621,8 @@
           "video_id": "7xPpH5h_iTA",
           "title": "These Glasses are Next-Level - Rokid Smart Glasses!",
           "channel_title": "iJustine",
-          "view_count": 350125,
-          "comment_count": 130,
+          "view_count": 350145,
+          "comment_count": 131,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=7xPpH5h_iTA"
         },
@@ -3635,7 +3630,7 @@
           "video_id": "sg7Gp-gFh-E",
           "title": "MKBHD vs Meta Ray-Ban Display Glasses😱🔥",
           "channel_title": "Singular Podcast",
-          "view_count": 274723,
+          "view_count": 275212,
           "comment_count": 76,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=sg7Gp-gFh-E"
@@ -3644,7 +3639,7 @@
           "video_id": "4IXLFUiTcdw",
           "title": "I Tried Rokid AI Glasses at CES 2026 Las Vegas - POV Everywhere",
           "channel_title": "The Q",
-          "view_count": 182551,
+          "view_count": 182560,
           "comment_count": 4,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=4IXLFUiTcdw"
@@ -3671,7 +3666,7 @@
           "video_id": "fh_Wsc-M1eU",
           "title": "Rokid AI Glasses Style are INSANE at CES 2026! #RokidAIGlassesStyle #RokidCES2026",
           "channel_title": "Matt Talks Tech",
-          "view_count": 168857,
+          "view_count": 168875,
           "comment_count": 33,
           "is_short_hint": 0,
           "url": "https://www.youtube.com/watch?v=fh_Wsc-M1eU"
@@ -3878,11 +3873,11 @@
             "text": "Which is best for live translation by voice/sound. Without having to use your phone, or only translate by text",
             "positive_features": [
               [
-                "sound",
+                "translation",
                 1
               ],
               [
-                "translation",
+                "sound",
                 1
               ]
             ],
@@ -4019,7 +4014,7 @@
         "recent_30d_total": 8,
         "recent_30d_completed": 7,
         "recent_30d_pending": 1,
-        "cooldown_videos": 1
+        "cooldown_videos": 2
       },
       "meta_display": {
         "total_videos": 12,
@@ -4055,204 +4050,204 @@
   },
   "run_history": [
     {
-      "run_id": 864,
-      "started_utc": 1773793643,
-      "ended_utc": 1773793645,
+      "run_id": 970,
+      "started_utc": 1773847039,
+      "ended_utc": 1773847041,
+      "status": "ok",
+      "quota_used": 101,
+      "videos_new": 0,
+      "comments_new": 0,
+      "notes": "daily_used_before:7870;daily_remaining_before:130;search_brand:even;search_query:\"\"Even Realities G2\"\";even_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:7971"
+    },
+    {
+      "run_id": 969,
+      "started_utc": 1773846529,
+      "ended_utc": 1773846530,
+      "status": "ok",
+      "quota_used": 101,
+      "videos_new": 0,
+      "comments_new": 0,
+      "notes": "daily_used_before:7769;daily_remaining_before:231;search_brand:meta_display;search_query:\"\"Meta Ray-Ban Display\"\";meta_display_videos:6;skipped_completed:1;skipped_cooldown:5;daily_used_after:7870"
+    },
+    {
+      "run_id": 968,
+      "started_utc": 1773846018,
+      "ended_utc": 1773846020,
       "status": "ok",
       "quota_used": 201,
       "videos_new": 0,
       "comments_new": 0,
-      "notes": "daily_used_before:4441;daily_remaining_before:3559;search_brand:meta;search_query:\"\"Ray-Ban Meta\"\";meta_short_search:1;meta_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:4642"
+      "notes": "daily_used_before:7568;daily_remaining_before:432;search_brand:meta;search_query:\"\"Ray-Ban Meta\"\";meta_short_search:1;meta_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:7769"
     },
     {
-      "run_id": 863,
-      "started_utc": 1773793124,
-      "ended_utc": 1773793125,
-      "status": "ok",
-      "quota_used": 101,
-      "videos_new": 0,
-      "comments_new": 0,
-      "notes": "daily_used_before:4340;daily_remaining_before:3660;search_brand:rokid;search_query:\"\"Rokid Glasses\"\";rokid_videos:6;skipped_completed:6;daily_used_after:4441"
-    },
-    {
-      "run_id": 862,
-      "started_utc": 1773792602,
-      "ended_utc": 1773792603,
-      "status": "ok",
-      "quota_used": 101,
-      "videos_new": 0,
-      "comments_new": 0,
-      "notes": "daily_used_before:4239;daily_remaining_before:3761;search_brand:even;search_query:\"\"Even Realities G2\"\";even_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:4340"
-    },
-    {
-      "run_id": 861,
-      "started_utc": 1773792074,
-      "ended_utc": 1773792074,
-      "status": "ok",
-      "quota_used": 101,
-      "videos_new": 0,
-      "comments_new": 0,
-      "notes": "daily_used_before:4138;daily_remaining_before:3862;search_brand:meta_display;search_query:\"\"Meta Ray-Ban Display\"\";meta_display_videos:6;skipped_completed:1;skipped_cooldown:5;daily_used_after:4239"
-    },
-    {
-      "run_id": 860,
-      "started_utc": 1773791553,
-      "ended_utc": 1773791554,
-      "status": "ok",
-      "quota_used": 101,
-      "videos_new": 0,
-      "comments_new": 0,
-      "notes": "daily_used_before:4037;daily_remaining_before:3963;search_brand:meta;search_query:\"\"Ray-Ban Meta\"\";meta_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:4138"
-    },
-    {
-      "run_id": 859,
-      "started_utc": 1773791038,
-      "ended_utc": 1773791039,
+      "run_id": 967,
+      "started_utc": 1773845507,
+      "ended_utc": 1773845509,
       "status": "ok",
       "quota_used": 201,
       "videos_new": 0,
       "comments_new": 0,
-      "notes": "daily_used_before:3836;daily_remaining_before:4164;search_brand:rokid;search_query:\"\"Rokid Glasses\"\";rokid_short_search:1;rokid_videos:6;skipped_completed:6;daily_used_after:4037"
+      "notes": "daily_used_before:7367;daily_remaining_before:633;search_brand:rokid;search_query:\"\"Rokid Glasses\"\";rokid_short_search:1;rokid_videos:6;skipped_completed:6;daily_used_after:7568"
     },
     {
-      "run_id": 858,
-      "started_utc": 1773790518,
-      "ended_utc": 1773790519,
+      "run_id": 966,
+      "started_utc": 1773844997,
+      "ended_utc": 1773844999,
       "status": "ok",
       "quota_used": 201,
       "videos_new": 0,
       "comments_new": 0,
-      "notes": "daily_used_before:3635;daily_remaining_before:4365;search_brand:even;search_query:\"\"Even Realities G2\"\";even_short_search:1;even_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:3836"
+      "notes": "daily_used_before:7166;daily_remaining_before:834;search_brand:even;search_query:\"\"Even Realities G2\"\";even_short_search:1;even_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:7367"
     },
     {
-      "run_id": 857,
-      "started_utc": 1773789994,
-      "ended_utc": 1773789995,
+      "run_id": 965,
+      "started_utc": 1773844483,
+      "ended_utc": 1773844484,
+      "status": "ok",
+      "quota_used": 101,
+      "videos_new": 0,
+      "comments_new": 0,
+      "notes": "daily_used_before:7065;daily_remaining_before:935;search_brand:meta_display;search_query:\"\"Meta Ray-Ban Display\"\";meta_display_videos:6;skipped_completed:1;skipped_cooldown:5;daily_used_after:7166"
+    },
+    {
+      "run_id": 964,
+      "started_utc": 1773843973,
+      "ended_utc": 1773843974,
+      "status": "ok",
+      "quota_used": 101,
+      "videos_new": 0,
+      "comments_new": 0,
+      "notes": "daily_used_before:6964;daily_remaining_before:1036;search_brand:meta;search_query:\"\"Ray-Ban Meta\"\";meta_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:7065"
+    },
+    {
+      "run_id": 963,
+      "started_utc": 1773843462,
+      "ended_utc": 1773843463,
+      "status": "ok",
+      "quota_used": 101,
+      "videos_new": 0,
+      "comments_new": 0,
+      "notes": "daily_used_before:6863;daily_remaining_before:1137;search_brand:rokid;search_query:\"\"Rokid Glasses\"\";rokid_videos:6;skipped_completed:6;daily_used_after:6964"
+    },
+    {
+      "run_id": 962,
+      "started_utc": 1773842951,
+      "ended_utc": 1773842952,
+      "status": "ok",
+      "quota_used": 102,
+      "videos_new": 0,
+      "comments_new": 0,
+      "notes": "daily_used_before:6761;daily_remaining_before:1239;search_brand:even;search_query:\"\"Even Realities G2\"\";even_videos:6;even_comment_error:83TiUbFY6fY:400;skipped_completed:5;daily_used_after:6863"
+    },
+    {
+      "run_id": 961,
+      "started_utc": 1773842440,
+      "ended_utc": 1773842442,
       "status": "ok",
       "quota_used": 201,
       "videos_new": 0,
       "comments_new": 0,
-      "notes": "daily_used_before:3434;daily_remaining_before:4566;search_brand:meta_display;search_query:\"\"Meta Ray-Ban Display\"\";meta_display_short_search:1;meta_display_videos:6;skipped_completed:1;skipped_cooldown:5;daily_used_after:3635"
+      "notes": "daily_used_before:6560;daily_remaining_before:1440;search_brand:meta_display;search_query:\"\"Meta Ray-Ban Display\"\";meta_display_short_search:1;meta_display_videos:6;skipped_completed:1;skipped_cooldown:5;daily_used_after:6761"
     },
     {
-      "run_id": 856,
-      "started_utc": 1773789476,
-      "ended_utc": 1773789477,
+      "run_id": 960,
+      "started_utc": 1773841928,
+      "ended_utc": 1773841929,
       "status": "ok",
       "quota_used": 101,
       "videos_new": 0,
       "comments_new": 0,
-      "notes": "daily_used_before:3333;daily_remaining_before:4667;search_brand:meta;search_query:\"\"Ray-Ban Meta\"\";meta_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:3434"
+      "notes": "daily_used_before:6459;daily_remaining_before:1541;search_brand:meta;search_query:\"\"Ray-Ban Meta\"\";meta_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:6560"
     },
     {
-      "run_id": 855,
-      "started_utc": 1773788962,
-      "ended_utc": 1773788963,
+      "run_id": 959,
+      "started_utc": 1773841417,
+      "ended_utc": 1773841418,
       "status": "ok",
       "quota_used": 101,
       "videos_new": 0,
       "comments_new": 0,
-      "notes": "daily_used_before:3232;daily_remaining_before:4768;search_brand:rokid;search_query:\"\"Rokid Glasses\"\";rokid_videos:6;skipped_completed:6;daily_used_after:3333"
+      "notes": "daily_used_before:6358;daily_remaining_before:1642;search_brand:rokid;search_query:\"\"Rokid Glasses\"\";rokid_videos:6;skipped_completed:6;daily_used_after:6459"
     },
     {
-      "run_id": 854,
-      "started_utc": 1773788442,
-      "ended_utc": 1773788443,
+      "run_id": 958,
+      "started_utc": 1773840906,
+      "ended_utc": 1773840908,
       "status": "ok",
       "quota_used": 101,
       "videos_new": 0,
       "comments_new": 0,
-      "notes": "daily_used_before:3131;daily_remaining_before:4869;search_brand:even;search_query:\"\"Even Realities G2\"\";even_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:3232"
+      "notes": "daily_used_before:6257;daily_remaining_before:1743;search_brand:even;search_query:\"\"Even Realities G2\"\";even_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:6358"
     },
     {
-      "run_id": 853,
-      "started_utc": 1773787924,
-      "ended_utc": 1773787925,
+      "run_id": 957,
+      "started_utc": 1773840396,
+      "ended_utc": 1773840398,
       "status": "ok",
       "quota_used": 101,
       "videos_new": 0,
       "comments_new": 0,
-      "notes": "daily_used_before:3030;daily_remaining_before:4970;search_brand:meta_display;search_query:\"\"Meta Ray-Ban Display\"\";meta_display_videos:6;skipped_completed:1;skipped_cooldown:5;daily_used_after:3131"
+      "notes": "daily_used_before:6156;daily_remaining_before:1844;search_brand:meta_display;search_query:\"\"Meta Ray-Ban Display\"\";meta_display_videos:6;skipped_completed:1;skipped_cooldown:5;daily_used_after:6257"
     },
     {
-      "run_id": 852,
-      "started_utc": 1773787406,
-      "ended_utc": 1773787407,
+      "run_id": 956,
+      "started_utc": 1773839885,
+      "ended_utc": 1773839887,
       "status": "ok",
       "quota_used": 201,
       "videos_new": 0,
       "comments_new": 0,
-      "notes": "daily_used_before:2829;daily_remaining_before:5171;search_brand:meta;search_query:\"\"Ray-Ban Meta\"\";meta_short_search:1;meta_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:3030"
+      "notes": "daily_used_before:5955;daily_remaining_before:2045;search_brand:meta;search_query:\"\"Ray-Ban Meta\"\";meta_short_search:1;meta_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:6156"
     },
     {
-      "run_id": 851,
-      "started_utc": 1773786882,
-      "ended_utc": 1773786882,
-      "status": "ok",
-      "quota_used": 101,
-      "videos_new": 0,
-      "comments_new": 0,
-      "notes": "daily_used_before:2728;daily_remaining_before:5272;search_brand:rokid;search_query:\"\"Rokid Glasses\"\";rokid_videos:6;skipped_completed:6;daily_used_after:2829"
-    },
-    {
-      "run_id": 850,
-      "started_utc": 1773786362,
-      "ended_utc": 1773786362,
-      "status": "ok",
-      "quota_used": 101,
-      "videos_new": 0,
-      "comments_new": 0,
-      "notes": "daily_used_before:2627;daily_remaining_before:5373;search_brand:even;search_query:\"\"Even Realities G2\"\";even_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:2728"
-    },
-    {
-      "run_id": 849,
-      "started_utc": 1773785849,
-      "ended_utc": 1773785849,
-      "status": "ok",
-      "quota_used": 101,
-      "videos_new": 0,
-      "comments_new": 0,
-      "notes": "daily_used_before:2526;daily_remaining_before:5474;search_brand:meta_display;search_query:\"\"Meta Ray-Ban Display\"\";meta_display_videos:6;skipped_completed:1;skipped_cooldown:5;daily_used_after:2627"
-    },
-    {
-      "run_id": 848,
-      "started_utc": 1773785331,
-      "ended_utc": 1773785332,
-      "status": "ok",
-      "quota_used": 101,
-      "videos_new": 0,
-      "comments_new": 0,
-      "notes": "daily_used_before:2425;daily_remaining_before:5575;search_brand:meta;search_query:\"\"Ray-Ban Meta\"\";meta_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:2526"
-    },
-    {
-      "run_id": 847,
-      "started_utc": 1773784814,
-      "ended_utc": 1773784815,
+      "run_id": 955,
+      "started_utc": 1773839373,
+      "ended_utc": 1773839375,
       "status": "ok",
       "quota_used": 201,
       "videos_new": 0,
       "comments_new": 0,
-      "notes": "daily_used_before:2224;daily_remaining_before:5776;search_brand:rokid;search_query:\"\"Rokid Glasses\"\";rokid_short_search:1;rokid_videos:6;skipped_completed:6;daily_used_after:2425"
+      "notes": "daily_used_before:5754;daily_remaining_before:2246;search_brand:rokid;search_query:\"\"Rokid Glasses\"\";rokid_short_search:1;rokid_videos:6;skipped_completed:6;daily_used_after:5955"
     },
     {
-      "run_id": 846,
-      "started_utc": 1773784290,
-      "ended_utc": 1773784291,
+      "run_id": 954,
+      "started_utc": 1773838861,
+      "ended_utc": 1773838863,
       "status": "ok",
       "quota_used": 201,
       "videos_new": 0,
       "comments_new": 0,
-      "notes": "daily_used_before:2023;daily_remaining_before:5977;search_brand:even;search_query:\"\"Even Realities G2\"\";even_short_search:1;even_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:2224"
+      "notes": "daily_used_before:5553;daily_remaining_before:2447;search_brand:even;search_query:\"\"Even Realities G2\"\";even_short_search:1;even_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:5754"
     },
     {
-      "run_id": 845,
-      "started_utc": 1773783776,
-      "ended_utc": 1773783777,
+      "run_id": 953,
+      "started_utc": 1773838353,
+      "ended_utc": 1773838354,
       "status": "ok",
-      "quota_used": 201,
+      "quota_used": 101,
       "videos_new": 0,
       "comments_new": 0,
-      "notes": "daily_used_before:1822;daily_remaining_before:6178;search_brand:meta_display;search_query:\"\"Meta Ray-Ban Display\"\";meta_display_short_search:1;meta_display_videos:6;skipped_completed:1;skipped_cooldown:5;daily_used_after:2023"
+      "notes": "daily_used_before:5452;daily_remaining_before:2548;search_brand:meta_display;search_query:\"\"Meta Ray-Ban Display\"\";meta_display_videos:6;skipped_completed:1;skipped_cooldown:5;daily_used_after:5553"
+    },
+    {
+      "run_id": 952,
+      "started_utc": 1773837842,
+      "ended_utc": 1773837844,
+      "status": "ok",
+      "quota_used": 101,
+      "videos_new": 0,
+      "comments_new": 0,
+      "notes": "daily_used_before:5351;daily_remaining_before:2649;search_brand:meta;search_query:\"\"Ray-Ban Meta\"\";meta_videos:6;skipped_completed:5;skipped_cooldown:1;daily_used_after:5452"
+    },
+    {
+      "run_id": 951,
+      "started_utc": 1773837331,
+      "ended_utc": 1773837333,
+      "status": "ok",
+      "quota_used": 101,
+      "videos_new": 0,
+      "comments_new": 0,
+      "notes": "daily_used_before:5250;daily_remaining_before:2750;search_brand:rokid;search_query:\"\"Rokid Glasses\"\";rokid_videos:6;skipped_completed:6;daily_used_after:5351"
     }
   ]
 }
